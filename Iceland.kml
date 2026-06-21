@@ -21,7 +21,12 @@
         <description><![CDATA[⛵ Sun Voyager skulptūra + Harpa koncertų salė prie uosto.<br>🔗 https://www.google.com/maps/search/?api=1&query=64.1475,-21.9224]]></description>
         <Point><coordinates>-21.9224,64.1475,0</coordinates></Point>
       </Placemark>
-    </Folder>
+          <Placemark>
+        <name>[05] Sky Lagoon (Kópavogur)</name>
+        <description><![CDATA[🧖 Geoterminis SPA prie vandenyno, 7 žingsnių „Skjól" ritualas, infinity baseinas. Pakeliui Reykjavík → KEF. Rezervuoti iš anksto.<br>🔗 https://www.google.com/maps/search/?api=1&query=64.1188,-21.9436]]></description>
+        <Point><coordinates>-21.9436,64.1188,0</coordinates></Point>
+      </Placemark>
+</Folder>
 
     <Folder>
       <name>2. Auksinis ratas</name>
@@ -112,7 +117,17 @@
         <description><![CDATA[🧊 Ledkalnių lagūna; galima valties ekskursija (rezervuoti). 🅿️ nemokamas.<br>🔗 https://www.google.com/maps/search/?api=1&query=64.0484,-16.1794]]></description>
         <Point><coordinates>-16.1794,64.0484,0</coordinates></Point>
       </Placemark>
-    </Folder>
+          <Placemark>
+        <name>[03] Katla ledo urvas (tūras iš Vík)</name>
+        <description><![CDATA[🕳️ Gido tūras super-jeep'u į Kötlujökull (Mýrdalsjökull) ledo urvą. Susitikimas Vík. ~3-4 val. REZERVUOTI iš anksto (~€150-190/asm).<br>🔗 https://www.google.com/maps/search/?api=1&query=63.4186,-19.0061]]></description>
+        <Point><coordinates>-19.0061,63.4186,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>[04] Skaftafell – Svartifoss + Svínafellsjökull</name>
+        <description><![CDATA[🥾 Vatnajökull NP: Svartifoss krioklys su bazalto kolonomis + Svínafellsjökull ledyno vaizdas. ~1.5-2 val žygis. Pakeliui tarp Fjaðrárgljúfur ir Jökulsárlón.<br>🔗 https://www.google.com/maps/search/?api=1&query=64.0159,-16.9665]]></description>
+        <Point><coordinates>-16.9665,64.0159,0</coordinates></Point>
+      </Placemark>
+</Folder>
 
     <Folder>
       <name>6. Pėsčiųjų / žygio maršrutai</name>
@@ -202,71 +217,76 @@
         <name>[02] PLANAS</name>
         <description><![CDATA[DIENA 02 / 09.04 (Penktadienis) – KRIOKLIAI + WATERFALL WAY 🥾<br>
 <br>
- 09:00 🚗 → Seljalandsfoss (~25 min, 22 km)<br>
- 09:30 💦 Seljalandsfoss – apeiti už krioklio (~45 min) ⚠️ permerks<br>
+ 07:30 🚗 → Seljalandsfoss (~25 min, 22 km)<br>
+ 08:00 💦 Seljalandsfoss – apeiti už krioklio (~45 min) ⚠️ permerks<br>
     🔗 https://www.google.com/maps/search/?api=1&query=63.6156,-19.9926<br>
- 10:15 🚶 Gljúfrabúi – paslėptas krioklys (~30 min)<br>
+ 08:45 🚶 Gljúfrabúi – paslėptas krioklys (~30 min)<br>
     🔗 https://www.google.com/maps/search/?api=1&query=63.6190,-19.9886<br>
- 11:30 💦 Skógafoss (~30 min)<br>
+ 10:00 💦 Skógafoss (~30 min)<br>
     🔗 https://www.google.com/maps/search/?api=1&query=63.5320,-19.5111<br>
- 12:00 🥾 HIKE: Waterfall Way (Skógá takas) pro ~10-20 kriokliai (~2-3 val)<br>
+ 10:30 🥾 HIKE: Waterfall Way (Skógá takas) PILNAS – pro 20+ kriokliai iki tiltelio ir atgal (~3-3.5 val, ~10-12 km)<br>
     🔗 https://www.google.com/maps/search/?api=1&query=63.5360,-19.5089<br>
- 14:45 🍽️ Vėlyvi pietūs – Skógafoss Bistro (žr. restoranų sluoksnis [02])<br>
- 15:45 🚶 Kvernufoss – paslėptas krioklys (~45 min)<br>
+ 14:00 🍽️ Vėlyvi pietūs – Skógafoss Bistro (žr. restoranų sluoksnis [02])<br>
+ 15:00 🚶 Kvernufoss – paslėptas krioklys (~45 min)<br>
     🔗 https://www.google.com/maps/search/?api=1&query=63.5316,-19.4906<br>
- 17:20 🛏️ Nakvynė – Vík (~35 min, 34 km)<br>
+ 16:20 🛏️ Nakvynė – Vík (~35 min, 34 km)<br>
     🔗 https://www.google.com/maps/search/?api=1&query=63.4186,-19.0061]]></description>
         <Point><coordinates>-19.5111,63.5320,0</coordinates></Point>
       </Placemark>
       <Placemark>
         <name>[03] PLANAS</name>
-        <description><![CDATA[DIENA 03 / 09.05 (Šeštadienis) – SÓLHEIMAJÖKULL + REYNISFJARA<br>
+        <description><![CDATA[DIENA 03 / 09.05 (Šeštadienis) – SÓLHEIMAJÖKULL + KATLA LEDO URVAS<br>
 <br>
- 09:30 🚗 → Sólheimajökull (~30 min, 31 km)<br>
- 10:15 🧊 Sólheimajökull – ledyno liežuvis (~1 val)<br>
+ 07:30 🚗 → Sólheimajökull (~30 min, 31 km)<br>
+ 08:05 🧊 Sólheimajökull – ledyno liežuvis (~1 val)<br>
     🔗 https://www.google.com/maps/search/?api=1&query=63.5300,-19.3692<br>
- 11:55 🪨 Dyrhólaey – arka, švyturys, panorama (~45 min)<br>
+ 09:45 🺨 Dyrhólaey – arka, švyturys, panorama (~45 min)<br>
     🔗 https://www.google.com/maps/search/?api=1&query=63.4017,-19.1276<br>
- 13:15 🍽️ Pietūs – Black Beach Restaurant (žr. restoranų sluoksnis [03])<br>
- 14:15 🏖️ Reynisfjara – juodas paplūdimys, bazalto kolonos (~1 val)<br>
+ 11:05 🏖️ Reynisfjara – juodas paplūdimys, bazalto kolonos (~1 val)<br>
     ⚠️ Pavojingos bangos – laikytis toli nuo vandens!<br>
     🔗 https://www.google.com/maps/search/?api=1&query=63.4054,-19.0448<br>
- 15:30 ⛪ Vík bažnyčia + Reynisdrangar (~30 min)<br>
+ 12:25 🍽️ Pietūs – Halldórskaffi (žr. restoranų sluoksnis [03])<br>
+ 13:30 🕳️ KATLA LEDO URVAS – gido tūras super-jeep'u iš Vík (~3-4 val)<br>
+    💡 REZERVUOTI iš anksto (~€150-190/asm)<br>
     🔗 https://www.google.com/maps/search/?api=1&query=63.4186,-19.0061<br>
- 16:00 🛏️ Laisvas laikas / poilsis Vík]]></description>
+ 17:30 🛏️ Grįžimas į Vík – laisvas vakaras]]></description>
         <Point><coordinates>-19.3692,63.5300,0</coordinates></Point>
       </Placemark>
       <Placemark>
         <name>[04] PLANAS</name>
-        <description><![CDATA[DIENA 04 / 09.06 (Sekmadienis) – JÖKULSÁRLÓN LEDYNŲ LAGŪNA ⚠️ ILGA DIENA<br>
+        <description><![CDATA[DIENA 04 / 09.06 (Sekmadienis) – JÖKULSÁRLÓN + SKAFTAFELL ⚠️ ILGA DIENA<br>
 <br>
- ⚠️ ~6.5 val kelio iš viso – ankstyvas startas!<br>
- 08:00 🚗 → Fjaðrárgljúfur (~1 val 10 min, 69 km)<br>
- 09:15 🏞️ Fjaðrárgljúfur kanjonas (~1 val)<br>
+ ⚠️ ~7 val kelio iš viso – ankstyvas startas!<br>
+ 07:30 🚗 → Fjaðrárgljúfur (~1 val 10 min, 69 km)<br>
+ 08:45 🏞️ Fjaðrárgljúfur kanjonas (~50 min)<br>
     🔗 https://www.google.com/maps/search/?api=1&query=63.7714,-18.1718<br>
- 12:30 🧊 Jökulsárlón ledynų lagūna (~1.5 val)<br>
+ 11:00 🥾 Skaftafell – Svartifoss + Svínafellsjökull (~1.5-2 val žygis)<br>
+    🔗 https://www.google.com/maps/search/?api=1&query=64.0159,-16.9665<br>
+ 14:35 🧊 Jökulsárlón ledynų lagūna + valties ekskursija (~1.5 val)<br>
+    💡 Valtį rezervuoti iš anksto (sezono pabaiga, ~€60/asm)<br>
     🔗 https://www.google.com/maps/search/?api=1&query=64.0484,-16.1794<br>
- 13:30 🍽️ Pietūs – kavinė prie lagūnos / pasiimtas maistas<br>
- 14:00 💎 Diamond Beach (~45 min)<br>
+ 16:05 💎 Diamond Beach (~40 min)<br>
     🔗 https://www.google.com/maps/search/?api=1&query=64.0432,-16.1755<br>
- 14:45 🚗 Grįžimas → Vík (~3 val 10 min, 193 km)<br>
+ 16:45 🚗 Grįžimas → Vík (~3 val 10 min, 193 km)<br>
     💡 Sustojimas: Systrakaffi, Kirkjubæjarklaustur<br>
- 18:00 🛏️ Nakvynė – Vík]]></description>
+ 20:00 🛏️ Nakvynė – Vík]]></description>
         <Point><coordinates>-16.1794,64.0484,0</coordinates></Point>
       </Placemark>
       <Placemark>
         <name>[05] PLANAS</name>
-        <description><![CDATA[DIENA 05 / 09.07 (Pirmadienis) – REYKJAVÍK + IŠVYKIMAS<br>
+        <description><![CDATA[DIENA 05 / 09.07 (Pirmadienis) – REYKJAVÍK + SKY LAGOON + IŠVYKIMAS<br>
 <br>
- 08:00 🚗 → Reykjavík (~3 val 15 min, 187 km)<br>
- 11:20 ⛪ Hallgrímskirkja – bokšto panorama (~45 min)<br>
+ 07:30 🚗 → Reykjavík (~3 val 15 min, 187 km)<br>
+ 10:50 ⛪ Hallgrímskirkja – bokšto panorama (~40 min)<br>
     🔗 https://www.google.com/maps/search/?api=1&query=64.1417,-21.9266<br>
- 12:05 🚶 Sun Voyager + Harpa (~45 min)<br>
+ 11:35 🚶 Sun Voyager + Bæjarins Beztu hot dog pietūs (~40 min)<br>
     🔗 https://www.google.com/maps/search/?api=1&query=64.1475,-21.9224<br>
- 12:50 🍽️ Pietūs – Bæjarins Beztu hot dog (žr. restoranų sluoksnis [05])<br>
- 13:35 🚗 → KEF oro uostas (~55 min, 47 km)<br>
+ 12:30 🧖 SKY LAGOON – 7 žingsnių „Skjól" ritualas (~1 val 45 min)<br>
+    💡 REZERVUOTI laiką iš anksto<br>
+    🔗 https://www.google.com/maps/search/?api=1&query=64.1188,-21.9436<br>
+ 14:20 🚗 → KEF oro uostas (~50 min, 44 km)<br>
     🔗 https://www.google.com/maps/search/?api=1&query=63.9850,-22.6056<br>
- 14:30 🚗 Automobilio grąžinimas (pilnas bakas!) + check-in<br>
+ 15:10 🚗 Automobilio grąžinimas (pilnas bakas!) + check-in<br>
  17:25 ✈️ Išvykimas KEF → Vilnius (nusileidimas 09.08 00:20)]]></description>
         <Point><coordinates>-21.9266,64.1417,0</coordinates></Point>
       </Placemark>

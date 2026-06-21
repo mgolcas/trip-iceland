@@ -53,6 +53,25 @@ D05 09.07 Reykjavík + auto grąžinimas + išvykimas.
 
 ---
 
+## Calendar, Daylight & Opening Hours (verified 2026)
+
+- **Public holidays**: Iceland has **NO public holidays in September** (last is Commerce Day,
+  first Monday of August; next is Christmas). Trip dates 09.03–09.07 are all clear — no
+  holiday closures. Source: Wikipedia *Public holidays in Iceland*.
+- **Weekends don't matter for the plan**: nearly all stops are outdoor nature sites
+  (waterfalls, beaches, glaciers, canyons, Þingvellir, Geysir, Gullfoss, Kerið) open **24/7**.
+  Tourist-area restaurants open daily. D03 (Sat) / D04 (Sun) unaffected.
+- **Daylight 09.03–09.07** (Reykjavík): sunrise **~06:15–06:27**, sunset **~20:22–20:36**
+  (~14 h light). A 07:30 departure is well within daylight; last usable light ~20:30.
+  Plan outdoor stops to finish before ~20:00. Source: timeanddate.com.
+- **Jökulsárlón boat tours** (amphibian + Zodiac): season **Jun–Sep 09:00–19:00**.
+  September is the **last** month → **must reserve in advance**. Source: icelagoon.is.
+- **Bookable add-ons to reserve ahead**: Sólheimajökull guided glacier walk (~3 h),
+  Katla ice cave tour from Vík (~3–4 h), Jökulsárlón boat. Skaftafell (Svartifoss +
+  Svínafellsjökull) is a free self-guided stop between Fjaðrárgljúfur and Jökulsárlón on D04.
+
+---
+
 ## KML Folder Organization (`Iceland.kml`)
 
 | # | Exact KML name | Purpose |

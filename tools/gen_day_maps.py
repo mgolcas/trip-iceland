@@ -47,24 +47,26 @@ DAYS = {
         ("Kvernufoss krioklys", -19.4906, 63.5316, "sight", "drive"),
         ("Nakvynė – Vík", VIK[0], VIK[1], "hotel", "drive"),
     ]),
-    3: ("03 – Sólheimajökull + Reynisfjara", [
+    3: ("03 – Sólheimajökull + Reynisfjara + Katla ledo urvas", [
         ("Nakvynė – Vík", VIK[0], VIK[1], "hotel", "start"),
         ("Sólheimajökull ledynas", -19.3692, 63.5300, "sight", "drive"),
         ("Dyrhólaey", -19.1276, 63.4017, "sight", "drive"),
         ("Reynisfjara juodas paplūdimys", -19.0448, 63.4054, "beach", "drive"),
-        ("Vík bažnyčia / Reynisdrangar", -19.0061, 63.4186, "sight", "drive"),
+        ("🕳️ Katla ledo urvas (tūras iš Vík)", VIK[0], VIK[1], "sight", "drive"),
     ]),
-    4: ("04 – Jökulsárlón ledynų lagūna ⚠️", [
+    4: ("04 – Jökulsárlón + Skaftafell ⚠️", [
         ("Nakvynė – Vík", VIK[0], VIK[1], "hotel", "start"),
         ("Fjaðrárgljúfur kanjonas", -18.1718, 63.7714, "sight", "drive"),
+        ("Skaftafell – Svartifoss", -16.9665, 64.0159, "sight", "drive"),
         ("Jökulsárlón ledynų lagūna", -16.1794, 64.0484, "sight", "drive"),
         ("Diamond Beach", -16.1755, 64.0432, "beach", "walk"),
         ("Nakvynė – Vík", VIK[0], VIK[1], "hotel", "drive"),
     ]),
-    5: ("05 – Reykjavík + išvykimas", [
+    5: ("05 – Reykjavík + Sky Lagoon + išvykimas", [
         ("Nakvynė – Vík", VIK[0], VIK[1], "hotel", "start"),
         ("Reykjavík – Hallgrímskirkja", -21.9266, 64.1417, "sight", "drive"),
         ("Sun Voyager / Harpa", -21.9224, 64.1475, "sight", "walk"),
+        ("Sky Lagoon (Kópavogur)", -21.9436, 64.1188, "sight", "drive"),
         ("KEF – auto grąžinimas + skrydis", KEF[0], KEF[1], "parking", "drive"),
     ]),
 }
