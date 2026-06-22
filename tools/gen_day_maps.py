@@ -12,11 +12,40 @@ Run:  python3 tools/gen_day_maps.py
 Output: Iceland_Dienos.kml
 """
 import json
+import re
 import urllib.request
+from urllib.parse import quote_plus
 
 KEF = (-22.6056, 63.9850)   # KEF (Keflavík) – car pickup / drop-off
 VIK = (-19.0061, 63.4186)   # Vík í Mýrdal – base for D02–D04 nights
 HVO = (-20.2218, 63.7510)   # Hvolsvöllur – D01 night
+
+# (lon, lat) -> ASCII place name Google Maps resolves to a place card
+# (photo + name + Directions button) instead of bare coordinates.
+SEARCH = {
+    (-22.6056, 63.9850): "Keflavik Airport",
+    (-21.1300, 64.2558): "Thingvellir National Park",
+    (-20.3024, 64.3104): "Strokkur Geysir",
+    (-20.1206, 64.3271): "Gullfoss",
+    (-20.8856, 64.0414): "Kerid Crater",
+    (-20.2218, 63.7510): "Hvolsvollur",
+    (-19.9926, 63.6156): "Seljalandsfoss",
+    (-19.9886, 63.6190): "Gljufrabui",
+    (-19.5111, 63.5320): "Skogafoss",
+    (-19.5089, 63.5360): "Skogafoss",
+    (-19.4906, 63.5316): "Kvernufoss",
+    (-19.0061, 63.4186): "Vik i Myrdal",
+    (-19.3692, 63.5300): "Solheimajokull",
+    (-19.1276, 63.4017): "Dyrholaey",
+    (-19.0448, 63.4054): "Reynisfjara Beach",
+    (-18.1718, 63.7714): "Fjadrargljufur Canyon",
+    (-16.9665, 64.0159): "Svartifoss",
+    (-16.1794, 64.0484): "Jokulsarlon Glacier Lagoon",
+    (-16.1755, 64.0432): "Diamond Beach Iceland",
+    (-21.9266, 64.1417): "Hallgrimskirkja",
+    (-21.9224, 64.1475): "Sun Voyager",
+    (-21.9436, 64.1188): "Sky Lagoon Iceland",
+}
 
 # kind -> icon colour (KML aabbggrr)
 KINDS = {
@@ -93,8 +122,12 @@ def esc(s):
     return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
 
-def maps_link(lat, lon):
-    return f"https://www.google.com/maps/search/?api=1&query={lat},{lon}"
+def maps_link(name, lon, lat):
+    term = SEARCH.get((round(lon, 4), round(lat, 4)))
+    if not term:
+        # fall back to the placemark name with emoji/index stripped
+        term = re.sub(r"[^\w\s/().\-]", "", name, flags=re.UNICODE).strip()
+    return f"https://www.google.com/maps/search/?api=1&query={quote_plus(term)}"
 
 
 def build_day_folder(day, title, stops):
@@ -126,7 +159,7 @@ def build_day_folder(day, title, stops):
     # stop pins
     for idx, (name, lon, lat, kind, mode) in enumerate(stops, 1):
         color, _ = KINDS.get(kind, KINDS["sight"])
-        link = maps_link(lat, lon)
+        link = maps_link(name, lon, lat)
         desc = (f"<![CDATA[{idx}. {esc(name)}<br>🔗 "
                 f"<a href=\"{link}\">{link}</a>]]>")
         out.append(

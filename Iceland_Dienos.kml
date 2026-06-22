@@ -32,37 +32,37 @@
       </Placemark>
       <Placemark>
         <name>1. KEF – auto paėmimas</name>
-        <description><![CDATA[1. KEF – auto paėmimas<br>🔗 <a href="https://www.google.com/maps/search/?api=1&query=63.985,-22.6056">https://www.google.com/maps/search/?api=1&query=63.985,-22.6056</a>]]></description>
+        <description><![CDATA[1. KEF – auto paėmimas<br>🔗 <a href="https://www.google.com/maps/search/?api=1&query=Keflavik+Airport">https://www.google.com/maps/search/?api=1&query=Keflavik+Airport</a>]]></description>
         <Style><IconStyle><color>ffdb1e1e</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon></IconStyle></Style>
         <Point><coordinates>-22.6056,63.985,0</coordinates></Point>
       </Placemark>
       <Placemark>
         <name>2. Þingvellir nacionalinis parkas</name>
-        <description><![CDATA[2. Þingvellir nacionalinis parkas<br>🔗 <a href="https://www.google.com/maps/search/?api=1&query=64.2558,-21.13">https://www.google.com/maps/search/?api=1&query=64.2558,-21.13</a>]]></description>
+        <description><![CDATA[2. Þingvellir nacionalinis parkas<br>🔗 <a href="https://www.google.com/maps/search/?api=1&query=Thingvellir+National+Park">https://www.google.com/maps/search/?api=1&query=Thingvellir+National+Park</a>]]></description>
         <Style><IconStyle><color>ff0000ff</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon></IconStyle></Style>
         <Point><coordinates>-21.13,64.2558,0</coordinates></Point>
       </Placemark>
       <Placemark>
         <name>3. Geysir / Strokkur</name>
-        <description><![CDATA[3. Geysir / Strokkur<br>🔗 <a href="https://www.google.com/maps/search/?api=1&query=64.3104,-20.3024">https://www.google.com/maps/search/?api=1&query=64.3104,-20.3024</a>]]></description>
+        <description><![CDATA[3. Geysir / Strokkur<br>🔗 <a href="https://www.google.com/maps/search/?api=1&query=Strokkur+Geysir">https://www.google.com/maps/search/?api=1&query=Strokkur+Geysir</a>]]></description>
         <Style><IconStyle><color>ff0000ff</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon></IconStyle></Style>
         <Point><coordinates>-20.3024,64.3104,0</coordinates></Point>
       </Placemark>
       <Placemark>
         <name>4. Gullfoss krioklys</name>
-        <description><![CDATA[4. Gullfoss krioklys<br>🔗 <a href="https://www.google.com/maps/search/?api=1&query=64.3271,-20.1206">https://www.google.com/maps/search/?api=1&query=64.3271,-20.1206</a>]]></description>
+        <description><![CDATA[4. Gullfoss krioklys<br>🔗 <a href="https://www.google.com/maps/search/?api=1&query=Gullfoss">https://www.google.com/maps/search/?api=1&query=Gullfoss</a>]]></description>
         <Style><IconStyle><color>ff0000ff</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon></IconStyle></Style>
         <Point><coordinates>-20.1206,64.3271,0</coordinates></Point>
       </Placemark>
       <Placemark>
         <name>5. Kerið krateris</name>
-        <description><![CDATA[5. Kerið krateris<br>🔗 <a href="https://www.google.com/maps/search/?api=1&query=64.0414,-20.8856">https://www.google.com/maps/search/?api=1&query=64.0414,-20.8856</a>]]></description>
+        <description><![CDATA[5. Kerið krateris<br>🔗 <a href="https://www.google.com/maps/search/?api=1&query=Kerid+Crater">https://www.google.com/maps/search/?api=1&query=Kerid+Crater</a>]]></description>
         <Style><IconStyle><color>ff0000ff</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon></IconStyle></Style>
         <Point><coordinates>-20.8856,64.0414,0</coordinates></Point>
       </Placemark>
       <Placemark>
         <name>6. Nakvynė – Hvolsvöllur</name>
-        <description><![CDATA[6. Nakvynė – Hvolsvöllur<br>🔗 <a href="https://www.google.com/maps/search/?api=1&query=63.751,-20.2218">https://www.google.com/maps/search/?api=1&query=63.751,-20.2218</a>]]></description>
+        <description><![CDATA[6. Nakvynė – Hvolsvöllur<br>🔗 <a href="https://www.google.com/maps/search/?api=1&query=Hvolsvollur">https://www.google.com/maps/search/?api=1&query=Hvolsvollur</a>]]></description>
         <Style><IconStyle><color>ff37a000</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon></IconStyle></Style>
         <Point><coordinates>-20.2218,63.751,0</coordinates></Point>
       </Placemark>
@@ -101,43 +101,43 @@
       </Placemark>
       <Placemark>
         <name>1. Nakvynė – Hvolsvöllur</name>
-        <description><![CDATA[1. Nakvynė – Hvolsvöllur<br>🔗 <a href="https://www.google.com/maps/search/?api=1&query=63.751,-20.2218">https://www.google.com/maps/search/?api=1&query=63.751,-20.2218</a>]]></description>
+        <description><![CDATA[1. Nakvynė – Hvolsvöllur<br>🔗 <a href="https://www.google.com/maps/search/?api=1&query=Hvolsvollur">https://www.google.com/maps/search/?api=1&query=Hvolsvollur</a>]]></description>
         <Style><IconStyle><color>ff37a000</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon></IconStyle></Style>
         <Point><coordinates>-20.2218,63.751,0</coordinates></Point>
       </Placemark>
       <Placemark>
         <name>2. Seljalandsfoss krioklys</name>
-        <description><![CDATA[2. Seljalandsfoss krioklys<br>🔗 <a href="https://www.google.com/maps/search/?api=1&query=63.6156,-19.9926">https://www.google.com/maps/search/?api=1&query=63.6156,-19.9926</a>]]></description>
+        <description><![CDATA[2. Seljalandsfoss krioklys<br>🔗 <a href="https://www.google.com/maps/search/?api=1&query=Seljalandsfoss">https://www.google.com/maps/search/?api=1&query=Seljalandsfoss</a>]]></description>
         <Style><IconStyle><color>ff0000ff</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon></IconStyle></Style>
         <Point><coordinates>-19.9926,63.6156,0</coordinates></Point>
       </Placemark>
       <Placemark>
         <name>3. Gljúfrabúi krioklys</name>
-        <description><![CDATA[3. Gljúfrabúi krioklys<br>🔗 <a href="https://www.google.com/maps/search/?api=1&query=63.619,-19.9886">https://www.google.com/maps/search/?api=1&query=63.619,-19.9886</a>]]></description>
+        <description><![CDATA[3. Gljúfrabúi krioklys<br>🔗 <a href="https://www.google.com/maps/search/?api=1&query=Gljufrabui">https://www.google.com/maps/search/?api=1&query=Gljufrabui</a>]]></description>
         <Style><IconStyle><color>ff0000ff</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon></IconStyle></Style>
         <Point><coordinates>-19.9886,63.619,0</coordinates></Point>
       </Placemark>
       <Placemark>
         <name>4. Skógafoss krioklys</name>
-        <description><![CDATA[4. Skógafoss krioklys<br>🔗 <a href="https://www.google.com/maps/search/?api=1&query=63.532,-19.5111">https://www.google.com/maps/search/?api=1&query=63.532,-19.5111</a>]]></description>
+        <description><![CDATA[4. Skógafoss krioklys<br>🔗 <a href="https://www.google.com/maps/search/?api=1&query=Skogafoss">https://www.google.com/maps/search/?api=1&query=Skogafoss</a>]]></description>
         <Style><IconStyle><color>ff0000ff</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon></IconStyle></Style>
         <Point><coordinates>-19.5111,63.532,0</coordinates></Point>
       </Placemark>
       <Placemark>
         <name>5. 🥾 Waterfall Way (Skógá takas)</name>
-        <description><![CDATA[5. 🥾 Waterfall Way (Skógá takas)<br>🔗 <a href="https://www.google.com/maps/search/?api=1&query=63.536,-19.5089">https://www.google.com/maps/search/?api=1&query=63.536,-19.5089</a>]]></description>
+        <description><![CDATA[5. 🥾 Waterfall Way (Skógá takas)<br>🔗 <a href="https://www.google.com/maps/search/?api=1&query=Skogafoss">https://www.google.com/maps/search/?api=1&query=Skogafoss</a>]]></description>
         <Style><IconStyle><color>ff0000ff</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon></IconStyle></Style>
         <Point><coordinates>-19.5089,63.536,0</coordinates></Point>
       </Placemark>
       <Placemark>
         <name>6. Kvernufoss krioklys</name>
-        <description><![CDATA[6. Kvernufoss krioklys<br>🔗 <a href="https://www.google.com/maps/search/?api=1&query=63.5316,-19.4906">https://www.google.com/maps/search/?api=1&query=63.5316,-19.4906</a>]]></description>
+        <description><![CDATA[6. Kvernufoss krioklys<br>🔗 <a href="https://www.google.com/maps/search/?api=1&query=Kvernufoss">https://www.google.com/maps/search/?api=1&query=Kvernufoss</a>]]></description>
         <Style><IconStyle><color>ff0000ff</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon></IconStyle></Style>
         <Point><coordinates>-19.4906,63.5316,0</coordinates></Point>
       </Placemark>
       <Placemark>
         <name>7. Nakvynė – Vík</name>
-        <description><![CDATA[7. Nakvynė – Vík<br>🔗 <a href="https://www.google.com/maps/search/?api=1&query=63.4186,-19.0061">https://www.google.com/maps/search/?api=1&query=63.4186,-19.0061</a>]]></description>
+        <description><![CDATA[7. Nakvynė – Vík<br>🔗 <a href="https://www.google.com/maps/search/?api=1&query=Vik+i+Myrdal">https://www.google.com/maps/search/?api=1&query=Vik+i+Myrdal</a>]]></description>
         <Style><IconStyle><color>ff37a000</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon></IconStyle></Style>
         <Point><coordinates>-19.0061,63.4186,0</coordinates></Point>
       </Placemark>
@@ -166,31 +166,31 @@
       </Placemark>
       <Placemark>
         <name>1. Nakvynė – Vík</name>
-        <description><![CDATA[1. Nakvynė – Vík<br>🔗 <a href="https://www.google.com/maps/search/?api=1&query=63.4186,-19.0061">https://www.google.com/maps/search/?api=1&query=63.4186,-19.0061</a>]]></description>
+        <description><![CDATA[1. Nakvynė – Vík<br>🔗 <a href="https://www.google.com/maps/search/?api=1&query=Vik+i+Myrdal">https://www.google.com/maps/search/?api=1&query=Vik+i+Myrdal</a>]]></description>
         <Style><IconStyle><color>ff37a000</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon></IconStyle></Style>
         <Point><coordinates>-19.0061,63.4186,0</coordinates></Point>
       </Placemark>
       <Placemark>
         <name>2. Sólheimajökull ledynas</name>
-        <description><![CDATA[2. Sólheimajökull ledynas<br>🔗 <a href="https://www.google.com/maps/search/?api=1&query=63.53,-19.3692">https://www.google.com/maps/search/?api=1&query=63.53,-19.3692</a>]]></description>
+        <description><![CDATA[2. Sólheimajökull ledynas<br>🔗 <a href="https://www.google.com/maps/search/?api=1&query=Solheimajokull">https://www.google.com/maps/search/?api=1&query=Solheimajokull</a>]]></description>
         <Style><IconStyle><color>ff0000ff</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon></IconStyle></Style>
         <Point><coordinates>-19.3692,63.53,0</coordinates></Point>
       </Placemark>
       <Placemark>
         <name>3. Dyrhólaey</name>
-        <description><![CDATA[3. Dyrhólaey<br>🔗 <a href="https://www.google.com/maps/search/?api=1&query=63.4017,-19.1276">https://www.google.com/maps/search/?api=1&query=63.4017,-19.1276</a>]]></description>
+        <description><![CDATA[3. Dyrhólaey<br>🔗 <a href="https://www.google.com/maps/search/?api=1&query=Dyrholaey">https://www.google.com/maps/search/?api=1&query=Dyrholaey</a>]]></description>
         <Style><IconStyle><color>ff0000ff</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon></IconStyle></Style>
         <Point><coordinates>-19.1276,63.4017,0</coordinates></Point>
       </Placemark>
       <Placemark>
         <name>4. Reynisfjara juodas paplūdimys</name>
-        <description><![CDATA[4. Reynisfjara juodas paplūdimys<br>🔗 <a href="https://www.google.com/maps/search/?api=1&query=63.4054,-19.0448">https://www.google.com/maps/search/?api=1&query=63.4054,-19.0448</a>]]></description>
+        <description><![CDATA[4. Reynisfjara juodas paplūdimys<br>🔗 <a href="https://www.google.com/maps/search/?api=1&query=Reynisfjara+Beach">https://www.google.com/maps/search/?api=1&query=Reynisfjara+Beach</a>]]></description>
         <Style><IconStyle><color>ff00d7ff</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon></IconStyle></Style>
         <Point><coordinates>-19.0448,63.4054,0</coordinates></Point>
       </Placemark>
       <Placemark>
         <name>5. 🕳️ Katla ledo urvas (tūras iš Vík)</name>
-        <description><![CDATA[5. 🕳️ Katla ledo urvas (tūras iš Vík)<br>🔗 <a href="https://www.google.com/maps/search/?api=1&query=63.4186,-19.0061">https://www.google.com/maps/search/?api=1&query=63.4186,-19.0061</a>]]></description>
+        <description><![CDATA[5. 🕳️ Katla ledo urvas (tūras iš Vík)<br>🔗 <a href="https://www.google.com/maps/search/?api=1&query=Vik+i+Myrdal">https://www.google.com/maps/search/?api=1&query=Vik+i+Myrdal</a>]]></description>
         <Style><IconStyle><color>ff0000ff</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon></IconStyle></Style>
         <Point><coordinates>-19.0061,63.4186,0</coordinates></Point>
       </Placemark>
@@ -224,37 +224,37 @@
       </Placemark>
       <Placemark>
         <name>1. Nakvynė – Vík</name>
-        <description><![CDATA[1. Nakvynė – Vík<br>🔗 <a href="https://www.google.com/maps/search/?api=1&query=63.4186,-19.0061">https://www.google.com/maps/search/?api=1&query=63.4186,-19.0061</a>]]></description>
+        <description><![CDATA[1. Nakvynė – Vík<br>🔗 <a href="https://www.google.com/maps/search/?api=1&query=Vik+i+Myrdal">https://www.google.com/maps/search/?api=1&query=Vik+i+Myrdal</a>]]></description>
         <Style><IconStyle><color>ff37a000</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon></IconStyle></Style>
         <Point><coordinates>-19.0061,63.4186,0</coordinates></Point>
       </Placemark>
       <Placemark>
         <name>2. Fjaðrárgljúfur kanjonas</name>
-        <description><![CDATA[2. Fjaðrárgljúfur kanjonas<br>🔗 <a href="https://www.google.com/maps/search/?api=1&query=63.7714,-18.1718">https://www.google.com/maps/search/?api=1&query=63.7714,-18.1718</a>]]></description>
+        <description><![CDATA[2. Fjaðrárgljúfur kanjonas<br>🔗 <a href="https://www.google.com/maps/search/?api=1&query=Fjadrargljufur+Canyon">https://www.google.com/maps/search/?api=1&query=Fjadrargljufur+Canyon</a>]]></description>
         <Style><IconStyle><color>ff0000ff</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon></IconStyle></Style>
         <Point><coordinates>-18.1718,63.7714,0</coordinates></Point>
       </Placemark>
       <Placemark>
         <name>3. Skaftafell – Svartifoss</name>
-        <description><![CDATA[3. Skaftafell – Svartifoss<br>🔗 <a href="https://www.google.com/maps/search/?api=1&query=64.0159,-16.9665">https://www.google.com/maps/search/?api=1&query=64.0159,-16.9665</a>]]></description>
+        <description><![CDATA[3. Skaftafell – Svartifoss<br>🔗 <a href="https://www.google.com/maps/search/?api=1&query=Svartifoss">https://www.google.com/maps/search/?api=1&query=Svartifoss</a>]]></description>
         <Style><IconStyle><color>ff0000ff</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon></IconStyle></Style>
         <Point><coordinates>-16.9665,64.0159,0</coordinates></Point>
       </Placemark>
       <Placemark>
         <name>4. Jökulsárlón ledynų lagūna</name>
-        <description><![CDATA[4. Jökulsárlón ledynų lagūna<br>🔗 <a href="https://www.google.com/maps/search/?api=1&query=64.0484,-16.1794">https://www.google.com/maps/search/?api=1&query=64.0484,-16.1794</a>]]></description>
+        <description><![CDATA[4. Jökulsárlón ledynų lagūna<br>🔗 <a href="https://www.google.com/maps/search/?api=1&query=Jokulsarlon+Glacier+Lagoon">https://www.google.com/maps/search/?api=1&query=Jokulsarlon+Glacier+Lagoon</a>]]></description>
         <Style><IconStyle><color>ff0000ff</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon></IconStyle></Style>
         <Point><coordinates>-16.1794,64.0484,0</coordinates></Point>
       </Placemark>
       <Placemark>
         <name>5. Diamond Beach</name>
-        <description><![CDATA[5. Diamond Beach<br>🔗 <a href="https://www.google.com/maps/search/?api=1&query=64.0432,-16.1755">https://www.google.com/maps/search/?api=1&query=64.0432,-16.1755</a>]]></description>
+        <description><![CDATA[5. Diamond Beach<br>🔗 <a href="https://www.google.com/maps/search/?api=1&query=Diamond+Beach+Iceland">https://www.google.com/maps/search/?api=1&query=Diamond+Beach+Iceland</a>]]></description>
         <Style><IconStyle><color>ff00d7ff</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon></IconStyle></Style>
         <Point><coordinates>-16.1755,64.0432,0</coordinates></Point>
       </Placemark>
       <Placemark>
         <name>6. Nakvynė – Vík</name>
-        <description><![CDATA[6. Nakvynė – Vík<br>🔗 <a href="https://www.google.com/maps/search/?api=1&query=63.4186,-19.0061">https://www.google.com/maps/search/?api=1&query=63.4186,-19.0061</a>]]></description>
+        <description><![CDATA[6. Nakvynė – Vík<br>🔗 <a href="https://www.google.com/maps/search/?api=1&query=Vik+i+Myrdal">https://www.google.com/maps/search/?api=1&query=Vik+i+Myrdal</a>]]></description>
         <Style><IconStyle><color>ff37a000</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon></IconStyle></Style>
         <Point><coordinates>-19.0061,63.4186,0</coordinates></Point>
       </Placemark>
@@ -283,31 +283,31 @@
       </Placemark>
       <Placemark>
         <name>1. Nakvynė – Vík</name>
-        <description><![CDATA[1. Nakvynė – Vík<br>🔗 <a href="https://www.google.com/maps/search/?api=1&query=63.4186,-19.0061">https://www.google.com/maps/search/?api=1&query=63.4186,-19.0061</a>]]></description>
+        <description><![CDATA[1. Nakvynė – Vík<br>🔗 <a href="https://www.google.com/maps/search/?api=1&query=Vik+i+Myrdal">https://www.google.com/maps/search/?api=1&query=Vik+i+Myrdal</a>]]></description>
         <Style><IconStyle><color>ff37a000</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon></IconStyle></Style>
         <Point><coordinates>-19.0061,63.4186,0</coordinates></Point>
       </Placemark>
       <Placemark>
         <name>2. Reykjavík – Hallgrímskirkja</name>
-        <description><![CDATA[2. Reykjavík – Hallgrímskirkja<br>🔗 <a href="https://www.google.com/maps/search/?api=1&query=64.1417,-21.9266">https://www.google.com/maps/search/?api=1&query=64.1417,-21.9266</a>]]></description>
+        <description><![CDATA[2. Reykjavík – Hallgrímskirkja<br>🔗 <a href="https://www.google.com/maps/search/?api=1&query=Hallgrimskirkja">https://www.google.com/maps/search/?api=1&query=Hallgrimskirkja</a>]]></description>
         <Style><IconStyle><color>ff0000ff</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon></IconStyle></Style>
         <Point><coordinates>-21.9266,64.1417,0</coordinates></Point>
       </Placemark>
       <Placemark>
         <name>3. Sun Voyager / Harpa</name>
-        <description><![CDATA[3. Sun Voyager / Harpa<br>🔗 <a href="https://www.google.com/maps/search/?api=1&query=64.1475,-21.9224">https://www.google.com/maps/search/?api=1&query=64.1475,-21.9224</a>]]></description>
+        <description><![CDATA[3. Sun Voyager / Harpa<br>🔗 <a href="https://www.google.com/maps/search/?api=1&query=Sun+Voyager">https://www.google.com/maps/search/?api=1&query=Sun+Voyager</a>]]></description>
         <Style><IconStyle><color>ff0000ff</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon></IconStyle></Style>
         <Point><coordinates>-21.9224,64.1475,0</coordinates></Point>
       </Placemark>
       <Placemark>
         <name>4. Sky Lagoon (Kópavogur)</name>
-        <description><![CDATA[4. Sky Lagoon (Kópavogur)<br>🔗 <a href="https://www.google.com/maps/search/?api=1&query=64.1188,-21.9436">https://www.google.com/maps/search/?api=1&query=64.1188,-21.9436</a>]]></description>
+        <description><![CDATA[4. Sky Lagoon (Kópavogur)<br>🔗 <a href="https://www.google.com/maps/search/?api=1&query=Sky+Lagoon+Iceland">https://www.google.com/maps/search/?api=1&query=Sky+Lagoon+Iceland</a>]]></description>
         <Style><IconStyle><color>ff0000ff</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon></IconStyle></Style>
         <Point><coordinates>-21.9436,64.1188,0</coordinates></Point>
       </Placemark>
       <Placemark>
         <name>5. KEF – auto grąžinimas + skrydis</name>
-        <description><![CDATA[5. KEF – auto grąžinimas + skrydis<br>🔗 <a href="https://www.google.com/maps/search/?api=1&query=63.985,-22.6056">https://www.google.com/maps/search/?api=1&query=63.985,-22.6056</a>]]></description>
+        <description><![CDATA[5. KEF – auto grąžinimas + skrydis<br>🔗 <a href="https://www.google.com/maps/search/?api=1&query=Keflavik+Airport">https://www.google.com/maps/search/?api=1&query=Keflavik+Airport</a>]]></description>
         <Style><IconStyle><color>ffdb1e1e</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon></IconStyle></Style>
         <Point><coordinates>-22.6056,63.985,0</coordinates></Point>
       </Placemark>

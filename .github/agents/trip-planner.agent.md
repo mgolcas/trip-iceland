@@ -64,6 +64,11 @@ D05 09.07 Reykjavík + auto grąžinimas + išvykimas.
 - **Daylight 09.03–09.07** (Reykjavík): sunrise **~06:15–06:27**, sunset **~20:22–20:36**
   (~14 h light). A 07:30 departure is well within daylight; last usable light ~20:30.
   Plan outdoor stops to finish before ~20:00. Source: timeanddate.com.
+  Per-day (sunrise · sunset): D01 09.03 06:15·20:36 · D02 09.04 06:18·20:33 ·
+  D03 09.05 06:21·20:30 · D04 09.06 06:24·20:27 · D05 09.07 06:27·20:24.
+  **Display convention**: in `Dienu_Planas.txt` keep daylight as a **single summary line
+  in the header block only** (the `☀️ ŠVIESA` line) — do **NOT** repeat sunrise/sunset
+  per day (user preference: avoid clutter).
 - **Jökulsárlón boat tours** (amphibian + Zodiac): season **Jun–Sep 09:00–19:00**.
   September is the **last** month → **must reserve in advance**. Source: icelagoon.is.
 - **Bookable add-ons to reserve ahead**: Sólheimajökull guided glacier walk (~3 h),
@@ -100,7 +105,7 @@ Each day's plan is a `<Placemark>` named `[NN] PLANAS` with a CDATA description:
 DIENA NN / DD.MM (Dienos pavadinimas) – TEMA<br>
 <br>
  HH:MM 🚗 Activity description<br>
-    🔗 https://www.google.com/maps/search/?api=1&query=LAT,LON<br>
+    🔗 https://www.google.com/maps/search/?api=1&query=Place+Name<br>
 <br>
  HH:MM 🍽️ Pietūs – Name (žr. restoranų sluoksnis [NN])<br>
 ```
@@ -108,8 +113,11 @@ DIENA NN / DD.MM (Dienos pavadinimas) – TEMA<br>
 **Rules:**
 - Use real clock times derived from verified OSRM drive legs (see below).
 - Restaurant entries reference `(žr. restoranų sluoksnis [NN])` without option letters.
-- Maps links use the `?api=1&query=LAT,LON` form (latitude first in the *query*, but KML
-  `<coordinates>` are always `LON,LAT,0`).
+- Maps links use the `?api=1&query=Place+Name` form (an ASCII place name Google
+  resolves to a **place card** with photo + Directions button — NOT raw `LAT,LON`).
+  Spaces → `+`. Use a Google-recognisable landmark name, transliterated to ASCII
+  (e.g. `Thingvellir+National+Park`, `Skogafoss`, `Solheimajokull`, `Jokulsarlon+Glacier+Lagoon`).
+  KML `<coordinates>` are still always `LON,LAT,0`.
 - Flag the long day with `⚠️ ILGA DIENA` (D04 Jökulsárlón ~6.5 h driving).
 
 ---

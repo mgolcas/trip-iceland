@@ -50,7 +50,9 @@ applyTo: ["*.kml", "Dienu_Planas.txt", "*.py"]
 ## KML Editing Rules
 - Never hand-edit large KML as raw XML. Always write a Python script, run it, delete it.
 - KML coordinates are `LONGITUDE,LATITUDE,0` (longitude first — KML standard).
-- PLANAS / Maps links use `?api=1&query=LAT,LON` (latitude first in the *query* string).
+- PLANAS / Maps links use `?api=1&query=Place+Name` (an ASCII landmark name Google opens
+  as a place card with photo + Directions, e.g. `Skogafoss`, `Thingvellir+National+Park`) —
+  NOT raw `LAT,LON`. Spaces → `+`.
 - **Google My Maps limit: 10 layers per map.** `Iceland.kml` has 9 folders; the day-route
   map has 5 day-layers — both stay under the limit (single map each).
 

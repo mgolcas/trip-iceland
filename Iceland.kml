@@ -8,22 +8,22 @@
       <name>1. Atvykimas / KEF / Reykjavík</name>
       <Placemark>
         <name>[KEF] Keflavík oro uostas – auto paėmimas/grąžinimas</name>
-        <description><![CDATA[🛬 Atvykimas 09.03 07:55 · 🛫 Išvykimas 09.07 17:25<br>🚗 Automobilio paėmimas ir grąžinimas čia.<br>🔗 https://www.google.com/maps/search/?api=1&query=63.9850,-22.6056]]></description>
+        <description><![CDATA[🛬 Atvykimas 09.03 07:55 · 🛫 Išvykimas 09.07 17:25<br>🚗 Automobilio paėmimas ir grąžinimas čia.<br>🔗 https://www.google.com/maps/search/?api=1&query=Keflavik+Airport]]></description>
         <Point><coordinates>-22.6056,63.9850,0</coordinates></Point>
       </Placemark>
       <Placemark>
         <name>[05] Hallgrímskirkja (Reykjavík)</name>
-        <description><![CDATA[⛪ Reykjavíko simbolis, bokšto panorama (~45 min).<br>🔗 https://www.google.com/maps/search/?api=1&query=64.1417,-21.9266]]></description>
+        <description><![CDATA[⛪ Reykjavíko simbolis, bokšto panorama (~45 min).<br>🔗 https://www.google.com/maps/search/?api=1&query=Hallgrimskirkja]]></description>
         <Point><coordinates>-21.9266,64.1417,0</coordinates></Point>
       </Placemark>
       <Placemark>
         <name>[05] Sun Voyager / Harpa</name>
-        <description><![CDATA[⛵ Sun Voyager skulptūra + Harpa koncertų salė prie uosto.<br>🔗 https://www.google.com/maps/search/?api=1&query=64.1475,-21.9224]]></description>
+        <description><![CDATA[⛵ Sun Voyager skulptūra + Harpa koncertų salė prie uosto.<br>🔗 https://www.google.com/maps/search/?api=1&query=Sun+Voyager]]></description>
         <Point><coordinates>-21.9224,64.1475,0</coordinates></Point>
       </Placemark>
           <Placemark>
         <name>[05] Sky Lagoon (Kópavogur)</name>
-        <description><![CDATA[🧖 Geoterminis SPA prie vandenyno, 7 žingsnių „Skjól" ritualas, infinity baseinas. Pakeliui Reykjavík → KEF. Rezervuoti iš anksto.<br>🔗 https://www.google.com/maps/search/?api=1&query=64.1188,-21.9436]]></description>
+        <description><![CDATA[🧖 Geoterminis SPA prie vandenyno, 7 žingsnių „Skjól" ritualas, infinity baseinas. Pakeliui Reykjavík → KEF. Rezervuoti iš anksto.<br>🔗 https://www.google.com/maps/search/?api=1&query=Sky+Lagoon+Iceland]]></description>
         <Point><coordinates>-21.9436,64.1188,0</coordinates></Point>
       </Placemark>
 </Folder>
@@ -32,22 +32,22 @@
       <name>2. Auksinis ratas</name>
       <Placemark>
         <name>[01] Þingvellir nacionalinis parkas</name>
-        <description><![CDATA[🌿 Tektoninių plokščių plyšys Almannagjá, Öxarárfoss krioklys, UNESCO.<br>🅿️ P1/P2 ~1000 ISK/d.<br>🔗 https://www.google.com/maps/search/?api=1&query=64.2558,-21.1300]]></description>
+        <description><![CDATA[🌿 Tektoninių plokščių plyšys Almannagjá, Öxarárfoss krioklys, UNESCO.<br>🅿️ P1/P2 ~1000 ISK/d.<br>🔗 https://www.google.com/maps/search/?api=1&query=Thingvellir+National+Park]]></description>
         <Point><coordinates>-21.1300,64.2558,0</coordinates></Point>
       </Placemark>
       <Placemark>
         <name>[01] Geysir / Strokkur</name>
-        <description><![CDATA[💨 Strokkur išsiveržia kas ~5-10 min iki 20-30 m.<br>🅿️ nemokamas.<br>🔗 https://www.google.com/maps/search/?api=1&query=64.3104,-20.3024]]></description>
+        <description><![CDATA[💨 Strokkur išsiveržia kas ~5-10 min iki 20-30 m.<br>🅿️ nemokamas.<br>🔗 https://www.google.com/maps/search/?api=1&query=Strokkur+Geysir]]></description>
         <Point><coordinates>-20.3024,64.3104,0</coordinates></Point>
       </Placemark>
       <Placemark>
         <name>[01] Gullfoss krioklys</name>
-        <description><![CDATA[💦 Galingas dviejų pakopų „Auksinis krioklys".<br>🅿️ nemokamas.<br>🔗 https://www.google.com/maps/search/?api=1&query=64.3271,-20.1206]]></description>
+        <description><![CDATA[💦 Galingas dviejų pakopų „Auksinis krioklys".<br>🅿️ nemokamas.<br>🔗 https://www.google.com/maps/search/?api=1&query=Gullfoss]]></description>
         <Point><coordinates>-20.1206,64.3271,0</coordinates></Point>
       </Placemark>
       <Placemark>
         <name>[01] Kerið krateris</name>
-        <description><![CDATA[🌋 Raudonas vulkaninis krateris su žydru ežeru.<br>🅿️ įėjimas ~450 ISK/asm.<br>🔗 https://www.google.com/maps/search/?api=1&query=64.0414,-20.8856]]></description>
+        <description><![CDATA[🌋 Raudonas vulkaninis krateris su žydru ežeru.<br>🅿️ įėjimas ~450 ISK/asm.<br>🔗 https://www.google.com/maps/search/?api=1&query=Kerid+Crater]]></description>
         <Point><coordinates>-20.8856,64.0414,0</coordinates></Point>
       </Placemark>
     </Folder>
@@ -56,22 +56,22 @@
       <name>3. Kriokliai</name>
       <Placemark>
         <name>[02] Seljalandsfoss</name>
-        <description><![CDATA[💦 Galima apeiti UŽ krioklio (permerks!). 🅿️ ~800 ISK/d.<br>🔗 https://www.google.com/maps/search/?api=1&query=63.6156,-19.9926]]></description>
+        <description><![CDATA[💦 Galima apeiti UŽ krioklio (permerks!). 🅿️ ~800 ISK/d.<br>🔗 https://www.google.com/maps/search/?api=1&query=Seljalandsfoss]]></description>
         <Point><coordinates>-19.9926,63.6156,0</coordinates></Point>
       </Placemark>
       <Placemark>
         <name>[02] Gljúfrabúi</name>
-        <description><![CDATA[🚶 Paslėptas krioklys tarpeklyje šalia Seljalandsfoss.<br>🔗 https://www.google.com/maps/search/?api=1&query=63.6190,-19.9886]]></description>
+        <description><![CDATA[🚶 Paslėptas krioklys tarpeklyje šalia Seljalandsfoss.<br>🔗 https://www.google.com/maps/search/?api=1&query=Gljufrabui]]></description>
         <Point><coordinates>-19.9886,63.6190,0</coordinates></Point>
       </Placemark>
       <Placemark>
         <name>[02] Skógafoss</name>
-        <description><![CDATA[💦 60 m pločio krioklys; laiptai į viršų (Waterfall Way).<br>🅿️ nemokamas.<br>🔗 https://www.google.com/maps/search/?api=1&query=63.5320,-19.5111]]></description>
+        <description><![CDATA[💦 60 m pločio krioklys; laiptai į viršų (Waterfall Way).<br>🅿️ nemokamas.<br>🔗 https://www.google.com/maps/search/?api=1&query=Skogafoss]]></description>
         <Point><coordinates>-19.5111,63.5320,0</coordinates></Point>
       </Placemark>
       <Placemark>
         <name>[02] Kvernufoss</name>
-        <description><![CDATA[🚶 Paslėptas krioklys, galima apeiti už jo. Takas nuo Skógar muziejaus.<br>🔗 https://www.google.com/maps/search/?api=1&query=63.5316,-19.4906]]></description>
+        <description><![CDATA[🚶 Paslėptas krioklys, galima apeiti už jo. Takas nuo Skógar muziejaus.<br>🔗 https://www.google.com/maps/search/?api=1&query=Kvernufoss]]></description>
         <Point><coordinates>-19.4906,63.5316,0</coordinates></Point>
       </Placemark>
     </Folder>
@@ -80,22 +80,22 @@
       <name>4. Pakrantė ir paplūdimiai</name>
       <Placemark>
         <name>[03] Dyrhólaey</name>
-        <description><![CDATA[🪨 Uolų arka, švyturys, paukščiai, panorama. 🅿️ nemokamas.<br>🔗 https://www.google.com/maps/search/?api=1&query=63.4017,-19.1276]]></description>
+        <description><![CDATA[🪨 Uolų arka, švyturys, paukščiai, panorama. 🅿️ nemokamas.<br>🔗 https://www.google.com/maps/search/?api=1&query=Dyrholaey]]></description>
         <Point><coordinates>-19.1276,63.4017,0</coordinates></Point>
       </Placemark>
       <Placemark>
         <name>[03] Reynisfjara juodas paplūdimys</name>
-        <description><![CDATA[🏖️ Juodo smėlio paplūdimys, bazalto kolonos, Reynisdrangar.<br>⚠️ PAVOJINGOS „sneaker" bangos – laikytis toli nuo vandens!<br>🔗 https://www.google.com/maps/search/?api=1&query=63.4054,-19.0448]]></description>
+        <description><![CDATA[🏖️ Juodo smėlio paplūdimys, bazalto kolonos, Reynisdrangar.<br>⚠️ PAVOJINGOS „sneaker" bangos – laikytis toli nuo vandens!<br>🔗 https://www.google.com/maps/search/?api=1&query=Reynisfjara+Beach]]></description>
         <Point><coordinates>-19.0448,63.4054,0</coordinates></Point>
       </Placemark>
       <Placemark>
         <name>[03] Vík bažnyčia + Reynisdrangar vaizdas</name>
-        <description><![CDATA[⛪ Vík í Mýrdal bažnyčia ant kalvelės, smailių panorama.<br>🔗 https://www.google.com/maps/search/?api=1&query=63.4186,-19.0061]]></description>
+        <description><![CDATA[⛪ Vík í Mýrdal bažnyčia ant kalvelės, smailių panorama.<br>🔗 https://www.google.com/maps/search/?api=1&query=Vik+i+Myrdal]]></description>
         <Point><coordinates>-19.0061,63.4186,0</coordinates></Point>
       </Placemark>
       <Placemark>
         <name>[04] Diamond Beach</name>
-        <description><![CDATA[💎 Skaidrūs ledkalnių gabalai ant juodo smėlio.<br>🔗 https://www.google.com/maps/search/?api=1&query=64.0432,-16.1755]]></description>
+        <description><![CDATA[💎 Skaidrūs ledkalnių gabalai ant juodo smėlio.<br>🔗 https://www.google.com/maps/search/?api=1&query=Diamond+Beach+Iceland]]></description>
         <Point><coordinates>-16.1755,64.0432,0</coordinates></Point>
       </Placemark>
     </Folder>
@@ -104,27 +104,27 @@
       <name>5. Ledynai ir kanjonai</name>
       <Placemark>
         <name>[03] Sólheimajökull ledynas</name>
-        <description><![CDATA[🧊 Ledyno liežuvis, takas iki lagūnos (~1 val). Ant ledyno – tik su gidu.<br>🅿️ ~750 ISK.<br>🔗 https://www.google.com/maps/search/?api=1&query=63.5300,-19.3692]]></description>
+        <description><![CDATA[🧊 Ledyno liežuvis, takas iki lagūnos (~1 val). Ant ledyno – tik su gidu.<br>🅿️ ~750 ISK.<br>🔗 https://www.google.com/maps/search/?api=1&query=Solheimajokull]]></description>
         <Point><coordinates>-19.3692,63.5300,0</coordinates></Point>
       </Placemark>
       <Placemark>
         <name>[04] Fjaðrárgljúfur kanjonas</name>
-        <description><![CDATA[🏞️ Gilus žalias kanjonas, takas viršuje (~1 val). 🅿️ nemokamas.<br>🔗 https://www.google.com/maps/search/?api=1&query=63.7714,-18.1718]]></description>
+        <description><![CDATA[🏞️ Gilus žalias kanjonas, takas viršuje (~1 val). 🅿️ nemokamas.<br>🔗 https://www.google.com/maps/search/?api=1&query=Fjadrargljufur+Canyon]]></description>
         <Point><coordinates>-18.1718,63.7714,0</coordinates></Point>
       </Placemark>
       <Placemark>
         <name>[04] Jökulsárlón ledynų lagūna</name>
-        <description><![CDATA[🧊 Ledkalnių lagūna; galima valties ekskursija (rezervuoti). 🅿️ nemokamas.<br>🔗 https://www.google.com/maps/search/?api=1&query=64.0484,-16.1794]]></description>
+        <description><![CDATA[🧊 Ledkalnių lagūna; galima valties ekskursija (rezervuoti). 🅿️ nemokamas.<br>🔗 https://www.google.com/maps/search/?api=1&query=Jokulsarlon+Glacier+Lagoon]]></description>
         <Point><coordinates>-16.1794,64.0484,0</coordinates></Point>
       </Placemark>
           <Placemark>
         <name>[03] Katla ledo urvas (tūras iš Vík)</name>
-        <description><![CDATA[🕳️ Gido tūras super-jeep'u į Kötlujökull (Mýrdalsjökull) ledo urvą. Susitikimas Vík. ~3-4 val. REZERVUOTI iš anksto (~€150-190/asm).<br>🔗 https://www.google.com/maps/search/?api=1&query=63.4186,-19.0061]]></description>
+        <description><![CDATA[🕳️ Gido tūras super-jeep'u į Kötlujökull (Mýrdalsjökull) ledo urvą. Susitikimas Vík. ~3-4 val. REZERVUOTI iš anksto (~€150-190/asm).<br>🔗 https://www.google.com/maps/search/?api=1&query=Vik+i+Myrdal]]></description>
         <Point><coordinates>-19.0061,63.4186,0</coordinates></Point>
       </Placemark>
       <Placemark>
         <name>[04] Skaftafell – Svartifoss + Svínafellsjökull</name>
-        <description><![CDATA[🥾 Vatnajökull NP: Svartifoss krioklys su bazalto kolonomis + Svínafellsjökull ledyno vaizdas. ~1.5-2 val žygis. Pakeliui tarp Fjaðrárgljúfur ir Jökulsárlón.<br>🔗 https://www.google.com/maps/search/?api=1&query=64.0159,-16.9665]]></description>
+        <description><![CDATA[🥾 Vatnajökull NP: Svartifoss krioklys su bazalto kolonomis + Svínafellsjökull ledyno vaizdas. ~1.5-2 val žygis. Pakeliui tarp Fjaðrárgljúfur ir Jökulsárlón.<br>🔗 https://www.google.com/maps/search/?api=1&query=Svartifoss]]></description>
         <Point><coordinates>-16.9665,64.0159,0</coordinates></Point>
       </Placemark>
 </Folder>
@@ -133,7 +133,7 @@
       <name>6. Pėsčiųjų / žygio maršrutai</name>
       <Placemark>
         <name>[02] 🥾 Waterfall Way (Skógá takas)</name>
-        <description><![CDATA[🥾 Nuo Skógafoss laiptais aukštyn, tada palei Skógá upę pro ~10-20 kriokliai. 2-3 val ten ir atgal. Pagrindinis šios kelionės žygis.<br>🔗 https://www.google.com/maps/search/?api=1&query=63.5360,-19.5089]]></description>
+        <description><![CDATA[🥾 Nuo Skógafoss laiptais aukštyn, tada palei Skógá upę pro ~10-20 kriokliai. 2-3 val ten ir atgal. Pagrindinis šios kelionės žygis.<br>🔗 https://www.google.com/maps/search/?api=1&query=Skogafoss]]></description>
         <LineString><tessellate>1</tessellate><coordinates>-19.5111,63.5320,0 -19.5104,63.5340,0 -19.5089,63.5360,0 -19.5060,63.5400,0</coordinates></LineString>
       </Placemark>
     </Folder>
@@ -142,37 +142,37 @@
       <name>7. Restoranai</name>
       <Placemark>
         <name>[01] 🍽️ Geysir Glíma (Geysir Center)</name>
-        <description><![CDATA[🍲 Sriuba, bufetas prie geizerio. ~€15-25/asm.<br>🔗 https://www.google.com/maps/search/?api=1&query=64.3075,-20.3010]]></description>
+        <description><![CDATA[🍲 Sriuba, bufetas prie geizerio. ~€15-25/asm.<br>🔗 https://www.google.com/maps/search/?api=1&query=Geysir+Center+Restaurant]]></description>
         <Point><coordinates>-20.3010,64.3075,0</coordinates></Point>
       </Placemark>
       <Placemark>
         <name>[02] 🍽️ Skógafoss Bistro Bar</name>
-        <description><![CDATA[🍔 Burgeriai, žuvis prie Skógafoss. ~€18-28/asm.<br>🔗 https://www.google.com/maps/search/?api=1&query=63.5316,-19.5096]]></description>
+        <description><![CDATA[🍔 Burgeriai, žuvis prie Skógafoss. ~€18-28/asm.<br>🔗 https://www.google.com/maps/search/?api=1&query=Skogafoss+Bistro+Bar]]></description>
         <Point><coordinates>-19.5096,63.5316,0</coordinates></Point>
       </Placemark>
       <Placemark>
         <name>[02/04] 🍽️ Suður-Vík (Vík)</name>
-        <description><![CDATA[🍽️ Jaukus restoranas Vík; žuvis, sriubos, picos. ~€20-30/asm.<br>🔗 https://www.google.com/maps/search/?api=1&query=63.4188,-19.0086]]></description>
+        <description><![CDATA[🍽️ Jaukus restoranas Vík; žuvis, sriubos, picos. ~€20-30/asm.<br>🔗 https://www.google.com/maps/search/?api=1&query=Sudur-Vik+Restaurant]]></description>
         <Point><coordinates>-19.0086,63.4188,0</coordinates></Point>
       </Placemark>
       <Placemark>
         <name>[03] 🍽️ Halldórskaffi (Vík)</name>
-        <description><![CDATA[🍕 Picos, burgeriai, vietiniai patiekalai. ~€18-28/asm.<br>🔗 https://www.google.com/maps/search/?api=1&query=63.4189,-19.0072]]></description>
+        <description><![CDATA[🍕 Picos, burgeriai, vietiniai patiekalai. ~€18-28/asm.<br>🔗 https://www.google.com/maps/search/?api=1&query=Smidjan+Brugghus+Vik]]></description>
         <Point><coordinates>-19.0072,63.4189,0</coordinates></Point>
       </Placemark>
       <Placemark>
         <name>[03] 🍽️ Black Beach Restaurant (Reynisfjara)</name>
-        <description><![CDATA[🍲 Patogu prie Reynisfjara aikštelės; sriubos, kava. ~€15-25/asm.<br>🔗 https://www.google.com/maps/search/?api=1&query=63.4045,-19.0560]]></description>
+        <description><![CDATA[🍲 Patogu prie Reynisfjara aikštelės; sriubos, kava. ~€15-25/asm.<br>🔗 https://www.google.com/maps/search/?api=1&query=Black+Beach+Restaurant+Reynisfjara]]></description>
         <Point><coordinates>-19.0560,63.4045,0</coordinates></Point>
       </Placemark>
       <Placemark>
         <name>[04] 🍽️ Systrakaffi (Kirkjubæjarklaustur)</name>
-        <description><![CDATA[☕ Sustojimas pakeliui į/iš Jökulsárlón. ~€15-25/asm.<br>🔗 https://www.google.com/maps/search/?api=1&query=63.7906,-17.9926]]></description>
+        <description><![CDATA[☕ Sustojimas pakeliui į/iš Jökulsárlón. ~€15-25/asm.<br>🔗 https://www.google.com/maps/search/?api=1&query=Systrakaffi]]></description>
         <Point><coordinates>-17.9926,63.7906,0</coordinates></Point>
       </Placemark>
       <Placemark>
         <name>[05] 🍽️ Bæjarins Beztu (Reykjavík)</name>
-        <description><![CDATA[🌭 Garsiausias hot dog Islandijoje, ~€4. Greita ir pigu.<br>🔗 https://www.google.com/maps/search/?api=1&query=64.1480,-21.9360]]></description>
+        <description><![CDATA[🌭 Garsiausias hot dog Islandijoje, ~€4. Greita ir pigu.<br>🔗 https://www.google.com/maps/search/?api=1&query=Baejarins+Beztu+Pylsur]]></description>
         <Point><coordinates>-21.9360,64.1480,0</coordinates></Point>
       </Placemark>
     </Folder>
@@ -181,12 +181,12 @@
       <name>8. Nakvynės</name>
       <Placemark>
         <name>[D01] Nakvynė – Hvolsvöllur</name>
-        <description><![CDATA[🛏️ D01 (09.03). Patogi bazė prieš pietinės pakrantės kriokliai.<br>🔗 https://www.google.com/maps/search/?api=1&query=63.7510,-20.2218]]></description>
+        <description><![CDATA[🛏️ D01 (09.03). Patogi bazė prieš pietinės pakrantės kriokliai.<br>🔗 https://www.google.com/maps/search/?api=1&query=Hvolsvollur]]></description>
         <Point><coordinates>-20.2218,63.7510,0</coordinates></Point>
       </Placemark>
       <Placemark>
         <name>[D02-D04] Nakvynė – Vík í Mýrdal</name>
-        <description><![CDATA[🛏️ D02–D04 (09.04–09.06), 3 naktys. Centrinė bazė pietinei pakrantei.<br>🔗 https://www.google.com/maps/search/?api=1&query=63.4186,-19.0061]]></description>
+        <description><![CDATA[🛏️ D02–D04 (09.04–09.06), 3 naktys. Centrinė bazė pietinei pakrantei.<br>🔗 https://www.google.com/maps/search/?api=1&query=Vik+i+Myrdal]]></description>
         <Point><coordinates>-19.0061,63.4186,0</coordinates></Point>
       </Placemark>
     </Folder>
@@ -201,16 +201,16 @@
  08:15 🚗 Automobilio paėmimas (~45-60 min)<br>
  09:15 🚗 → Þingvellir (~1 val 35 min, 86 km)<br>
  11:00 🌿 Þingvellir – Almannagjá, Öxarárfoss (~1.5 val)<br>
-    🔗 https://www.google.com/maps/search/?api=1&query=64.2558,-21.1300<br>
+    🔗 https://www.google.com/maps/search/?api=1&query=Thingvellir+National+Park<br>
  13:45 🍽️ Pietūs – Geysir Glíma (žr. restoranų sluoksnis [01])<br>
  14:30 💨 Strokkur geizeris (~45 min)<br>
-    🔗 https://www.google.com/maps/search/?api=1&query=64.3104,-20.3024<br>
+    🔗 https://www.google.com/maps/search/?api=1&query=Strokkur+Geysir<br>
  15:30 💦 Gullfoss krioklys (~45 min)<br>
-    🔗 https://www.google.com/maps/search/?api=1&query=64.3271,-20.1206<br>
+    🔗 https://www.google.com/maps/search/?api=1&query=Gullfoss<br>
  17:15 🌋 Kerið krateris (~30 min)<br>
-    🔗 https://www.google.com/maps/search/?api=1&query=64.0414,-20.8856<br>
+    🔗 https://www.google.com/maps/search/?api=1&query=Kerid+Crater<br>
  18:55 🛏️ Nakvynė – Hvolsvöllur (~1 val 10 min, 64 km)<br>
-    🔗 https://www.google.com/maps/search/?api=1&query=63.7510,-20.2218]]></description>
+    🔗 https://www.google.com/maps/search/?api=1&query=Hvolsvollur]]></description>
         <Point><coordinates>-21.1300,64.2558,0</coordinates></Point>
       </Placemark>
       <Placemark>
@@ -219,18 +219,18 @@
 <br>
  07:30 🚗 → Seljalandsfoss (~25 min, 22 km)<br>
  08:00 💦 Seljalandsfoss – apeiti už krioklio (~45 min) ⚠️ permerks<br>
-    🔗 https://www.google.com/maps/search/?api=1&query=63.6156,-19.9926<br>
+    🔗 https://www.google.com/maps/search/?api=1&query=Seljalandsfoss<br>
  08:45 🚶 Gljúfrabúi – paslėptas krioklys (~30 min)<br>
-    🔗 https://www.google.com/maps/search/?api=1&query=63.6190,-19.9886<br>
+    🔗 https://www.google.com/maps/search/?api=1&query=Gljufrabui<br>
  10:00 💦 Skógafoss (~30 min)<br>
-    🔗 https://www.google.com/maps/search/?api=1&query=63.5320,-19.5111<br>
+    🔗 https://www.google.com/maps/search/?api=1&query=Skogafoss<br>
  10:30 🥾 HIKE: Waterfall Way (Skógá takas) PILNAS – pro 20+ kriokliai iki tiltelio ir atgal (~3-3.5 val, ~10-12 km)<br>
-    🔗 https://www.google.com/maps/search/?api=1&query=63.5360,-19.5089<br>
+    🔗 https://www.google.com/maps/search/?api=1&query=Skogafoss<br>
  14:00 🍽️ Vėlyvi pietūs – Skógafoss Bistro (žr. restoranų sluoksnis [02])<br>
  15:00 🚶 Kvernufoss – paslėptas krioklys (~45 min)<br>
-    🔗 https://www.google.com/maps/search/?api=1&query=63.5316,-19.4906<br>
+    🔗 https://www.google.com/maps/search/?api=1&query=Kvernufoss<br>
  16:20 🛏️ Nakvynė – Vík (~35 min, 34 km)<br>
-    🔗 https://www.google.com/maps/search/?api=1&query=63.4186,-19.0061]]></description>
+    🔗 https://www.google.com/maps/search/?api=1&query=Vik+i+Myrdal]]></description>
         <Point><coordinates>-19.5111,63.5320,0</coordinates></Point>
       </Placemark>
       <Placemark>
@@ -239,16 +239,16 @@
 <br>
  07:30 🚗 → Sólheimajökull (~30 min, 31 km)<br>
  08:05 🧊 Sólheimajökull – ledyno liežuvis (~1 val)<br>
-    🔗 https://www.google.com/maps/search/?api=1&query=63.5300,-19.3692<br>
+    🔗 https://www.google.com/maps/search/?api=1&query=Solheimajokull<br>
  09:45 🺨 Dyrhólaey – arka, švyturys, panorama (~45 min)<br>
-    🔗 https://www.google.com/maps/search/?api=1&query=63.4017,-19.1276<br>
+    🔗 https://www.google.com/maps/search/?api=1&query=Dyrholaey<br>
  11:05 🏖️ Reynisfjara – juodas paplūdimys, bazalto kolonos (~1 val)<br>
     ⚠️ Pavojingos bangos – laikytis toli nuo vandens!<br>
-    🔗 https://www.google.com/maps/search/?api=1&query=63.4054,-19.0448<br>
+    🔗 https://www.google.com/maps/search/?api=1&query=Reynisfjara+Beach<br>
  12:25 🍽️ Pietūs – Halldórskaffi (žr. restoranų sluoksnis [03])<br>
  13:30 🕳️ KATLA LEDO URVAS – gido tūras super-jeep'u iš Vík (~3-4 val)<br>
     💡 REZERVUOTI iš anksto (~€150-190/asm)<br>
-    🔗 https://www.google.com/maps/search/?api=1&query=63.4186,-19.0061<br>
+    🔗 https://www.google.com/maps/search/?api=1&query=Vik+i+Myrdal<br>
  17:30 🛏️ Grįžimas į Vík – laisvas vakaras]]></description>
         <Point><coordinates>-19.3692,63.5300,0</coordinates></Point>
       </Placemark>
@@ -259,14 +259,14 @@
  ⚠️ ~7 val kelio iš viso – ankstyvas startas!<br>
  07:30 🚗 → Fjaðrárgljúfur (~1 val 10 min, 69 km)<br>
  08:45 🏞️ Fjaðrárgljúfur kanjonas (~50 min)<br>
-    🔗 https://www.google.com/maps/search/?api=1&query=63.7714,-18.1718<br>
+    🔗 https://www.google.com/maps/search/?api=1&query=Fjadrargljufur+Canyon<br>
  11:00 🥾 Skaftafell – Svartifoss + Svínafellsjökull (~1.5-2 val žygis)<br>
-    🔗 https://www.google.com/maps/search/?api=1&query=64.0159,-16.9665<br>
+    🔗 https://www.google.com/maps/search/?api=1&query=Svartifoss<br>
  14:35 🧊 Jökulsárlón ledynų lagūna + valties ekskursija (~1.5 val)<br>
     💡 Valtį rezervuoti iš anksto (sezono pabaiga, ~€60/asm)<br>
-    🔗 https://www.google.com/maps/search/?api=1&query=64.0484,-16.1794<br>
+    🔗 https://www.google.com/maps/search/?api=1&query=Jokulsarlon+Glacier+Lagoon<br>
  16:05 💎 Diamond Beach (~40 min)<br>
-    🔗 https://www.google.com/maps/search/?api=1&query=64.0432,-16.1755<br>
+    🔗 https://www.google.com/maps/search/?api=1&query=Diamond+Beach+Iceland<br>
  16:45 🚗 Grįžimas → Vík (~3 val 10 min, 193 km)<br>
     💡 Sustojimas: Systrakaffi, Kirkjubæjarklaustur<br>
  20:00 🛏️ Nakvynė – Vík]]></description>
@@ -278,14 +278,14 @@
 <br>
  07:30 🚗 → Reykjavík (~3 val 15 min, 187 km)<br>
  10:50 ⛪ Hallgrímskirkja – bokšto panorama (~40 min)<br>
-    🔗 https://www.google.com/maps/search/?api=1&query=64.1417,-21.9266<br>
+    🔗 https://www.google.com/maps/search/?api=1&query=Hallgrimskirkja<br>
  11:35 🚶 Sun Voyager + Bæjarins Beztu hot dog pietūs (~40 min)<br>
-    🔗 https://www.google.com/maps/search/?api=1&query=64.1475,-21.9224<br>
+    🔗 https://www.google.com/maps/search/?api=1&query=Sun+Voyager<br>
  12:30 🧖 SKY LAGOON – 7 žingsnių „Skjól" ritualas (~1 val 45 min)<br>
     💡 REZERVUOTI laiką iš anksto<br>
-    🔗 https://www.google.com/maps/search/?api=1&query=64.1188,-21.9436<br>
+    🔗 https://www.google.com/maps/search/?api=1&query=Sky+Lagoon+Iceland<br>
  14:20 🚗 → KEF oro uostas (~50 min, 44 km)<br>
-    🔗 https://www.google.com/maps/search/?api=1&query=63.9850,-22.6056<br>
+    🔗 https://www.google.com/maps/search/?api=1&query=Keflavik+Airport<br>
  15:10 🚗 Automobilio grąžinimas (pilnas bakas!) + check-in<br>
  17:25 ✈️ Išvykimas KEF → Vilnius (nusileidimas 09.08 00:20)]]></description>
         <Point><coordinates>-21.9266,64.1417,0</coordinates></Point>
