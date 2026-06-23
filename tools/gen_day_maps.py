@@ -7,6 +7,11 @@ Convention (see .github/agents/trip-planner.agent.md):
 - Routes drawn per layer, colour-coded by mode:
     DRIVE -> solid blue   (real road geometry from OSRM)
     WALK  -> green        (straight segment; used for hikes / on-foot stops)
+- Each stop's (lon, lat) = the OBJECT / viewpoint you actually visit; the link opens
+  its place card (SEARCH[name]) -> tap Directions for live navigation. Route lines are
+  only a visual overview (Google Maps does not turn-by-turn along a custom KML line).
+  Where parking is far from the object (Thingvellir, Skaftafell), add a separate parking
+  pin in the same day layer.
 
 Run:  python3 tools/gen_day_maps.py
 Output: Iceland_Dienos.kml
@@ -60,7 +65,7 @@ KINDS = {
 # Each stop: (name, lon, lat, kind, mode_to_reach)  mode in start|drive|walk
 DAYS = {
     1: ("01 – Atvykimas + Auksinis ratas", [
-        ("KEF – auto paėmimas", KEF[0], KEF[1], "parking", "start"),
+        ("Keflavik oro uostas", KEF[0], KEF[1], "parking", "start"),
         ("Þingvellir nacionalinis parkas", -21.1300, 64.2558, "sight", "drive"),
         ("Geysir / Strokkur", -20.3024, 64.3104, "sight", "drive"),
         ("Gullfoss krioklys", -20.1206, 64.3271, "sight", "drive"),
