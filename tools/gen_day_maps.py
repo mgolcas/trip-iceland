@@ -51,8 +51,8 @@ SEARCH = {
     (-21.9224, 64.1475): "Sun Voyager",
     (-21.9436, 64.1188): "Sky Lagoon Iceland",
     (-21.1364, 64.2556): "Thingvellir Parking P1 Hakid",
-    (-21.118, 64.257):  "Almannagjá Thingvellir",
-    (-21.11, 64.265):   "Oxararfoss",
+    (-21.1247, 64.2647): "Almannagjá",
+    (-21.1179, 64.2658): "Öxarárfoss",
     (-16.9748, 64.0276): "Svartifoss",
 }
 
@@ -70,10 +70,11 @@ KINDS = {
 DAYS = {
     1: ("01 – Atvykimas + Auksinis ratas", [
         ("Keflavik oro uostas", KEF[0], KEF[1], "transit", "start"),
-        # Þingvellir: važiuojame iki P1 aikštelės, toliau pėsčiomis per parką
+        # Þingvellir: važiuojame iki P1 aikštelės, pėsčiomis per parką, grįžtame į P1
         ("🅿️ Þingvellir P1 – Hakið", -21.13639, 64.25564, "parking", "drive"),
-        ("Almannagjá plyšys + Lögberg", -21.1180, 64.2570, "sight", "walk"),   # ≈ apytikslė
-        ("Öxarárfoss krioklys", -21.1100, 64.2650, "sight", "walk"),            # ≈ apytikslė
+        ("Almannagjá plyšys + Lögberg", -21.1247222, 64.2647222, "sight", "walk"),
+        ("Öxarárfoss krioklys", -21.117885, 64.2658062, "sight", "walk"),
+        ("🅿️ P1 – grįžimas prie automobilio", -21.13639, 64.25564, "parking", "walk"),
         ("Geysir / Strokkur", -20.3024, 64.3104, "sight", "drive"),
         ("Gullfoss krioklys", -20.1206, 64.3271, "sight", "drive"),
         ("Kerið krateris", -20.8856, 64.0414, "sight", "drive"),
@@ -174,11 +175,10 @@ def build_day_folder(day, title, stops):
     for idx, (name, lon, lat, kind, mode) in enumerate(stops, 1):
         color, _ = KINDS.get(kind, KINDS["sight"])
         link = maps_link(name, lon, lat)
-        desc = (f"<![CDATA[{idx}. {esc(name)}<br>🔗 "
-                f"<a href=\"{link}\">{link}</a>]]>")
+        desc = f"<![CDATA[🔗 <a href=\"{link}\">{link}</a>]]>"
         out.append(
             "      <Placemark>\n"
-            f"        <name>{idx}. {esc(name)}</name>\n"
+            f"        <name>{esc(name)}</name>\n"
             f"        <description>{desc}</description>\n"
             "        <Style><IconStyle>"
             f"<color>{color}</color><scale>1.1</scale>"
