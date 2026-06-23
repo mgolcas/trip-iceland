@@ -44,12 +44,16 @@ SEARCH = {
     (-19.1276, 63.4017): "Dyrholaey",
     (-19.0448, 63.4054): "Reynisfjara Beach",
     (-18.1718, 63.7714): "Fjadrargljufur Canyon",
-    (-16.9665, 64.0159): "Svartifoss",
+    (-16.9665, 64.0159): "Skaftafell Visitor Center",
     (-16.1794, 64.0484): "Jokulsarlon Glacier Lagoon",
     (-16.1755, 64.0432): "Diamond Beach Iceland",
     (-21.9266, 64.1417): "Hallgrimskirkja",
     (-21.9224, 64.1475): "Sun Voyager",
     (-21.9436, 64.1188): "Sky Lagoon Iceland",
+    (-21.1364, 64.2556): "Thingvellir Parking P1 Hakid",
+    (-21.118, 64.257):  "Almannagjá Thingvellir",
+    (-21.11, 64.265):   "Oxararfoss",
+    (-16.9748, 64.0276): "Svartifoss",
 }
 
 # kind -> icon colour (KML aabbggrr)
@@ -65,8 +69,11 @@ KINDS = {
 # Each stop: (name, lon, lat, kind, mode_to_reach)  mode in start|drive|walk
 DAYS = {
     1: ("01 – Atvykimas + Auksinis ratas", [
-        ("Keflavik oro uostas", KEF[0], KEF[1], "parking", "start"),
-        ("Þingvellir nacionalinis parkas", -21.1300, 64.2558, "sight", "drive"),
+        ("Keflavik oro uostas", KEF[0], KEF[1], "transit", "start"),
+        # Þingvellir: važiuojame iki P1 aikštelės, toliau pėsčiomis per parką
+        ("🅿️ Þingvellir P1 – Hakið", -21.13639, 64.25564, "parking", "drive"),
+        ("Almannagjá plyšys + Lögberg", -21.1180, 64.2570, "sight", "walk"),   # ≈ apytikslė
+        ("Öxarárfoss krioklys", -21.1100, 64.2650, "sight", "walk"),            # ≈ apytikslė
         ("Geysir / Strokkur", -20.3024, 64.3104, "sight", "drive"),
         ("Gullfoss krioklys", -20.1206, 64.3271, "sight", "drive"),
         ("Kerið krateris", -20.8856, 64.0414, "sight", "drive"),
@@ -91,7 +98,9 @@ DAYS = {
     4: ("04 – Jökulsárlón + Skaftafell ⚠️", [
         ("Nakvynė – Vík", VIK[0], VIK[1], "hotel", "start"),
         ("Fjaðrárgljúfur kanjonas", -18.1718, 63.7714, "sight", "drive"),
-        ("Skaftafell – Svartifoss", -16.9665, 64.0159, "sight", "drive"),
+        # Skaftafell: važiuojame iki lankytojų centro, ~1.5 km pėsčiomis iki Svartifoss
+        ("🅿️ Skaftafell lankytojų centras", -16.9665, 64.0159, "parking", "drive"),
+        ("Svartifoss krioklys", -16.9748, 64.0276, "sight", "walk"),               # ≈ apytikslė
         ("Jökulsárlón ledynų lagūna", -16.1794, 64.0484, "sight", "drive"),
         ("Diamond Beach", -16.1755, 64.0432, "beach", "walk"),
         ("Nakvynė – Vík", VIK[0], VIK[1], "hotel", "drive"),
@@ -101,7 +110,7 @@ DAYS = {
         ("Reykjavík – Hallgrímskirkja", -21.9266, 64.1417, "sight", "drive"),
         ("Sun Voyager / Harpa", -21.9224, 64.1475, "sight", "walk"),
         ("Sky Lagoon (Kópavogur)", -21.9436, 64.1188, "sight", "drive"),
-        ("KEF – auto grąžinimas + skrydis", KEF[0], KEF[1], "parking", "drive"),
+        ("Keflavik oro uostas", KEF[0], KEF[1], "transit", "drive"),
     ]),
 }
 
