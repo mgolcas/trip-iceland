@@ -292,5 +292,26 @@
       </Placemark>
     </Folder>
 
-  </Document>
+    <Folder>
+    <name>10. Parkingai</name>
+    <Placemark>
+      <name>[01] 🅿️ Þingvellir P1 – Hakið (pagrindinis)</name>
+      <description><![CDATA[🅿️ Pagrindinis parkingas prie Almannagjá plyšio ir lankytojų centro.<br>~1000 ISK/d. 🟡<br>Iš čia trumpas takas į Almannagjá plyšį ir Öxarárfoss.<br>🔗 <a href="https://www.google.com/maps/search/?api=1&query=Thingvellir+Parking+P1">https://www.google.com/maps/search/?api=1&query=Thingvellir+Parking+P1</a>]]></description>
+      <Style><IconStyle><color>ffdb1e1e</color><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/shapes/parking_lot.png</href></Icon></IconStyle></Style>
+      <Point><coordinates>-21.13639,64.25564,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>[01] 🅿️ Þingvellir P2 – Öxarárfoss (alternatyva)</name>
+      <description><![CDATA[🅿️ Alternatyvus parkingas – arčiau Öxarárfoss krioklio.<br>~1000 ISK/d. 🟡<br>🔗 <a href="https://www.google.com/maps/search/?api=1&query=Thingvellir+Parking+P2+Oxararfoss">https://www.google.com/maps/search/?api=1&query=Thingvellir+Parking+P2+Oxararfoss</a>]]></description>
+      <Style><IconStyle><color>ffdb1e1e</color><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/shapes/parking_lot.png</href></Icon></IconStyle></Style>
+      <Point><coordinates>-21.11484,64.26474,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>[04] 🅿️ Skaftafell lankytojų centras (Vatnajökull NP)</name>
+      <description><![CDATA[🅿️ Vatnajökull NP lankytojų centro parkingas. ~750 ISK 🟡<br>Iš čia ~1.5 km pėsčiomis aukštyn iki Svartifoss krioklio (bazalto kolonos).<br>🔗 <a href="https://www.google.com/maps/search/?api=1&query=Skaftafell+Visitor+Center">https://www.google.com/maps/search/?api=1&query=Skaftafell+Visitor+Center</a>]]></description>
+      <Style><IconStyle><color>ffdb1e1e</color><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/shapes/parking_lot.png</href></Icon></IconStyle></Style>
+      <Point><coordinates>-16.9665,64.0159,0</coordinates></Point>
+    </Placemark>
+  </Folder>
+</Document>
 </kml>
