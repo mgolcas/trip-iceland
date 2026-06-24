@@ -76,7 +76,7 @@ DAYS = {
         ("🅿️ Þingvellir P1 – Hakið", -21.13639, 64.25564, "parking", "drive"),
         ("Almannagjá plyšys + Lögberg", -21.1247222, 64.2647222, "sight", "walk"),
         ("Öxarárfoss krioklys", -21.117885, 64.2658062, "sight", "walk"),
-        ("🅿️ P1 – grįžimas prie automobilio", -21.13639, 64.25564, "parking", "walk"),
+        ("🅿️ P1 – grįžimas prie automobilio", -21.13639, 64.25564, "parking", "walk", False),
         ("🅿️ Geysir parkingas", -20.30337, 64.30927, "parking", "drive"),
         ("Strokkur geizeris", -20.3007211, 64.3127094, "sight", "walk"),
         ("Gullfoss krioklys", -20.1206, 64.3271, "sight", "drive"),
@@ -159,6 +159,9 @@ def build_day_folder(day, title, stops):
         b = (cur[1], cur[2])
         if mode == "drive":
             pts = osrm_geometry(a, b)
+            if pts:          # anchor endpoints to exact stop coords (avoids OSRM snap offset)
+                pts[0] = a
+                pts[-1] = b
         else:
             pts = [a, b]
         color, width = LINE_STYLES.get(mode, LINE_STYLES["walk"])
@@ -175,7 +178,11 @@ def build_day_folder(day, title, stops):
             "      </Placemark>"
         )
     # stop pins
-    for idx, (name, lon, lat, kind, mode) in enumerate(stops, 1):
+    for idx, stop in enumerate(stops, 1):
+        name, lon, lat, kind, mode = stop[:5]
+        show_pin = stop[5] if len(stop) > 5 else True
+        if not show_pin:
+            continue
         color, _ = KINDS.get(kind, KINDS["sight"])
         link = maps_link(name, lon, lat)
         desc = f"<![CDATA[🔗 <a href=\"{link}\">{link}</a>]]>"
