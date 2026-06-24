@@ -36,8 +36,8 @@ SEARCH = {
     (-20.1206, 64.3271): "Gullfoss",
     (-20.8856, 64.0414): "Kerid Crater",
     (-20.2218, 63.7510): "Hvolsvollur",
-    (-19.9926, 63.6156): "Seljalandsfoss",
-    (-19.9886, 63.6190): "Gljufrabui",
+    (-19.9886, 63.6156): "Seljalandsfoss",
+    (-19.9864, 63.6209): "Gljufrabui",
     (-19.5111, 63.5320): "Skogafoss",
     (-19.5089, 63.5360): "Skogafoss",
     (-19.4906, 63.5316): "Kvernufoss",
@@ -59,7 +59,7 @@ SEARCH = {
     # parkingai (OSM verified)
     (-20.1307, 64.3252): "Gullfoss Upper Car Park",
     (-20.8870, 64.0415): "Kerid Crater Car Park",
-    (-19.9933, 63.6155): "Seljalandsfoss Parking",
+    (-19.9938, 63.6157): "Seljalandsfoss Parking",
     (-19.5114, 63.5269): "Skogafoss Car Park",
     (-19.4987, 63.5283): "Kvernufoss Trail Parking Skogar",
     (-19.3715, 63.5300): "Solheimajokull Parking",
@@ -105,10 +105,10 @@ DAYS = {
     ]),
     2: ("02 – Kriokliai + Waterfall Way hike", [
         ("Nakvynė – Hvolsvöllur", HVO[0], HVO[1], "hotel", "start"),
-        ("🅿️ Seljalandsfoss parkingas", -19.9933, 63.6155, "parking", "drive"),  # OSM
-        ("Seljalandsfoss krioklys", -19.9926, 63.6156, "sight", "walk"),
-        ("Gljúfrabúi krioklys", -19.9886, 63.6190, "sight", "walk"),
-        ("🅿️ Seljalandsfoss (grįžimas prie automobilio)", -19.9933, 63.6155, "parking", "walk", False),
+        ("🅿️ Seljalandsfoss parkingas", -19.9938, 63.6157, "parking", "drive"),  # Google Maps
+        ("Seljalandsfoss krioklys", -19.9886, 63.6156, "sight", "walk"),
+        ("Gljúfrabúi krioklys", -19.9864, 63.6209, "sight", "walk"),
+        ("🅿️ Seljalandsfoss (grįžimas prie automobilio)", -19.9938, 63.6157, "parking", "walk", False),
         ("🅿️ Skógafoss parkingas", -19.5114, 63.5269, "parking", "drive"),       # OSM
         ("Skógafoss krioklys", -19.5111, 63.5320, "sight", "walk"),
         ("🥾 Waterfall Way (Skógá takas)", -19.5089, 63.5360, "sight", "walk"),
