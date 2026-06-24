@@ -68,6 +68,11 @@ SEARCH = {
     (-18.1675, 63.7783): "Fjadrárgljufur Canyon Parking",
 }
 
+# Direct CID links overriding SEARCH (verified Google Maps place cards)
+LINKS = {
+    (-20.1285, 64.3259): "https://maps.google.com/?cid=10988653360962908817",  # Gullfoss falls Car Park
+}
+
 # kind -> icon colour (KML aabbggrr)
 KINDS = {
     "hotel": ("ff37a000", "grn-circle"),     # green
@@ -173,7 +178,11 @@ def esc(s):
 
 
 def maps_link(name, lon, lat):
-    term = SEARCH.get((round(lon, 4), round(lat, 4)))
+    key = (round(lon, 4), round(lat, 4))
+    direct = LINKS.get(key)
+    if direct:
+        return direct
+    term = SEARCH.get(key)
     if not term:
         # fall back to the placemark name with emoji/index stripped
         term = re.sub(r"[^\w\s/().\-]", "", name, flags=re.UNICODE).strip()

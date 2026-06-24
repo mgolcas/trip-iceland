@@ -113,7 +113,7 @@
       </Placemark>
       <Placemark>
         <name>🅿️ Gullfoss parkingas</name>
-        <description><![CDATA[🔗 <a href="https://www.google.com/maps/search/?api=1&query=Gullfoss+Upper+Car+Park">https://www.google.com/maps/search/?api=1&query=Gullfoss+Upper+Car+Park</a>]]></description>
+        <description><![CDATA[🔗 <a href="https://maps.google.com/?cid=10988653360962908817">https://maps.google.com/?cid=10988653360962908817</a>]]></description>
         <Style><IconStyle><color>ffdb1e1e</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon></IconStyle></Style>
         <Point><coordinates>-20.1285,64.3259,0</coordinates></Point>
       </Placemark>
