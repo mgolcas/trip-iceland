@@ -56,6 +56,16 @@ SEARCH = {
     (-21.1247, 64.2647): "Almannagjá",
     (-21.1179, 64.2658): "Öxarárfoss",
     (-16.9748, 64.0276): "Svartifoss",
+    # parkingai
+    (-20.1285, 64.3259): "Gullfoss Upper Car Park",
+    (-20.8866, 64.0415): "Kerid Crater Car Park",
+    (-19.9909, 63.6151): "Seljalandsfoss Parking",
+    (-19.5127, 63.5317): "Skogafoss Car Park",
+    (-19.5025, 63.5298): "Kvernufoss Trail Parking Skogar",
+    (-19.372, 63.5315): "Solheimajokull Parking",
+    (-19.1298, 63.4044): "Dyrholaey Parking",
+    (-19.0457, 63.4065): "Reynisfjara Car Park",
+    (-18.1675, 63.7783): "Fjadrárgljufur Canyon Parking",
 }
 
 # kind -> icon colour (KML aabbggrr)
@@ -80,37 +90,55 @@ DAYS = {
         ("🅿️ Geysir parkingas", -20.30337, 64.30927, "parking", "drive"),
         ("Strokkur geizeris", -20.3007211, 64.3127094, "sight", "walk"),
         ("🅿️ Geysir (grįžimas prie automobilio)", -20.30337, 64.30927, "parking", "walk", False),
-        ("Gullfoss krioklys", -20.1206, 64.3271, "sight", "drive"),
-        ("Kerið krateris", -20.8856, 64.0414, "sight", "drive"),
+        ("🅿️ Gullfoss parkingas", -20.1285, 64.3259, "parking", "drive"),       # ≈ apytikslė
+        ("Gullfoss krioklys", -20.1206, 64.3271, "sight", "walk"),
+        ("🅿️ Gullfoss (grįžimas prie automobilio)", -20.1285, 64.3259, "parking", "walk", False),
+        ("🅿️ Kerið parkingas", -20.8866, 64.0415, "parking", "drive"),          # ≈ apytikslė
+        ("Kerið krateris", -20.8856, 64.0414, "sight", "walk"),
+        ("🅿️ Kerið (grįžimas prie automobilio)", -20.8866, 64.0415, "parking", "walk", False),
         ("Nakvynė – Hvolsvöllur", HVO[0], HVO[1], "hotel", "drive"),
     ]),
     2: ("02 – Kriokliai + Waterfall Way hike", [
         ("Nakvynė – Hvolsvöllur", HVO[0], HVO[1], "hotel", "start"),
-        ("Seljalandsfoss krioklys", -19.9926, 63.6156, "sight", "drive"),
+        ("🅿️ Seljalandsfoss parkingas", -19.9909, 63.6151, "parking", "drive"),  # ≈ apytikslė
+        ("Seljalandsfoss krioklys", -19.9926, 63.6156, "sight", "walk"),
         ("Gljúfrabúi krioklys", -19.9886, 63.6190, "sight", "walk"),
-        ("🅿️ Seljalandsfoss (grįžimas prie automobilio)", -19.9926, 63.6156, "parking", "walk", False),
-        ("Skógafoss krioklys", -19.5111, 63.5320, "sight", "drive"),
+        ("🅿️ Seljalandsfoss (grįžimas prie automobilio)", -19.9909, 63.6151, "parking", "walk", False),
+        ("🅿️ Skógafoss parkingas", -19.5127, 63.5317, "parking", "drive"),       # ≈ apytikslė
+        ("Skógafoss krioklys", -19.5111, 63.5320, "sight", "walk"),
         ("🥾 Waterfall Way (Skógá takas)", -19.5089, 63.5360, "sight", "walk"),
-        ("🅿️ Skógafoss (grįžimas prie automobilio)", -19.5111, 63.5320, "parking", "walk", False),
-        ("Kvernufoss krioklys", -19.4906, 63.5316, "sight", "drive"),
+        ("🅿️ Skógafoss (grįžimas prie automobilio)", -19.5127, 63.5317, "parking", "walk", False),
+        ("🅿️ Kvernufoss takų parkingas", -19.5025, 63.5298, "parking", "drive"), # ≈ apytikslė (Skógar folk museum)
+        ("Kvernufoss krioklys", -19.4906, 63.5316, "sight", "walk"),
+        ("🅿️ Kvernufoss (grįžimas prie automobilio)", -19.5025, 63.5298, "parking", "walk", False),
         ("Nakvynė – Vík", VIK[0], VIK[1], "hotel", "drive"),
     ]),
     3: ("03 – Sólheimajökull + Reynisfjara + Katla ledo urvas", [
         ("Nakvynė – Vík", VIK[0], VIK[1], "hotel", "start"),
-        ("Sólheimajökull ledynas", -19.3692, 63.5300, "sight", "drive"),
-        ("Dyrhólaey", -19.1276, 63.4017, "sight", "drive"),
-        ("Reynisfjara juodas paplūdimys", -19.0448, 63.4054, "beach", "drive"),
+        ("🅿️ Sólheimajökull parkingas", -19.3720, 63.5315, "parking", "drive"),  # ≈ apytikslė
+        ("Sólheimajökull ledynas", -19.3692, 63.5300, "sight", "walk"),
+        ("🅿️ Sólheimajökull (grįžimas prie automobilio)", -19.3720, 63.5315, "parking", "walk", False),
+        ("🅿️ Dyrhólaey parkingas", -19.1298, 63.4044, "parking", "drive"),        # ≈ apytikslė
+        ("Dyrhólaey", -19.1276, 63.4017, "sight", "walk"),
+        ("🅿️ Dyrhólaey (grįžimas prie automobilio)", -19.1298, 63.4044, "parking", "walk", False),
+        ("🅿️ Reynisfjara parkingas", -19.0457, 63.4065, "parking", "drive"),      # ≈ apytikslė
+        ("Reynisfjara juodas paplūdimys", -19.0448, 63.4054, "beach", "walk"),
+        ("🅿️ Reynisfjara (grįžimas prie automobilio)", -19.0457, 63.4065, "parking", "walk", False),
         ("🕳️ Katla ledo urvas (tūras iš Vík)", VIK[0], VIK[1], "sight", "drive"),
     ]),
     4: ("04 – Jökulsárlón + Skaftafell ⚠️", [
         ("Nakvynė – Vík", VIK[0], VIK[1], "hotel", "start"),
-        ("Fjaðrárgljúfur kanjonas", -18.1718, 63.7714, "sight", "drive"),
+        ("🅿️ Fjaðrárgljúfur parkingas", -18.1675, 63.7783, "parking", "drive"),  # ≈ apytikslė
+        ("Fjaðrárgljúfur kanjonas", -18.1718, 63.7714, "sight", "walk"),
+        ("🅿️ Fjaðrárgljúfur (grįžimas prie automobilio)", -18.1675, 63.7783, "parking", "walk", False),
         # Skaftafell: važiuojame iki lankytojų centro, ~1.5 km pėsčiomis iki Svartifoss
         ("🅿️ Skaftafell lankytojų centras", -16.9665, 64.0159, "parking", "drive"),
         ("Svartifoss krioklys", -16.9748, 64.0276, "sight", "walk"),               # ≈ apytikslė
         ("🅿️ Skaftafell (grįžimas prie automobilio)", -16.9665, 64.0159, "parking", "walk", False),
         ("Jökulsárlón ledynų lagūna", -16.1794, 64.0484, "sight", "drive"),
-        ("Diamond Beach", -16.1755, 64.0432, "beach", "walk"),        ("🅿️ Jökulsárlón (grįžimas prie automobilio)", -16.1794, 64.0484, "parking", "walk", False),        ("Nakvynė – Vík", VIK[0], VIK[1], "hotel", "drive"),
+        ("Diamond Beach", -16.1755, 64.0432, "beach", "walk"),
+        ("🅿️ Jökulsárlón (grįžimas prie automobilio)", -16.1794, 64.0484, "parking", "walk", False),
+        ("Nakvynė – Vík", VIK[0], VIK[1], "hotel", "drive"),
     ]),
     5: ("05 – Reykjavík + Sky Lagoon + išvykimas", [
         ("Nakvynė – Vík", VIK[0], VIK[1], "hotel", "start"),
