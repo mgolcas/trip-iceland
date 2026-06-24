@@ -14,7 +14,7 @@ Convention (see .github/agents/trip-planner.agent.md):
   pin in the same day layer.
 
 Run:  python3 tools/gen_day_maps.py
-Output: Iceland_Dienos.kml
+Output: Iceland.kml
 """
 import json
 import re
@@ -33,44 +33,51 @@ SEARCH = {
     (-20.3024, 64.3104): "Strokkur Geysir",
     (-20.3034, 64.3093): "Geysir Center Iceland",
     (-20.3007, 64.3127): "Strokkur Geyser",
-    (-20.1206, 64.3271): "Gullfoss",
-    (-20.8856, 64.0414): "Kerid Crater",
+    (-20.1199, 64.3271): "Gullfoss",
+    (-20.8851, 64.0413): "Kerid Crater",
     (-20.2218, 63.7510): "Hvolsvollur",
     (-19.9886, 63.6156): "Seljalandsfoss",
     (-19.9864, 63.6209): "Gljufrabui",
-    (-19.5111, 63.5320): "Skogafoss",
-    (-19.5089, 63.5360): "Skogafoss",
-    (-19.4906, 63.5316): "Kvernufoss",
+    (-19.5113, 63.5320): "Skogafoss",
+    (-19.5075, 63.5334): "Hestavadfoss",
+    (-19.4814, 63.5288): "Kvernufoss",
     (-19.0061, 63.4186): "Vik i Myrdal",
-    (-19.3692, 63.5300): "Solheimajokull",
-    (-19.1276, 63.4017): "Dyrholaey",
-    (-19.0448, 63.4054): "Reynisfjara Beach",
-    (-18.1718, 63.7714): "Fjadrargljufur Canyon",
-    (-16.9665, 64.0159): "Skaftafell Visitor Center",
-    (-16.1794, 64.0484): "Jokulsarlon Glacier Lagoon",
-    (-16.1755, 64.0432): "Diamond Beach Iceland",
-    (-21.9266, 64.1417): "Hallgrimskirkja",
+    (-19.0028, 63.4176): "Katla Ice Cave",
+    (-19.3584, 63.5346): "Solheimajokull",
+    (-19.1284, 63.4015): "Dyrholaey",
+    (-19.0716, 63.4057): "Reynisfjara Beach",
+    (-18.1718, 63.7713): "Fjadrargljufur Canyon",
+    (-16.9665, 64.0165): "Skaftafell Visitor Center",
+    (-16.1958, 64.0489): "Jokulsarlon Glacier Lagoon",
+    (-16.1777, 64.0443): "Diamond Beach Iceland",
+    (-21.9265, 64.1420): "Hallgrimskirkja",
     (-21.9224, 64.1475): "Sun Voyager",
-    (-21.9436, 64.1188): "Sky Lagoon Iceland",
+    (-21.9463, 64.1165): "Sky Lagoon Iceland",
     (-21.1364, 64.2556): "Thingvellir Parking P1 Hakid",
     (-21.1247, 64.2647): "Almannagjá",
     (-21.1179, 64.2658): "Öxarárfoss",
-    (-16.9748, 64.0276): "Svartifoss",
-    # parkingai (OSM verified)
-    (-20.1307, 64.3252): "Gullfoss Upper Car Park",
-    (-20.8870, 64.0415): "Kerid Crater Car Park",
+    (-16.9753, 64.0275): "Svartifoss",
+    # parkingai
+    (-20.1299, 64.3252): "Gullfoss Upper Car Park",
+    (-20.8867, 64.0419): "Kerid Crater Car Park",
     (-19.9938, 63.6157): "Seljalandsfoss Parking",
-    (-19.5114, 63.5269): "Skogafoss Car Park",
-    (-19.4987, 63.5283): "Kvernufoss Trail Parking Skogar",
-    (-19.3715, 63.5300): "Solheimajokull Parking",
-    (-19.1290, 63.4040): "Dyrholaey Parking",
-    (-19.0452, 63.4043): "Reynisfjara Car Park",
-    (-18.1685, 63.7795): "Fjadrárgljufur Canyon Parking",
+    (-19.5128, 63.5277): "Skogafoss Car Park",
+    (-19.49, 63.5251): "Kvernufoss Parking",
+    (-19.3704, 63.5304): "Solheimajokull Parking",
+    (-19.1289, 63.4041): "Dyrholaey Parking",
+    (-19.0447, 63.4042): "Reynisfjara Car Park",
+    (-18.1717, 63.7703): "Fjadrárgljufur Canyon Parking",
+    (-16.1797, 64.0480): "Jokulsarlon Glacier Lagoon Parking",
+    (-16.1779, 64.0455): "Diamond Beach Parking",
+    (-21.9270, 64.1419): "Hallgrimskirkja Parking Lot",
 }
 
 # Direct CID links overriding SEARCH (verified Google Maps place cards)
 LINKS = {
-    (-20.1307, 64.3252): "https://maps.google.com/?cid=10988653360962908817",  # Gullfoss falls Car Park
+    (-20.1299, 64.3252): "https://maps.google.com/?cid=10988653360962908817",  # Gullfoss parkingas
+    (-16.1797, 64.0480): "https://maps.google.com/?cid=18024857851449796574",  # Jökulsárlón Glacier Lagoon Parking
+    (-16.1779, 64.0455): "https://maps.google.com/?cid=4059657798852550162",   # Diamond Beach Parking
+    (-21.9270, 64.1419): "https://maps.google.com/?cid=8301664305105330080",    # Hallgrímskirkja parkingas
 }
 
 # kind -> icon colour (KML aabbggrr)
@@ -95,12 +102,12 @@ DAYS = {
         ("🅿️ Geysir parkingas", -20.30337, 64.30927, "parking", "drive"),
         ("Strokkur geizeris", -20.3007211, 64.3127094, "sight", "walk"),
         ("🅿️ Geysir (grįžimas prie automobilio)", -20.30337, 64.30927, "parking", "walk", False),
-        ("🅿️ Gullfoss parkingas", -20.1307, 64.3252, "parking", "drive"),       # OSM
-        ("Gullfoss krioklys", -20.1206, 64.3271, "sight", "walk"),
-        ("🅿️ Gullfoss (grįžimas prie automobilio)", -20.1307, 64.3252, "parking", "walk", False),
-        ("🅿️ Kerið parkingas", -20.8870, 64.0415, "parking", "drive"),          # OSM
-        ("Kerið krateris", -20.8856, 64.0414, "sight", "walk"),
-        ("🅿️ Kerið (grįžimas prie automobilio)", -20.8870, 64.0415, "parking", "walk", False),
+        ("🅿️ Gullfoss parkingas", -20.1299, 64.3252, "parking", "drive"),
+        ("Gullfoss krioklys", -20.1199, 64.3271, "sight", "walk"),
+        ("🅿️ Gullfoss (grįžimas prie automobilio)", -20.1299, 64.3252, "parking", "walk", False),
+        ("🅿️ Kerið parkingas", -20.8867, 64.0419, "parking", "drive"),
+        ("Kerið krateris", -20.8851, 64.0413, "sight", "walk"),
+        ("🅿️ Kerið (grįžimas prie automobilio)", -20.8867, 64.0419, "parking", "walk", False),
         ("Nakvynė – Hvolsvöllur", HVO[0], HVO[1], "hotel", "drive"),
     ]),
     2: ("02 – Kriokliai + Waterfall Way hike", [
@@ -109,48 +116,52 @@ DAYS = {
         ("Seljalandsfoss krioklys", -19.9886, 63.6156, "sight", "walk"),
         ("Gljúfrabúi krioklys", -19.9864, 63.6209, "sight", "walk"),
         ("🅿️ Seljalandsfoss (grįžimas prie automobilio)", -19.9938, 63.6157, "parking", "walk", False),
-        ("🅿️ Skógafoss parkingas", -19.5114, 63.5269, "parking", "drive"),       # OSM
-        ("Skógafoss krioklys", -19.5111, 63.5320, "sight", "walk"),
-        ("🥾 Waterfall Way (Skógá takas)", -19.5089, 63.5360, "sight", "walk"),
-        ("🅿️ Skógafoss (grįžimas prie automobilio)", -19.5114, 63.5269, "parking", "walk", False),
-        ("🅿️ Kvernufoss takų parkingas", -19.4987, 63.5283, "parking", "drive"), # OSM
-        ("Kvernufoss krioklys", -19.4906, 63.5316, "sight", "walk"),
-        ("🅿️ Kvernufoss (grįžimas prie automobilio)", -19.4987, 63.5283, "parking", "walk", False),
+        ("🅿️ Skógafoss parkingas", -19.5128, 63.5277, "parking", "drive"),
+        ("Skógafoss krioklys", -19.5113, 63.5320, "sight", "walk"),
+        ("Hestavaðsfoss", -19.5075, 63.5334, "sight", "walk"),
+        ("🅿️ Skógafoss (grįžimas prie automobilio)", -19.5128, 63.5277, "parking", "walk", False),
+        ("🅿️ Kvernufoss parkingas", -19.49, 63.5251, "parking", "drive"),
+        ("Kvernufoss krioklys", -19.4814, 63.5288, "sight", "walk"),
+        ("🅿️ Kvernufoss (grįžimas prie automobilio)", -19.49, 63.5251, "parking", "walk", False),
         ("Nakvynė – Vík", VIK[0], VIK[1], "hotel", "drive"),
     ]),
     3: ("03 – Sólheimajökull + Reynisfjara + Katla ledo urvas", [
         ("Nakvynė – Vík", VIK[0], VIK[1], "hotel", "start"),
-        ("🅿️ Sólheimajökull parkingas", -19.3715, 63.5300, "parking", "drive"),  # OSM
-        ("Sólheimajökull ledynas", -19.3692, 63.5300, "sight", "walk"),
-        ("🅿️ Sólheimajökull (grįžimas prie automobilio)", -19.3715, 63.5300, "parking", "walk", False),
-        ("🅿️ Dyrhólaey parkingas", -19.1290, 63.4040, "parking", "drive"),        # OSM
-        ("Dyrhólaey", -19.1276, 63.4017, "sight", "walk"),
-        ("🅿️ Dyrhólaey (grįžimas prie automobilio)", -19.1290, 63.4040, "parking", "walk", False),
-        ("🅿️ Reynisfjara parkingas", -19.0452, 63.4043, "parking", "drive"),      # OSM
-        ("Reynisfjara juodas paplūdimys", -19.0448, 63.4054, "beach", "walk"),
-        ("🅿️ Reynisfjara (grįžimas prie automobilio)", -19.0452, 63.4043, "parking", "walk", False),
-        ("🕳️ Katla ledo urvas (tūras iš Vík)", VIK[0], VIK[1], "sight", "drive"),
+        ("🅿️ Sólheimajökull parkingas", -19.3704, 63.5304, "parking", "drive"),
+        ("Sólheimajökull ledynas", -19.3584, 63.5346, "sight", "walk"),
+        ("🅿️ Sólheimajökull (grįžimas prie automobilio)", -19.3704, 63.5304, "parking", "walk", False),
+        ("🅿️ Dyrhólaey parkingas", -19.1289, 63.4041, "parking", "drive"),
+        ("Dyrhólaey", -19.1284, 63.4015, "sight", "walk"),
+        ("🅿️ Dyrhólaey (grįžimas prie automobilio)", -19.1289, 63.4041, "parking", "walk", False),
+        ("🅿️ Reynisfjara parkingas", -19.0447, 63.4042, "parking", "drive"),
+        ("Reynisfjara juodas paplūdimys", -19.0716, 63.4057, "beach", "walk"),
+        ("🅿️ Reynisfjara (grįžimas prie automobilio)", -19.0447, 63.4042, "parking", "walk", False),
+        ("Katla ledo urvas", -19.0028, 63.4176, "sight", "drive"),
     ]),
     4: ("04 – Jökulsárlón + Skaftafell ⚠️", [
         ("Nakvynė – Vík", VIK[0], VIK[1], "hotel", "start"),
-        ("🅿️ Fjaðrárgljúfur parkingas", -18.1685, 63.7795, "parking", "drive"),  # OSM
-        ("Fjaðrárgljúfur kanjonas", -18.1718, 63.7714, "sight", "walk"),
-        ("🅿️ Fjaðrárgljúfur (grįžimas prie automobilio)", -18.1685, 63.7795, "parking", "walk", False),
+        ("🅿️ Fjaðrárgljúfur parkingas", -18.1717, 63.7703, "parking", "drive"),
+        ("Fjaðrárgljúfur kanjonas", -18.1718, 63.7713, "sight", "walk"),
+        ("🅿️ Fjaðrárgljúfur (grįžimas prie automobilio)", -18.1717, 63.7703, "parking", "walk", False),
         # Skaftafell: važiuojame iki lankytojų centro, ~1.5 km pėsčiomis iki Svartifoss
-        ("🅿️ Skaftafell lankytojų centras", -16.9665, 64.0159, "parking", "drive"),
-        ("Svartifoss krioklys", -16.9748, 64.0276, "sight", "walk"),               # ≈ apytikslė
-        ("🅿️ Skaftafell (grįžimas prie automobilio)", -16.9665, 64.0159, "parking", "walk", False),
-        ("Jökulsárlón ledynų lagūna", -16.1794, 64.0484, "sight", "drive"),
-        ("Diamond Beach", -16.1755, 64.0432, "beach", "walk"),
-        ("🅿️ Jökulsárlón (grįžimas prie automobilio)", -16.1794, 64.0484, "parking", "walk", False),
+        ("🅿️ Skaftafell lankytojų centras", -16.9665, 64.0165, "parking", "drive"),
+        ("Svartifoss krioklys", -16.9753, 64.0275, "sight", "walk"),
+        ("🅿️ Skaftafell (grįžimas prie automobilio)", -16.9665, 64.0165, "parking", "walk", False),
+        ("🅿️ Jökulsárlón parkingas", -16.17974, 64.04804, "parking", "drive"),
+        ("Jökulsárlón ledynų lagūna", -16.1958, 64.0489, "sight", "walk"),
+        ("🅿️ Jökulsárlón (grįžimas prie automobilio)", -16.17974, 64.04804, "parking", "walk", False),
+        ("🅿️ Diamond Beach parkingas", -16.1779, 64.0455, "parking", "drive"),
+        ("Diamond Beach", -16.1777, 64.0443, "beach", "walk"),
+        ("🅿️ Diamond Beach (grįžimas prie automobilio)", -16.1779, 64.0455, "parking", "walk", False),
         ("Nakvynė – Vík", VIK[0], VIK[1], "hotel", "drive"),
     ]),
     5: ("05 – Reykjavík + Sky Lagoon + išvykimas", [
         ("Nakvynė – Vík", VIK[0], VIK[1], "hotel", "start"),
-        ("Reykjavík – Hallgrímskirkja", -21.9266, 64.1417, "sight", "drive"),
+        ("🅿️ Hallgrímskirkja parkingas", -21.92697, 64.1419, "parking", "drive"),
+        ("Hallgrímskirkja", -21.92654, 64.14202, "sight", "walk"),
         ("Sun Voyager / Harpa", -21.9224, 64.1475, "sight", "walk"),
-        ("🅿️ Reykjavík (grįžimas prie automobilio)", -21.9266, 64.1417, "parking", "walk", False),
-        ("Sky Lagoon (Kópavogur)", -21.9436, 64.1188, "sight", "drive"),
+        ("🅿️ Reykjavík (grīžimas prie automobilio)", -21.92697, 64.1419, "parking", "walk", False),
+        ("Sky Lagoon (Kópavogur)", -21.94629, 64.11648, "sight", "drive"),
         ("Keflavik oro uostas", KEF[0], KEF[1], "transit", "drive"),
     ]),
 }
@@ -266,9 +277,9 @@ def build_map(name, day_range):
 def main():
     print("Iceland day map (D01-05):")
     m = build_map("Islandija – Dienų maršrutai 01–05", range(1, 6))
-    with open("Iceland_Dienos.kml", "w", encoding="utf-8") as f:
+    with open("Iceland.kml", "w", encoding="utf-8") as f:
         f.write(m)
-    print("Done -> Iceland_Dienos.kml")
+    print("Done -> Iceland.kml")
 
 
 if __name__ == "__main__":

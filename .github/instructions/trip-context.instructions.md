@@ -16,13 +16,12 @@ applyTo: ["*.kml", "Dienu_Planas.txt", "*.py"]
 ## Key Files
 | File | Purpose | Who reads it |
 |------|---------|--------------|
-| `Iceland.kml` | Thematic Google My Map — placemarks by theme + daily PLANAS folder | Quick map lookup |
-| `Iceland_Dienos.kml` | Day-route map (1 day = 1 layer, drive/walk lines) | On-the-road daily navigation |
+| `Iceland.kml` | Day-route map — 5 layers (D01–D05), drive/walk lines. **Auto-generated** — never hand-edit | On-the-road daily navigation |
 | `Dienu_Planas.txt` | Master human-readable itinerary with real clock times | Quick daily overview |
-| `Keliones_Asistentas.txt` | Prep checklist + logistics (car, fuel, weather, safety) | Pre-trip prep |
-| `tools/gen_day_maps.py` | Generator that builds the day-route map (OSRM driving geometry) | Regenerating the day map |
+| `Keliones_Asistentas.txt` | Prep checklist + logistics (car, fuel, weather, safety, restaurant links) | Pre-trip prep |
+| `tools/gen_day_maps.py` | Source of truth — DAYS/SEARCH/LINKS → generates `Iceland.kml` | Editing stops/coords |
 
-**Rule**: `Dienu_Planas.txt` is the master reference for times and day numbering. KML must match it.
+**Rule**: `Dienu_Planas.txt` is the master reference for times and day numbering. `Iceland.kml` is always regenerated from `gen_day_maps.py` — never modified directly.
 
 ## Day Schedule Overview
 
@@ -34,32 +33,25 @@ applyTo: ["*.kml", "Dienu_Planas.txt", "*.py"]
 | 04 | 09.06 | Sekmadienis | Jökulsárlón + Fjaðrárgljúfur + Diamond Beach ⚠️ ILGA DIENA |
 | 05 | 09.07 | Pirmadienis | Reykjavík + auto grąžinimas + išvykimas |
 
-## KML Folder Structure (`Iceland.kml`)
-| # | Folder name | Purpose |
-|---|-------------|---------|
-| 1 | `1. Atvykimas / KEF / Reykjavík` | Airport + Reykjavík landmarks |
-| 2 | `2. Auksinis ratas` | Golden Circle |
-| 3 | `3. Kriokliai` | Waterfalls |
-| 4 | `4. Pakrantė ir paplūdimiai` | Coast & beaches |
-| 5 | `5. Ledynai ir kanjonai` | Glaciers & canyons |
-| 6 | `6. Pėsčiųjų / žygio maršrutai` | Hiking routes (Waterfall Way) |
-| 7 | `7. Restoranai` | Restaurants per day |
-| 8 | `8. Nakvynės` | Lodging bases |
-| 9 | `9. Dienos planas` | PLANAS [01]-[05] daily plan placemarks |
+## `Iceland.kml` Structure (auto-generated)
+`Iceland.kml` has **5 `<Folder>` layers**, one per day (D01–D05). Every stop is a tappable `<Placemark>`.
+All days use the parking pattern: `🅿️ parkingas (drive)` → `Sight (walk)` → `🅿️ grįžimas (walk, False)`.
+Edit via `tools/gen_day_maps.py` (DAYS/SEARCH/LINKS tables), then regenerate.
 
 ## KML Editing Rules
-- Never hand-edit large KML as raw XML. Always write a Python script, run it, delete it.
+- `Iceland.kml` is **auto-generated** — never hand-edit. Always modify `tools/gen_day_maps.py` and run `python3 tools/gen_day_maps.py`.
 - KML coordinates are `LONGITUDE,LATITUDE,0` (longitude first — KML standard).
-- PLANAS / Maps links use `?api=1&query=Place+Name` (an ASCII landmark name Google opens
-  as a place card with photo + Directions, e.g. `Skogafoss`, `Thingvellir+National+Park`) —
-  NOT raw `LAT,LON`. Spaces → `+`.
-- **Google My Maps limit: 10 layers per map.** `Iceland.kml` has 9 folders; the day-route
-  map has 5 day-layers — both stay under the limit (single map each).
+- Maps links use `?api=1&query=Place+Name` (ASCII landmark name → Google place card with Directions) — NOT raw `LAT,LON`. Spaces → `+`.
+- `maps_link()` looks up `(round(lon,4), round(lat,4))` in `LINKS` (CID override) then `SEARCH` (query string). All `DAYS` coords must round to 4 dp to match dict keys.
+- **Google My Maps limit: 10 layers per map.** `Iceland.kml` has 5 day-layers — well under the limit.
 
-## Day-Route Map (preferred for navigation)
-- `Iceland_Dienos.kml`: **1 day = 1 layer**; every stop is its own tappable placemark with its own `🔗`.
-- Route lines: 🚗 drive = blue (`ffff0000`, follows roads via OSRM), 🚶 walk/hike = green (`ff008000`).
-- Regenerate via `python3 tools/gen_day_maps.py` (edit its `DAYS` table first).
+## Day-Route Map — `Iceland.kml` (auto-generated)
+- **1 day = 1 layer** (`<Folder>`); 5 days = 5 layers. Regenerate: `python3 tools/gen_day_maps.py`.
+- Every stop is its own tappable `<Placemark>` with a Maps link. Route lines show the day visually — Google Maps does NOT turn-by-turn along a KML line.
+- Route lines: 🚗 drive = blue (`ffff0000`, OSRM road geometry), 🚶 walk/hike = green (`ff008000`).
+- **Each stop's coordinate = the OBJECT / viewpoint you actually visit.** Tap **Directions** for live nav.
+- All days use `🅿️ parkingas (drive)` → `Sight (walk)` → `🅿️ grįžimas (walk, False)` pattern.
+- Pin colours (KINDS): `hotel`=green, `parking`=blue, `sight`=red, `beach`=yellow, `transit`=purple.
 
 ## Driving-Time Realism
 - Never guess drive times. Verify each leg with OSRM: `http://router.project-osrm.org/route/v1/driving/lon1,lat1;lon2,lat2?overview=false`.

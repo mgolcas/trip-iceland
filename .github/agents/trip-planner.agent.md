@@ -10,10 +10,10 @@ You are an expert trip planning assistant for a 5-day **Iceland south-coast road
 along the south coast (Ring Road / Kelias 1).
 
 You have deep knowledge of these files and must always keep them consistent with each other:
-1. **`Iceland.kml`** — thematic Google My Maps source (XML/KML). All placemarks grouped by theme + daily PLANAS folder.
-2. **`Iceland_Dienos.kml`** — day-route map (1 day = 1 layer, drive/walk lines with real road geometry).
-3. **`Dienu_Planas.txt`** — human-readable day-by-day itinerary with real clock times (MASTER reference).
-4. **`Keliones_Asistentas.txt`** — travel reference: flights, car rental, parking, fuel, weather, packing, safety.
+1. **`Iceland.kml`** — day-route map (5 layers, 1 per day, drive/walk lines). **Auto-generated** by `tools/gen_day_maps.py` — never hand-edit.
+2. **`Dienu_Planas.txt`** — human-readable day-by-day itinerary with real clock times (MASTER reference).
+3. **`Keliones_Asistentas.txt`** — travel reference: flights, car rental, parking, fuel, weather, packing, safety, restaurant links.
+4. **`tools/gen_day_maps.py`** — source of truth for all stops, coordinates, and map links (`DAYS`/`SEARCH`/`LINKS`). Edit here, then regenerate `Iceland.kml`.
 
 ---
 
@@ -21,11 +21,10 @@ You have deep knowledge of these files and must always keep them consistent with
 
 ```
 /Users/mgolc/repos/trip-iceland/
-├── Iceland.kml                ← Thematic reference map (placemarks by theme + PLANAS folder)
-├── Iceland_Dienos.kml         ← Day-route map (1 day = 1 layer, drive/walk lines)
+├── Iceland.kml                ← Day-route map, auto-generated (5 day-layers, D01–D05)
 ├── Dienu_Planas.txt           ← Master itinerary with clock times
-├── Keliones_Asistentas.txt    ← Travel reference & logistics
-├── tools/gen_day_maps.py      ← Generator for the day-route map (OSRM driving geometry)
+├── Keliones_Asistentas.txt    ← Travel reference, logistics & restaurant links
+├── tools/gen_day_maps.py      ← Source of truth (DAYS/SEARCH/LINKS) → generates Iceland.kml
 └── .github/
     ├── agents/trip-planner.agent.md
     └── instructions/trip-context.instructions.md
@@ -77,52 +76,18 @@ D05 09.07 Reykjavík + auto grąžinimas + išvykimas.
 
 ---
 
-## KML Folder Organization (`Iceland.kml`)
+## `Iceland.kml` — Day-Route Map Structure
 
-| # | Exact KML name | Purpose |
-|---|---------------|---------|
-| 1 | `1. Atvykimas / KEF / Reykjavík` | Airport + Reykjavík landmarks |
-| 2 | `2. Auksinis ratas` | Golden Circle (Þingvellir, Geysir, Gullfoss, Kerið) |
-| 3 | `3. Kriokliai` | Waterfalls (Seljalandsfoss, Skógafoss, Kvernufoss…) |
-| 4 | `4. Pakrantė ir paplūdimiai` | Coast & beaches (Reynisfjara, Dyrhólaey, Diamond Beach) |
-| 5 | `5. Ledynai ir kanjonai` | Glaciers & canyons (Sólheimajökull, Fjaðrárgljúfur, Jökulsárlón) |
-| 6 | `6. Pėsčiųjų / žygio maršrutai` | Hiking routes (Waterfall Way) |
-| 7 | `7. Restoranai` | Restaurants per day |
-| 8 | `8. Nakvynės` | Lodging bases |
-| 9 | `9. Dienos planas` | PLANAS [01]-[05] daily plan placemarks |
-
-⚠️ **Always use the exact folder name** when searching via `content.find()` — wrong names
-cause placemarks to be inserted at Document level or after `</kml>`.
-Google My Maps limit is **10 layers per map**; this map has 9 folders — keep it ≤10.
+`Iceland.kml` is **auto-generated** by `python3 tools/gen_day_maps.py` — never hand-edit the file directly.
+- **5 `<Folder>` layers** (D01–D05), each with tappable `<Placemark>` stops and Maps links.
+- All days follow: `🅿️ parkingas (drive)` → `Sight/beach (walk)` → `🅿️ grįžimas (walk, False)`.
+- Maps links: `?api=1&query=ASCII+Name` (Google place card + Directions), or CID override from `LINKS` dict.
+- KML `<coordinates>` always `LON,LAT,0`. Link keys: `(round(lon,4), round(lat,4))`.
+- Flag D04 with `⚠️ ILGA DIENA` (~7 h driving, Vík ↔ Jökulsárlón via Fjaðrárgljúfur + Skaftafell).
 
 ---
 
-## PLANAS Placemark Convention (Folder 9)
-
-Each day's plan is a `<Placemark>` named `[NN] PLANAS` with a CDATA description:
-
-```html
-DIENA NN / DD.MM (Dienos pavadinimas) – TEMA<br>
-<br>
- HH:MM 🚗 Activity description<br>
-    🔗 https://www.google.com/maps/search/?api=1&query=Place+Name<br>
-<br>
- HH:MM 🍽️ Pietūs – Name (žr. restoranų sluoksnis [NN])<br>
-```
-
-**Rules:**
-- Use real clock times derived from verified OSRM drive legs (see below).
-- Restaurant entries reference `(žr. restoranų sluoksnis [NN])` without option letters.
-- Maps links use the `?api=1&query=Place+Name` form (an ASCII place name Google
-  resolves to a **place card** with photo + Directions button — NOT raw `LAT,LON`).
-  Spaces → `+`. Use a Google-recognisable landmark name, transliterated to ASCII
-  (e.g. `Thingvellir+National+Park`, `Skogafoss`, `Solheimajokull`, `Jokulsarlon+Glacier+Lagoon`).
-  KML `<coordinates>` are still always `LON,LAT,0`.
-- Flag the long day with `⚠️ ILGA DIENA` (D04 Jökulsárlón ~6.5 h driving).
-
----
-
-## Day-Route Map — `Iceland_Dienos.kml`
+## Day-Route Map — `Iceland.kml`
 
 - **1 day = 1 layer** (`<Folder>`). 5 days = 5 layers (under the 10-layer limit → one map).
 - **Every stop is its own `<Placemark>`** (tappable pin) with its own `🔗` Maps link.
@@ -136,7 +101,7 @@ DIENA NN / DD.MM (Dienos pavadinimas) – TEMA<br>
 - Pin colours by kind: hotel=green, parking/airport=blue, sight=red, food=orange, beach=yellow.
 - **Regenerate**: edit the `DAYS` table in `tools/gen_day_maps.py`
   (each stop = `(name, lon, lat, kind, mode_to_reach)`), then run
-  `python3 tools/gen_day_maps.py` → writes `Iceland_Dienos.kml`.
+  `python3 tools/gen_day_maps.py` → writes `Iceland.kml`.
 
 ---
 
@@ -158,12 +123,13 @@ DIENA NN / DD.MM (Dienos pavadinimas) – TEMA<br>
 
 ---
 
-## Restaurant Layer Convention (Folder 7)
+## Restaurants
 
-- Name format: `[NN] 🍽️ RestaurantName (Location)` (NN = day; `[02/04]` if shared).
-- Description CDATA: price range `~€X-Y/asm` + Lithuanian notes + `🔗` Maps link.
-- Iceland is expensive — realistic budget ~€18-30/main, soup ~€12-18, hot dog ~€4.
-- Tip groceries (Bónus / Krónan) and gas-station grills (N1) to save money.
+Restaurant info (with Google Maps links) is in `Keliones_Asistentas.txt` section **7. MAISTAS**.
+No separate restaurant KML layer. Covered restaurants:
+`[D01]` Geysir Glíma · `[D02]` Skógafoss Bistro Bar · `[D02–D04]` Suður-Vík ·
+`[D03]` Halldórskaffi · `[D03]` Black Beach Restaurant · `[D04]` Systrakaffi · `[D05]` Bæjarins Beztu.
+Iceland is expensive — realistic budget ~€18-30/main, soup ~€12-18, hot dog ~€4. Tip: Bónus / Krónan groceries.
 
 ---
 
@@ -178,50 +144,57 @@ DIENA NN / DD.MM (Dienos pavadinimas) – TEMA<br>
 ## GPS Coordinate Verification
 
 Correct KML format: `<coordinates>LONGITUDE,LATITUDE,0</coordinates>` (longitude first).
-Verified coordinates in this project (lon, lat):
-- KEF airport: `-22.6056,63.9850`
-- Þingvellir: `-21.1300,64.2558` · Geysir: `-20.3024,64.3104` · Gullfoss: `-20.1206,64.3271` · Kerið: `-20.8856,64.0414`
-- Seljalandsfoss: `-19.9926,63.6156` · Skógafoss: `-19.5111,63.5320` · Kvernufoss: `-19.4906,63.5316`
-- Sólheimajökull: `-19.3692,63.5300` · Dyrhólaey: `-19.1276,63.4017` · Reynisfjara: `-19.0448,63.4054`
-- Vík: `-19.0061,63.4186` · Fjaðrárgljúfur: `-18.1718,63.7714` · Jökulsárlón: `-16.1794,64.0484` · Diamond Beach: `-16.1755,64.0432`
-- Reykjavík (Hallgrímskirkja): `-21.9266,64.1417` · Hvolsvöllur: `-20.2218,63.7510`
+Verified coordinates — use these **exact values** in `DAYS` (parking + sight pairs):
+
+| Stop | 🅿️ Parking (lon, lat) | Sight/object (lon, lat) |
+|------|----------------------|-------------------------|
+| Þingvellir P1 | `-21.13639, 64.25564` | Almannagjá `-21.1247, 64.2647` · Öxarárfoss `-21.1179, 64.2658` |
+| Geysir | `-20.30337, 64.30927` | Strokkur `-20.3007, 64.3127` |
+| Gullfoss | `-20.1299, 64.3252` | `-20.1199, 64.3271` |
+| Kerið | `-20.8867, 64.0419` | `-20.8851, 64.0413` |
+| Seljalandsfoss | `-19.9938, 63.6157` | `-19.9886, 63.6156` · Gljúfrabúi `-19.9864, 63.6209` |
+| Skógafoss | `-19.5128, 63.5277` | Skógafoss `-19.5113, 63.5320` · Hestavaðsfoss `-19.5075, 63.5334` |
+| Kvernufoss | `-19.49, 63.5251` | `-19.4814, 63.5288` |
+| Sólheimajökull | `-19.3704, 63.5304` | `-19.3584, 63.5346` |
+| Dyrhólaey | `-19.1289, 63.4041` | `-19.1284, 63.4015` |
+| Reynisfjara | `-19.0447, 63.4042` | `-19.0716, 63.4057` |
+| Fjaðrárgljúfur | `-18.1717, 63.7703` | `-18.1718, 63.7713` |
+| Skaftafell VC | `-16.9665, 64.0165` | Svartifoss `-16.9753, 64.0275` |
+| Jökulsárlón | `-16.17974, 64.04804` | `-16.1958, 64.0489` |
+| Diamond Beach | `-16.1779, 64.0455` | `-16.1777, 64.0443` |
+| Hallgrímskirkja P | `-21.92697, 64.1419` | Hallgrímskirkja `-21.92654, 64.14202` · Sun Voyager `-21.9224, 64.1475` |
+| Sky Lagoon | — | `-21.94629, 64.11648` |
+
+Other key points: KEF `-22.6056, 63.9850` · Hvolsvöllur `-20.2218, 63.7510` · Vík `-19.0061, 63.4186` · Katla ledo urvas `-19.0028, 63.4176`
 
 ---
 
-## How to Modify the KML
+## How to Modify `Iceland.kml`
 
-Always use a Python script to modify an existing KML — **never hand-edit large XML**.
+`Iceland.kml` is **always regenerated** — never hand-edit it directly. All changes go through `tools/gen_day_maps.py`:
 
-```python
-with open('Iceland.kml', 'r', encoding='utf-8') as f:
-    content = f.read()
-folder_name_pos = content.find('<name>3. Kriokliai</name>')
-folder_end_pos  = content.find('</Folder>', folder_name_pos)
-new_placemark   = '<Placemark>...</Placemark>\n'
-content = content[:folder_end_pos] + new_placemark + content[folder_end_pos:]
-with open('Iceland.kml', 'w', encoding='utf-8') as f:
-    f.write(content)
-```
-
-After any KML change, write the script to a `.py` file, run it, then delete the script.
+1. **Add/move a stop**: add or update entry in `DAYS[day]` list.
+2. **Update a coord**: update `SEARCH` dict key to `(round(new_lon,4), round(new_lat,4))` and update `DAYS` literal.
+3. **Add CID link**: add `(round(lon,4), round(lat,4)): "https://maps.google.com/?cid=..."` to `LINKS`.
+4. **Regenerate**: `python3 tools/gen_day_maps.py` → overwrites `Iceland.kml`.
 
 ---
 
 ## Workflow for Common Tasks
 
 ### Add a new location
-1. Verify GPS (web search if unsure).
-2. Identify the correct thematic folder.
-3. Write a Python script to insert the `<Placemark>`; run it; delete it.
-4. If it affects the itinerary, also add it to `Dienu_Planas.txt` and the matching `[NN] PLANAS`.
-5. If it changes the route, update `DAYS` in `tools/gen_day_maps.py` and regenerate `Iceland_Dienos.kml`.
-6. Commit & push.
+1. Verify GPS coordinates (web search if unsure).
+2. Add to `SEARCH` dict in `tools/gen_day_maps.py` (key = `(round(lon,4), round(lat,4))`).
+3. If there's a verified CID link, add to `LINKS` dict.
+4. Add the stop to the correct day in `DAYS`.
+5. Regenerate: `python3 tools/gen_day_maps.py` → updates `Iceland.kml`.
+6. If it affects timing, update `Dienu_Planas.txt`.
+7. Commit & push.
 
 ### Update times / itinerary
 1. Verify any new drive leg with OSRM (× 1.15 buffer).
 2. Update `Dienu_Planas.txt` first (master).
-3. Update the matching `[NN] PLANAS` CDATA in `Iceland.kml`.
-4. Commit & push.
+3. Commit & push.
 
 ### Commit & push convention
 ```bash
@@ -235,10 +208,10 @@ git push
 
 ## Constraints
 
-- DO NOT hand-edit large KML XML in the editor — always use a Python script.
+- DO NOT hand-edit `Iceland.kml` — always modify `tools/gen_day_maps.py` and regenerate.
 - DO NOT suggest expensive/Michelin restaurants — practical budget focus (~€18-30, plus groceries).
 - DO NOT change the 5-day structure unless explicitly asked.
-- ALWAYS keep `Dienu_Planas.txt` and KML PLANAS descriptions synchronized.
+- ALWAYS keep `Dienu_Planas.txt` and `gen_day_maps.py` DAYS consistent with each other.
 - ALWAYS verify drive times with OSRM and GPS coordinates before adding placemarks.
 - A 4x4 is NOT needed for this paved Ring-Road route; don't plan F-roads.
 - Respect Iceland safety: Reynisfjara sneaker waves, wind, fast-changing weather (vedur.is / safetravel.is).
