@@ -6,7 +6,8 @@
 
   ✈️ ATVYKIMAS : 09.03  06:35 Vilnius → 07:55 KEF (Keflavík)
   ✈️ IŠVYKIMAS : 09.07  17:25 KEF → 09.08 00:20 Vilnius
-  🚗 AUTOMOBILIS: paėmimas KEF (09.03), grąžinimas KEF (09.07)
+  🚗 AUTOMOBILIS: Dacia Duster 4WD, mechaninė – REZERVUOTA ✅
+                 paėmimas KEF (09.03), grąžinimas KEF (09.07)
   🛏️ NAKVYNĖS  : D01 Paradise Cave (Seljalandsskóla) · D02–D04 Skeiðflöt
   ☀️ ŠVIESA    : saulė teka ~06:15–06:27, leidžiasi ~20:24–20:36
                 (~14 val šviesos; planuoti lauko sustojimus iki ~20:00)
@@ -16,7 +17,10 @@
 │  DIENA 01 – 09.03 (Ketvirtadienis) – ATVYKIMAS + AUKSINIS RATAS│
 └───────────────────────────────────────────────────────────────┘
   07:55    ✈️ Nusileidimas KEF (Keflavík oro uostas)
-  08:15    🚗 Automobilio paėmimas (dokumentai, draudimas ~45-60 min)
+  08:15    🧳 Bagažas / muitinė; pereiti į Departures Hall ir išėjus
+           pėsčiomis per P1 iki Blue Car / Zero Car biuro (~3–4 min)
+  08:45    🚗 Dacia Duster paėmimas iš keybox, būklės / kuro foto (~30 min)
+           🔗 https://www.zerocar.is/info/pickup-dropoff-process
   09:15    🚗 Išvykimas → Þingvellir (~1 val 35 min, 86 km)
   10:50    🅿️ Þingvellir P1/P2 🟡 (~1000 ISK/d.)
   11:00    🌿 Þingvellir nac. parkas – Almannagjá plyšys, Öxarárfoss (~1.5 val)
@@ -74,6 +78,8 @@
   09:05    🚗 Važiavimas → Dyrhólaey (~35 min, 28 km)
   09:40    🅿️ Dyrhólaey – nemokamas 🟢
   09:45    🪨 Dyrhólaey – uolų arka, švyturys, paukščiai, panorama (~45 min)
+           💡 Duster 4WD tinka; vis tiek nevažiuoti, jei kelias uždarytas,
+              o esant labai prastoms sąlygoms rinktis apatinę aikštelę.
   10:30    🚗 Važiavimas → Reynisfjara (~30 min, 20 km)
   11:00    🅿️ Reynisfjara – nemokamas 🟢
   11:05    🏖️ Reynisfjara – juodo smėlio paplūdimys, bazalto kolonos (~1 val)
@@ -97,6 +103,8 @@
   07:15    🚗 Išvykimas → Fjaðrárgljúfur (~1 val 20 min, 83 km)
   08:35    🅿️ Fjaðrárgljúfur – nemokamas 🟢
   08:40    🏞️ Fjaðrárgljúfur – gilus žalias kanjonas, takas viršuje (~50 min)
+           ⚠️ Važiuoti tik iki oficialios kanjono aikštelės; nevažiuoti toliau
+              link Laki / F206 – tai Highlands F-road, į planą neįeina.
   09:30    🚗 Važiavimas → Skaftafell (~1 val 15 min, 78 km)
   10:45    🅿️ Skaftafell (Vatnajökull NP) parkingas 🟡 (~750 ISK)
   11:00    🥾 Skaftafell – Svartifoss krioklys (bazalto kolonos) +
@@ -129,7 +137,9 @@
            prie vandenyno (~1 val 45 min)
            💡 REZERVUOTI laiką iš anksto; rankšluostis įskaičiuotas
   14:20    🚗 Važiavimas → KEF oro uostas (~50 min, 44 km)
-  15:10    🚗 Automobilio grąžinimas (degalai pilni!) + check-in
+  15:10    🚗 Grąžinimas Blue Car / Zero Car (degalai pilni!): pranešti
+           apie žalą, raktą palikti keybox; iki terminalo ~3–4 min pėsčiomis
+           🔗 https://www.zerocar.is/info/pickup-dropoff-process
   16:00    🛫 Saugumo kontrolė, vartai
   17:25    ✈️ Išvykimas KEF → Vilnius
   00:20    🛬 Nusileidimas Vilniuje (09.08)
@@ -140,7 +150,7 @@
 =================================================================
   ⚠️  SVARBU – PASIRUOŠTI IŠ ANKSTO
 =================================================================
-  • 🚗 Automobilio nuoma + PILNAS draudimas (gravel + sand/ash, SCDW)
+  • 🚗 Dacia Duster 4WD nuoma su Zero Excess draudimu – REZERVUOTA ✅
   • ⛽ Degalai brangūs (~€2/l) – pilti N1/Olís/Orkan; kortelė su PIN
   • 🌦️ Oras keičiasi greitai – vandeniui atsparūs drabužiai, sluoksniai
   • 🥾 Žygio batai (Waterfall Way, Fjaðrárgljúfur takai)
@@ -148,5 +158,7 @@
   • 🛏️ Nakvynės: D01 Paradise Cave · D02–D04 Skeiðflöt rezervuotos
   • 🍳 Parašyti nakvynėms dėl virtuvės naudojimo ir pusryčių įskaičiavimo
   • 🧊 Jökulsárlón valties ekskursija – rezervuoti internetu (jei norima)
-  • 🚗 Kelias 1 (Ring Road) asfaltuotas – 4x4 NEBŪTINAS šiam maršrutui
+  • 🚗 Duster yra mechaninis 4WD; maršrute F-roads nėra. 4WD suteiks
+       papildomo sukibimo ant žvyro / šlapiu oru, bet kelių uždarymų nepaisyti
+       negalima. Kasdien tikrinti umferdin.is + vedur.is.
 =================================================================

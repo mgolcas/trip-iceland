@@ -22,26 +22,38 @@
 ║  🚗  2. AUTOMOBILIO NUOMA (svarbiausia!)                       ║
 ╚═══════════════════════════════════════════════════════════════╝
 
-  [ ] 🚗 Rezervuoti automobilį – paėmimas/grąžinimas KEF
+  [x] 🚗 AUTOMOBILIS REZERVUOTAS – Zero Car, paėmimas/grąžinimas KEF
         Paėmimas  : 09.03 ~08:15 (atvykus skrydžiu)
         Grąžinimas: 09.07 ~14:30 (prieš 17:25 skrydį)
-        Dydis     : vidutinis (3 suaugę + bagažas), pvz. Dacia Duster /
-                    Toyota Corolla / panašus
-        💡 4x4 NEBŪTINAS – visas maršrutas asfaltuotu Keliu 1 (Ring Road).
-           F-roads (kalnų keliai) į šį planą neįeina.
+        Modelis   : Dacia Duster 4WD (arba tos pačios klasės analogas)
+        Pavaros   : mechaninė pavarų dėžė
+        Talpa     : 5 vietos; bagažinė ~90 × 70 × 99 cm
+        Paėmimas : po muitinės pereiti į Departures Hall, išeiti iš terminalo
+                    ir per P1 nueiti iki Blue Car / Zero Car biuro (~3–4 min).
+                    Zero Car / Blue Express keybox atidaromas gautu keycode.
+                    Prieš išvažiuojant nufotografuoti automobilį iš visų
+                    pusių, stiklus, ratus ir kuro lygį.
+        Grąžinimas: pilnas bakas; jei yra žala, pranešti Blue Car darbuotojui;
+                    raktą galima palikti keybox, iki terminalo grįžti pėsčiomis.
+        🔗 Oficiali paėmimo / grąžinimo instrukcija:
+           https://www.zerocar.is/info/pickup-dropoff-process
+        💡 Plane F-roads nėra. 4WD naudingas sukibimui ant žvyro ar šlapiu
+           oru, tačiau nesuteikia leidimo važiuoti uždarytais keliais / bekele.
+        ⚠️ Ties Fjaðrárgljúfur nevažiuoti toliau link Laki / F206.
 
-  [ ] 🛡️ DRAUDIMAS – Islandijoje BŪTINA pasirinkti pilną:
-        ✓ CDW (standartinis)
-        ✓ SCDW / Super CDW (mažesnis išskaitymas)
-        ✓ Gravel Protection (GP) – akmenukai nuo žvyro
-        ✓ Sand & Ash Protection (SAAP) – smėlio/pelenų audros
-        ⚠️ Be šių – durų/dažų/stiklo žala gali kainuoti tūkstančius €
+  [x] 🛡️ DRAUDIMAS – į Zero Car kainą įtraukta:
+        ✓ CDW + SCDW, Gravel Protection, Sand & Ash Protection
+        ✓ Zero Excess ir pagalba kelyje
+        ⚠️ Išimtys vis tiek galioja: netinkamas kuras, neatsargumas,
+           važiavimas bekele, salono / sankabos pažeidimai ir kt.
 
   [ ] 📋 Pasiimti iš nuomos punkto: sutartį, draudimą, grąžinimo info
   [ ] ⛽ Grąžinant – pilnas bakas (kitaip baudžia brangiai)
   [ ] 💳 Kreditinė kortelė su PIN (užstatui ir degalams)
 
   ⛽ DEGALAI:
+      • Tikslų kuro tipą patikrinti ant kuro dangtelio, rakto ir sutartyje;
+        nepasikliauti vien modeliu (gali būti suteiktas analogiškas automobilis)
       • Kaina ~€2.0-2.2/l (rugsėjis 2026 prognozė)
       • Tinklai: N1, Olís, ÓB, Orkan, Atlantsolía
       • Daug kolonėlių self-service – reikia kortelės su PIN

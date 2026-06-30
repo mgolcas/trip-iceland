@@ -4,6 +4,8 @@ Pietinės pakrantės kelionė nuomotu automobiliu: **2026.09.03 – 2026.09.07**
 Skrydis Vilnius → KEF (Keflavík), maršrutas Ring Road (Kelias 1) palei pietinę pakrantę,
 daug gamtos, kriokliai ir 2–3 val. žygis (Waterfall Way).
 
+Automobilis: **Zero Car – Dacia Duster 4WD, mechaninis (rezervuota)**.
+
 ## Failai
 
 | Failas | Paskirtis |
