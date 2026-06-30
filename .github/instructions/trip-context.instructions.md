@@ -10,7 +10,7 @@ applyTo: ["*.kml", "Dienu_Planas.txt", "*.py"]
 - **Route**: south coast by rented car (Ring Road / Kelias 1, paved — no 4x4 needed)
 - **Flights**: 09.03 06:35 Vilnius → 07:55 KEF · 09.07 17:25 KEF → 09.08 00:20 Vilnius
 - **Car**: picked up at KEF (D01), returned at KEF (~14:30 on D05)
-- **Lodging**: D01 Hvolsvöllur · D02–D04 Vík í Mýrdal
+- **Lodging**: D01 Paradise Cave Hostel (Seljalandsskóla) · D02–D04 Skeiðflöt (871, near Vík)
 - **GitHub**: https://github.com/mgolcas/trip-iceland.git (branch: `main`)
 
 ## Key Files
@@ -56,7 +56,7 @@ Edit via `tools/gen_day_maps.py` (DAYS/SEARCH/LINKS tables), then regenerate.
 ## Driving-Time Realism
 - Never guess drive times. Verify each leg with OSRM: `http://router.project-osrm.org/route/v1/driving/lon1,lat1;lon2,lat2?overview=false`.
 - Planning time = OSRM minutes × 1.15, rounded to 5 min; always show distance, e.g. `(~3 val 15 min, 187 km)`.
-- If a day's driving > ~4 h, flag it `⚠️ ILGA DIENA` (e.g. D04 Jökulsárlón ~6.5 h round trip from Vík).
+- If a day's driving > ~4 h, flag it `⚠️ ILGA DIENA` (e.g. D04 Jökulsárlón ~7.5 h from Skeiðflöt).
 
 ## Weekday Names
 - Always **derive the weekday from the actual date** (compute it; never copy from a prior version).

@@ -22,8 +22,10 @@ import urllib.request
 from urllib.parse import quote_plus
 
 KEF = (-22.6056, 63.9850)   # KEF (Keflavík) – car pickup / drop-off
-VIK = (-19.0061, 63.4186)   # Vík í Mýrdal – base for D02–D04 nights
-HVO = (-20.2218, 63.7510)   # Hvolsvöllur – D01 night
+VIK = (-19.0061, 63.4186)   # Vík í Mýrdal – restaurants / Katla meeting area
+HVO = (-20.2218, 63.7510)   # Hvolsvöllur – fuel / food stop area
+PARADISE = (-19.97736, 63.599725)     # Paradise Cave Hostel & Guesthouse – D01 night
+SKEIDFLOT = (-19.1899663, 63.4374645) # Skeiðflöt Airbnb – D02–D04 nights
 
 # (lon, lat) -> ASCII place name Google Maps resolves to a place card
 # (photo + name + Directions button) instead of bare coordinates.
@@ -36,12 +38,14 @@ SEARCH = {
     (-20.1199, 64.3271): "Gullfoss",
     (-20.8851, 64.0413): "Kerid Crater",
     (-20.2218, 63.7510): "Hvolsvollur",
+    (-19.9774, 63.5997): "Paradise Cave Hostel Guesthouse Seljalandsskola",
     (-19.9886, 63.6156): "Seljalandsfoss",
     (-19.9864, 63.6209): "Gljufrabui",
     (-19.5113, 63.5320): "Skogafoss",
     (-19.5075, 63.5334): "Hestavadfoss",
     (-19.4814, 63.5288): "Kvernufoss",
     (-19.0061, 63.4186): "Vik i Myrdal",
+    (-19.1900, 63.4375): "Skeidflot Iceland",
     (-19.0028, 63.4176): "Katla Ice Cave",
     (-19.3584, 63.5346): "Solheimajokull",
     (-19.1284, 63.4015): "Dyrholaey",
@@ -108,10 +112,10 @@ DAYS = {
         ("🅿️ Kerið parkingas", -20.8867, 64.0419, "parking", "drive"),
         ("Kerið krateris", -20.8851, 64.0413, "sight", "walk"),
         ("🅿️ Kerið (grįžimas prie automobilio)", -20.8867, 64.0419, "parking", "walk", False),
-        ("Nakvynė – Hvolsvöllur", HVO[0], HVO[1], "hotel", "drive"),
+        ("Nakvynė – Paradise Cave Hostel", PARADISE[0], PARADISE[1], "hotel", "drive"),
     ]),
     2: ("02 – Kriokliai + Waterfall Way hike", [
-        ("Nakvynė – Hvolsvöllur", HVO[0], HVO[1], "hotel", "start"),
+        ("Nakvynė – Paradise Cave Hostel", PARADISE[0], PARADISE[1], "hotel", "start"),
         ("🅿️ Seljalandsfoss parkingas", -19.9938, 63.6157, "parking", "drive"),  # Google Maps
         ("Seljalandsfoss krioklys", -19.9886, 63.6156, "sight", "walk"),
         ("Gljúfrabúi krioklys", -19.9864, 63.6209, "sight", "walk"),
@@ -123,10 +127,10 @@ DAYS = {
         ("🅿️ Kvernufoss parkingas", -19.49, 63.5251, "parking", "drive"),
         ("Kvernufoss krioklys", -19.4814, 63.5288, "sight", "walk"),
         ("🅿️ Kvernufoss (grįžimas prie automobilio)", -19.49, 63.5251, "parking", "walk", False),
-        ("Nakvynė – Vík", VIK[0], VIK[1], "hotel", "drive"),
+        ("Nakvynė – Skeiðflöt", SKEIDFLOT[0], SKEIDFLOT[1], "hotel", "drive"),
     ]),
     3: ("03 – Sólheimajökull + Reynisfjara + Katla ledo urvas", [
-        ("Nakvynė – Vík", VIK[0], VIK[1], "hotel", "start"),
+        ("Nakvynė – Skeiðflöt", SKEIDFLOT[0], SKEIDFLOT[1], "hotel", "start"),
         ("🅿️ Sólheimajökull parkingas", -19.3704, 63.5304, "parking", "drive"),
         ("Sólheimajökull ledynas", -19.3584, 63.5346, "sight", "walk"),
         ("🅿️ Sólheimajökull (grįžimas prie automobilio)", -19.3704, 63.5304, "parking", "walk", False),
@@ -137,9 +141,10 @@ DAYS = {
         ("Reynisfjara juodas paplūdimys", -19.0716, 63.4057, "beach", "walk"),
         ("🅿️ Reynisfjara (grįžimas prie automobilio)", -19.0447, 63.4042, "parking", "walk", False),
         ("Katla ledo urvas", -19.0028, 63.4176, "sight", "drive"),
+        ("Nakvynė – Skeiðflöt", SKEIDFLOT[0], SKEIDFLOT[1], "hotel", "drive"),
     ]),
     4: ("04 – Jökulsárlón + Skaftafell ⚠️", [
-        ("Nakvynė – Vík", VIK[0], VIK[1], "hotel", "start"),
+        ("Nakvynė – Skeiðflöt", SKEIDFLOT[0], SKEIDFLOT[1], "hotel", "start"),
         ("🅿️ Fjaðrárgljúfur parkingas", -18.1717, 63.7703, "parking", "drive"),
         ("Fjaðrárgljúfur kanjonas", -18.1718, 63.7713, "sight", "walk"),
         ("🅿️ Fjaðrárgljúfur (grįžimas prie automobilio)", -18.1717, 63.7703, "parking", "walk", False),
@@ -153,10 +158,10 @@ DAYS = {
         ("🅿️ Diamond Beach parkingas", -16.1779, 64.0455, "parking", "drive"),
         ("Diamond Beach", -16.1777, 64.0443, "beach", "walk"),
         ("🅿️ Diamond Beach (grįžimas prie automobilio)", -16.1779, 64.0455, "parking", "walk", False),
-        ("Nakvynė – Vík", VIK[0], VIK[1], "hotel", "drive"),
+        ("Nakvynė – Skeiðflöt", SKEIDFLOT[0], SKEIDFLOT[1], "hotel", "drive"),
     ]),
     5: ("05 – Reykjavík + Sky Lagoon + išvykimas", [
-        ("Nakvynė – Vík", VIK[0], VIK[1], "hotel", "start"),
+        ("Nakvynė – Skeiðflöt", SKEIDFLOT[0], SKEIDFLOT[1], "hotel", "start"),
         ("🅿️ Hallgrímskirkja parkingas", -21.92697, 64.1419, "parking", "drive"),
         ("Hallgrímskirkja", -21.92654, 64.14202, "sight", "walk"),
         ("Sun Voyager / Harpa", -21.9224, 64.1475, "sight", "walk"),

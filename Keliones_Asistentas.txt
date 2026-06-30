@@ -46,6 +46,7 @@
       • Tinklai: N1, Olís, ÓB, Orkan, Atlantsolía
       • Daug kolonėlių self-service – reikia kortelės su PIN
       • Pilti Hvolsvöllur, Vík, Kirkjubæjarklaustur – toliau mažiau stočių
+      • Skeiðflöt yra tarp Skógar/Dyrhólaey/Vík – degalus pildyti Vík arba Hvolsvöllur
 
 
 ╔═══════════════════════════════════════════════════════════════╗
@@ -60,25 +61,51 @@
 
 
 ╔═══════════════════════════════════════════════════════════════╗
-║  🛏️  4. NAKVYNĖS – REZERVUOTI IŠ ANKSTO                       ║
+║  🛏️  4. NAKVYNĖS – REZERVUOTA                                 ║
 ╚═══════════════════════════════════════════════════════════════╝
 
-  [ ] 🛏️ D01 (09.03) – Hvolsvöllur zona
-        Pvz.: Hótel Hvolsvöllur, Hótel Eyjafjallajökull, gistihús
-        🔗 https://www.google.com/maps/search/?api=1&query=Hotel+Hvolsvollur
-  [ ] 🛏️ D02–D04 (09.04–09.06) – Vík í Mýrdal (3 naktys)
-        Pvz.: Hótel Vík, Puffin Hostel, Guesthouse Carina, Icelandair Vík
-        🔗 https://www.google.com/maps/search/?api=1&query=Vik+i+Myrdal+hotel
-        💡 Viena bazė Vík = mažiau kraustymosi, patogu pietinei pakrantei
-        💡 RINKTIS APARTAMENTUS SU VIRTUVĖLE (3 asm.): 
-           Galėsit gamintis pusryčius ir
-           vakarienę → labai sutaupysit (Islandija brangi). Pvz. Vík
-           Apartments, Black Beach Suites, The Barn (Vík HI – su virtuve).
-        🛒 KRÓNAN parduotuvė Vík centre – pirkti maistą nakvynei (pigesnė
-           nei restoranai). Pasipildyti atsargas vakare po grįžimo.
-           🔗 https://www.google.com/maps/search/?api=1&query=Kronan+Vik
+  [x] 🛏️ D01 (09.03) – Paradise Cave Hostel & Guesthouse
+        Kambarys : Basic Triple Room with Shared Bathroom (3 suaugę)
+        Adresas  : Seljalandsskóla, 861 Hvolsvöllur, Iceland
+        Check-in : 09.03 16:00–22:00
+        Check-out: 09.04 06:00–10:00
+        🔗 https://www.booking.com/hotel/is/nicehostel-seljaland.html
+        💡 Labai patogu D02 rytui – Seljalandsfoss tik ~5 min kelio.
+        🍳 Virtuvė : yra pilnai įrengta bendra virtuvė svečiams (viršutinis aukštas).
+        🥐 Pusryčiai: patvirtinti rezervacijoje / su apgyvendinimu.
 
-  ⚠️ Rugsėjis vis dar turistų pikas – vietos baigiasi, rezervuoti anksti!
+  [x] 🛏️ D02–D04 (09.04–09.06) – Airbnb Skeiðflöt, 871
+        Kambarys : Triple Room with Shared Bathroom
+        Host     : Arnar
+        Adresas  : skeiðflöt, Iceland
+        GPS      : 63.4374645, -19.1899663
+        Check-in : 09.04 po 16:00
+        Check-out: 09.07 iki 10:00
+        🔗 https://www.airbnb.com/rooms/41639042
+        💡 Vieta tarp Skógar/Dyrhólaey/Vík: Vík ~15 min, Sólheimajökull ~20 min.
+        💡 D04 Jökulsárlón diena lieka ilga – maistą vakarui turėti nakvynėje.
+        🍳 Virtuvė : patvirtinti su Arnar, ar yra bendra virtuvė vakarienei
+           (šaldytuvas, viryklė/mikrobangė, puodai/keptuvė, indai/įrankiai).
+        🥐 Pusryčiai: pagal planą bus nakvynėje – patvirtinti su Arnar,
+           ar tikrai įskaičiuoti visiems 3 žmonėms.
+
+  [ ] ✉️ Parašyti abiem nakvynėms ir patvirtinti:
+        • ar pusryčiai tikrai įskaičiuoti 3 žmonėms;
+        • ar virtuve galima naudotis vakarienei;
+        • ar yra puodai/keptuvė/indai/įrankiai, šaldytuvas ir vieta maistui;
+        • ar galima laikyti produktus per visas nakvynės dienas;
+        • ar yra kavos/arbatos ir kaip veikia virtuvės naudojimo laikas.
+
+        Žinutės šablonas:
+        Hello, we are 3 guests staying with you in September. Could you please
+        confirm whether breakfast is included for all 3 guests? We also plan to
+        prepare simple dinners ourselves. Is the guest kitchen available in the
+        evening, and does it have a fridge, stove, microwave/oven, pots, pans,
+        plates and cutlery? Thank you!
+
+  🛒 KRÓNAN Vík centre – pirkti maistą nakvynei (pigesnė nei restoranai).
+     Pasipildyti atsargas 09.04 arba 09.05 vakare.
+     🔗 https://www.google.com/maps/search/?api=1&query=Kronan+Vik
 
 
 ╔═══════════════════════════════════════════════════════════════╗
@@ -138,13 +165,17 @@
 ║  🍽️  7. MAISTAS (Islandija brangi – planuoti)                 ║
 ╚═══════════════════════════════════════════════════════════════╝
 
-  💡 Taupymas: pirkti Bónus / Krónan parduotuvėse (pigiausios),
-     gaminti/pusryčius pasiimti; hot dog (pylsur) ~€4 – greita ir pigu.
-  💡 KRÓNAN Vík = pagrindinė bazė maistui 3 naktims. Su apartamentų
-     virtuvėle gaminkitės pusryčius + vakarienę → sutaupote ~€30-50/dienai
-     visiems trims. Pirkti: duona, sūris, kiaušiniai, sriubos, pasta,
-     vaisiai, kava. Bónus (pigiausia) yra Hvolsvöllur ir Selfoss pakeliui.
+  💡 Strategija:
+     • pusryčiai – nakvynėse (patvirtinti, ar įskaičiuoti visiems 3);
+     • pietūs – šalti užkandžiai / sumuštiniai iš namų arba iš vakaro;
+     • vakarienės – gaminti patiems bendrose virtuvėse.
+  💡 KRÓNAN Vík = pagrindinė bazė maistui 3 naktims Skeiðflöt. Pirkti:
+     duona/tortilijos, sūris, skyr/jogurtai, kiaušiniai, sriubos, pasta,
+     vaisiai, riešutai, kava/arbata. Bónus yra Hvolsvöllur ir Selfoss pakeliui.
+  💡 D04 grįžimas iš Jökulsárlón vėlyvas – vakarienei turėti greitai paruošiamą
+     maistą nakvynėje, o pietums/kelionei pasiimti termosą ir užkandžių.
 
+  ATSARGINIAI MAISTO TAŠKAI (jei reikia kavos / karšto maisto / planas keičiasi):
   • Hvolsvöllur : Gallery Pizza, Eldstó Art Café, N1 grill
   • Skógar      : Mía's food truck, Skógafoss Bistro Bar
   • Vík         : Suður-Vík, Halldórskaffi, Smiðjan Brugghús (burgeriai),
@@ -154,7 +185,7 @@
                   Hlöllabátar (sumuštiniai)
   • Kirkjubæjarklaustur : Systrakaffi (pakeliui iš/į Jökulsárlón)
 
-  GOOGLE MAPS NUORODOS:
+  GOOGLE MAPS NUORODOS (atsarginės):
       [D01] Geysir Glíma (Geysir Center)
             🔗 https://www.google.com/maps/search/?api=1&query=Geysir+Center+Restaurant
       [D02] Skógafoss Bistro Bar

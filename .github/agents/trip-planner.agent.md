@@ -38,7 +38,7 @@ Git remote: `https://github.com/mgolcas/trip-iceland.git` (branch: `main`)
 
 - **Flights**: 09.03 06:35 Vilnius → 07:55 KEF · 09.07 17:25 KEF → 09.08 00:20 Vilnius
 - **Car**: rented, picked up at KEF on D01, returned at KEF on D05 (~14:30, before the 17:25 flight)
-- **Lodging bases**: D01 night Hvolsvöllur · D02–D04 nights Vík í Mýrdal
+- **Lodging bases**: D01 night Paradise Cave Hostel (Seljalandsskóla) · D02–D04 nights Skeiðflöt (871, near Vík)
 - **Travellers**: 3 adults
 - **Focus**: nature, waterfalls, one 2-3 h waterfall hike (Waterfall Way / Skógá trail)
 
@@ -83,7 +83,7 @@ D05 09.07 Reykjavík + auto grąžinimas + išvykimas.
 - All days follow: `🅿️ parkingas (drive)` → `Sight/beach (walk)` → `🅿️ grįžimas (walk, False)`.
 - Maps links: `?api=1&query=ASCII+Name` (Google place card + Directions), or CID override from `LINKS` dict.
 - KML `<coordinates>` always `LON,LAT,0`. Link keys: `(round(lon,4), round(lat,4))`.
-- Flag D04 with `⚠️ ILGA DIENA` (~7 h driving, Vík ↔ Jökulsárlón via Fjaðrárgljúfur + Skaftafell).
+- Flag D04 with `⚠️ ILGA DIENA` (~7.5 h driving, Skeiðflöt ↔ Jökulsárlón via Fjaðrárgljúfur + Skaftafell).
 
 ---
 
@@ -115,11 +115,12 @@ D05 09.07 Reykjavík + auto grąžinimas + išvykimas.
 - **Flag long days.** If total driving > ~4 h, add `⚠️ ILGA DIENA` + a `💡 KITAI KELIONEI` note.
 - Verified one-way legs (2026):
   KEF→Þingvellir 86 km/~1h35 · Þingvellir→Geysir 60 km/~1h10 · Geysir→Gullfoss 10 km/~10 min ·
-  Gullfoss→Kerið 55 km/~55 min · Kerið→Hvolsvöllur 64 km/~1h10 ·
-  Hvolsvöllur→Seljalandsfoss 22 km/~25 min · Seljalandsfoss→Skógafoss 30 km/~35 min ·
-  Skógafoss→Vík 34 km/~35 min · Vík→Sólheimajökull 31 km/~30 min ·
-  Vík→Fjaðrárgljúfur 69 km/~1h10 · Fjaðrárgljúfur→Jökulsárlón 131 km/~2h10 ·
-  Jökulsárlón→Vík 193 km/~3h10 · Vík→Reykjavík 187 km/~3h15 · Reykjavík→KEF 47 km/~55 min.
+  Gullfoss→Kerið 55 km/~55 min · Kerið→Paradise Cave 86 km/~1h30 ·
+  Paradise Cave→Seljalandsfoss 4 km/~5 min · Seljalandsfoss→Skógafoss 30 km/~35 min ·
+  Kvernufoss→Skeiðflöt 21 km/~20 min · Skeiðflöt→Sólheimajökull 17 km/~20 min ·
+  Vík/Katla→Skeiðflöt 14 km/~15 min · Skeiðflöt→Fjaðrárgljúfur 83 km/~1h20 ·
+  Fjaðrárgljúfur→Jökulsárlón 131 km/~2h10 · Jökulsárlón→Skeiðflöt 207 km/~3h25 ·
+  Skeiðflöt→Reykjavík 172 km/~3h · Reykjavík→KEF 47 km/~55 min.
 
 ---
 
@@ -165,7 +166,9 @@ Verified coordinates — use these **exact values** in `DAYS` (parking + sight p
 | Hallgrímskirkja P | `-21.92697, 64.1419` | Hallgrímskirkja `-21.92654, 64.14202` · Sun Voyager `-21.9224, 64.1475` |
 | Sky Lagoon | — | `-21.94629, 64.11648` |
 
-Other key points: KEF `-22.6056, 63.9850` · Hvolsvöllur `-20.2218, 63.7510` · Vík `-19.0061, 63.4186` · Katla ledo urvas `-19.0028, 63.4176`
+Other key points: KEF `-22.6056, 63.9850` · Paradise Cave Hostel `-19.97736, 63.599725` ·
+Skeiðflöt `-19.1899663, 63.4374645` · Hvolsvöllur `-20.2218, 63.7510` ·
+Vík `-19.0061, 63.4186` · Katla ledo urvas `-19.0028, 63.4176`
 
 ---
 
