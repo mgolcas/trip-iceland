@@ -102,9 +102,8 @@
         💡 D04 Jökulsárlón diena lieka ilga – maistą vakarui turėti nakvynėje.
         🍳 Virtuvė : patvirtinti su Arnar, ar yra bendra virtuvė vakarienei
            (šaldytuvas, viryklė/mikrobangė, puodai/keptuvė, indai/įrankiai).
-        🥐 Pusryčiai: NEĮSKAIČIUOTI. Galima pridėti už 2700 ISK/asm./rytą
-           (~€18,75, skaičiuojant 1 € = 144 ISK). Trims žmonėms per 3 rytus:
-           24 300 ISK / ~€168,75. Taupiau pusryčius nusipirkti parduotuvėje.
+        🥐 Pusryčiai: viešbučio pusryčių NEUŽSAKYTI. Visus pusryčius
+           gamintis patiems iš parduotuvėje nupirkto savo maisto.
 
   [ ] ✉️ Parašyti abiem nakvynėms ir patvirtinti:
         • Paradise Cave: ar pusryčiai įskaičiuoti 3 žmonėms;
@@ -285,20 +284,20 @@
   🅿️ Parkingai (~10 000 ISK)             ~€69,44          ~€23,15
      Bendras rezervas visoms mokamoms aikštelėms ir Reykjavík.
   🌋 Kerið įėjimas (3 × 600 ISK)         ~€12,50           ~€4,17
-  🛒 Maistas iš parduotuvių                  ~€300,00         ~€100,00
-     ~€20/asm./dieną; pusryčiai, sumuštiniai ir gaminamos vakarienės.
+  🛒 Maistas iš parduotuvių                  ~€750,00         ~€250,00
+     ~€50/asm./dieną; visi pusryčiai, pietūs, užkandžiai ir vakarienės.
+     Vakarienes gamintis patiems – restoranų biudžetas nenumatytas.
   -----------------------------------------------------------------
-  Planuojamų išlaidų suma                 ~€561,94         ~€187,31
+  Planuojamų išlaidų suma               ~€1 011,94         ~€337,31
 
-  BAZINIS VISOS KELIONĖS BIUDŽETAS          ~€4 132,59       ~€1 377,53
+  BAZINIS VISOS KELIONĖS BIUDŽETAS        ~€4 582,59       ~€1 527,53
   Rekomenduojamas nenumatytų išlaidų rezervas  €300,00          €100,00
-  PRAKTINIS BIUDŽETAS SU REZERVU             ~€4 432,59       ~€1 477,53
+  PRAKTINIS BIUDŽETAS SU REZERVU           ~€4 882,59       ~€1 627,53
 
   PASIRENKAMI PRIEDAI (neįtraukti į bazinę sumą):
 
-  • Skeiðflöt pusryčiai visiems 3 rytams: 24 300 ISK / ~€168,75
-    (~€56,25/asm.). Rekomendacija: nepirkti, gamintis patiems.
-  • Viena vakarienė restorane: pridėti maždaug €75–€120 trims.
+  • Pusryčius visus 3 rytus gamintis patiems iš savo maisto.
+    Jų produktai jau įtraukti į €750 bendrą parduotuvių biudžetą.
   • Kelionių draudimas, suvenyrai ir asmeninės išlaidos neįtraukti,
     nes jų kainos dar nepateiktos.
 
