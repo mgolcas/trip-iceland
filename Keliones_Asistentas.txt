@@ -10,10 +10,11 @@
 ║  ✈️  1. SKRYDŽIAI                                              ║
 ╚═══════════════════════════════════════════════════════════════╝
 
-  [ ] ✈️ Išvykimas : 09.03  06:35 Vilnius (VNO) → 07:55 KEF (Keflavík)
+  [x] ✈️ Išvykimas : 09.03  06:35 Vilnius (VNO) → 07:55 KEF (Keflavík)
         ⚠️ Atvykti į VNO ~04:30 (2 val prieš). Naktinis budėjimas!
-  [ ] ✈️ Grįžimas  : 09.07  17:25 KEF → 09.08 00:20 Vilnius (VNO)
+  [x] ✈️ Grįžimas  : 09.07  17:25 KEF → 09.08 00:20 Vilnius (VNO)
         ⚠️ KEF check-in ~14:30 (international ~2.5-3 val prieš)
+        🎁 Bilietai nupirkti ir yra dovana – į kelionės biudžetą neįtraukti.
   [ ] 📱 Boarding pass į telefoną + atsarginė kopija PDF
   [ ] 🧳 Patikrinti bagažo normas (rankinis vs registruotas)
 
@@ -28,6 +29,7 @@
         Modelis   : Dacia Duster 4WD (arba tos pačios klasės analogas)
         Pavaros   : mechaninė pavarų dėžė
         Talpa     : 5 vietos; bagažinė ~90 × 70 × 99 cm
+        Kaina     : €723,06 už 3 žmones / €241,02 asm. (be kuro)
         Paėmimas : po muitinės pereiti į Departures Hall, išeiti iš terminalo
                     ir per P1 nueiti iki Blue Car / Zero Car biuro (~3–4 min).
                     Zero Car / Blue Express keybox atidaromas gautu keycode.
@@ -78,6 +80,7 @@
 
   [x] 🛏️ D01 (09.03) – Paradise Cave Hostel & Guesthouse
         Kambarys : Basic Triple Room with Shared Bathroom (3 suaugę)
+        Kaina    : €255,15 už 3 žmones / €85,05 asm.
         Adresas  : Seljalandsskóla, 861 Hvolsvöllur, Iceland
         Check-in : 09.03 16:00–22:00
         Check-out: 09.04 06:00–10:00
@@ -88,6 +91,7 @@
 
   [x] 🛏️ D02–D04 (09.04–09.06) – Airbnb Skeiðflöt, 871
         Kambarys : Triple Room with Shared Bathroom
+        Kaina    : €1 260,00 už 3 žmones / €420,00 asm.
         Host     : Arnar
         Adresas  : skeiðflöt, Iceland
         GPS      : 63.4374645, -19.1899663
@@ -98,11 +102,12 @@
         💡 D04 Jökulsárlón diena lieka ilga – maistą vakarui turėti nakvynėje.
         🍳 Virtuvė : patvirtinti su Arnar, ar yra bendra virtuvė vakarienei
            (šaldytuvas, viryklė/mikrobangė, puodai/keptuvė, indai/įrankiai).
-        🥐 Pusryčiai: pagal planą bus nakvynėje – patvirtinti su Arnar,
-           ar tikrai įskaičiuoti visiems 3 žmonėms.
+        🥐 Pusryčiai: NEĮSKAIČIUOTI. Galima pridėti už 2700 ISK/asm./rytą
+           (~€18,75, skaičiuojant 1 € = 144 ISK). Trims žmonėms per 3 rytus:
+           24 300 ISK / ~€168,75. Taupiau pusryčius nusipirkti parduotuvėje.
 
   [ ] ✉️ Parašyti abiem nakvynėms ir patvirtinti:
-        • ar pusryčiai tikrai įskaičiuoti 3 žmonėms;
+        • Paradise Cave: ar pusryčiai įskaičiuoti 3 žmonėms;
         • ar virtuve galima naudotis vakarienei;
         • ar yra puodai/keptuvė/indai/įrankiai, šaldytuvas ir vieta maistui;
         • ar galima laikyti produktus per visas nakvynės dienas;
@@ -141,7 +146,7 @@
          🔗 https://www.google.com/maps/search/?api=1&query=Thingvellir+P1+parking
       🟢 Geysir – nemokamas (prie lankytojų centro)
       🟢 Gullfoss – nemokamas (viršutinė aikštelė)
-      🟡 Kerið – įėjimas ~450 ISK/asm (apima parkavimą)
+      🟡 Kerið – įėjimas ~600 ISK/asm (apima parkavimą)
          🔗 https://www.google.com/maps/search/?api=1&query=Kerid+crater+parking
 
   DIENA 02:
@@ -225,7 +230,7 @@
   [ ] 🧤 Sluoksniai: termo apatiniai, flisas, kepurė, pirštinės
   [ ] 🥾 Žygio batai (vandeniui atsparūs) – Waterfall Way, kanjonai
   [ ] 👖 Greitai džiūstančios kelnės (Seljalandsfoss permerks)
-  [ ] 🩳 Maudymosi kostiumas + rankšluostis (jei karštosios versmės)
+  [ ] 🩳 Sky Lagoon: maudymosi kostiumas + atskiras rankšluostis KIEKVIENAM
   [ ] 🕶️ Akiniai nuo saulės, kremas (vėjas + ryški šviesa)
   [ ] 🔌 EU/Šengeno tipas F kištukas (Islandija = tas pats kaip LT)
   [ ] 💊 Vaistinėlė, asmeniniai vaistai
@@ -245,5 +250,62 @@
   • 🚗 Negreitėti ant žvyro/vienos juostos tiltų; gyvuliai kelyje.
   • 🅿️ Niekada nestovėti ant kelio fotografuojant – tik aikštelėse.
   • 📵 Toliau nuo miestų – silpnas ryšys; turėti offline žemėlapį.
+
+
+╔══════════════════════════════════════════════════════════════╗
+║  💶 10. KELIONĖS BIUDŽETAS – 3 ŽMONĖMS                      ║
+╚══════════════════════════════════════════════════════════════╝
+
+  Skaičiavimo data: 2026-07-01
+  Naudojamas kursas: 1 € = 144 ISK. Kronomis nurodytos galutinės sumos
+  eurais yra orientacinės – kortelės nuskaitymo dieną kursas gali skirtis.
+
+  ŽINOMOS / REZERVACIJŲ KAINOS:
+
+  Pozicija                              3 žmonėms       1 žmogui
+  -----------------------------------------------------------------
+  ✈️ Skrydžiai                            €0,00           €0,00
+     Jau nupirkti; dovana, todėl į kelionės biudžetą neįtraukiami.
+  🛏️ Paradise Cave (09.03–09.04)       €255,15         €85,05
+  🛏️ Skeiðflöt (09.04–09.07)            €1 260,00       €420,00
+  🚗 Automobilio nuoma                   €723,06         €241,02
+     Visam laikotarpiui, be kuro.
+  🧊 Katla Ice Cave (09.05 14:00)         €632,64         €210,88
+  🚤 Jökulsárlón Zodiac (49 800 ISK)     ~€345,83        ~€115,28
+  🧖 Sky Lagoon Saman (50 970 ISK)       ~€353,96        ~€117,99
+  -----------------------------------------------------------------
+  Žinomų kainų suma                    €3 570,64       €1 190,21
+
+  PLANUOJAMOS KELIONĖS IŠLAIDOS:
+
+  Pozicija                              3 žmonėms       1 žmogui
+  -----------------------------------------------------------------
+  ⛽ Kuras (~1100 km maršrutui)             ~€180,00         ~€60,00
+     Rezervas skaičiuojant ~7,5 l/100 km ir ~€2,00/l.
+  🅿️ Parkingai (~10 000 ISK)             ~€69,44          ~€23,15
+     Bendras rezervas visoms mokamoms aikštelėms ir Reykjavík.
+  🌋 Kerið įėjimas (3 × 600 ISK)         ~€12,50           ~€4,17
+  🛒 Maistas iš parduotuvių                  ~€300,00         ~€100,00
+     ~€20/asm./dieną; pusryčiai, sumuštiniai ir gaminamos vakarienės.
+  -----------------------------------------------------------------
+  Planuojamų išlaidų suma                 ~€561,94         ~€187,31
+
+  BAZINIS VISOS KELIONĖS BIUDŽETAS          ~€4 132,59       ~€1 377,53
+  Rekomenduojamas nenumatytų išlaidų rezervas  €300,00          €100,00
+  PRAKTINIS BIUDŽETAS SU REZERVU             ~€4 432,59       ~€1 477,53
+
+  PASIRENKAMI PRIEDAI (neįtraukti į bazinę sumą):
+
+  • Skeiðflöt pusryčiai visiems 3 rytams: 24 300 ISK / ~€168,75
+    (~€56,25/asm.). Rekomendacija: nepirkti, gamintis patiems.
+  • Viena vakarienė restorane: pridėti maždaug €75–€120 trims.
+  • Kelionių draudimas, suvenyrai ir asmeninės išlaidos neįtraukti,
+    nes jų kainos dar nepateiktos.
+
+  SKY LAGOON PASIRINKIMAS:
+
+  ✅ Saman palikti. Jis apima tą pačią lagūną, rankšluostį ir visą
+     Skjól ritualą. Sér pagrindinis privalumas – privatus persirengimo
+     kambarys. Upgrade verta imti tik jei privatumas persirengiant jums svarbus.
 
 =================================================================
