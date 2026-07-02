@@ -99,28 +99,32 @@
 │  DIENA 04 – 09.06 (Sekmadienis) – JÖKULSÁRLÓN + SKAFTAFELL   ⚠️│
 └───────────────────────────────────────────────────────────────┘
   ⚠️ ILGA DIENA – ~7.5 val kelio iš viso (Skaftafell + Jökulsárlón toli į rytus)
-  06:45    ☀️ Ankstyvi pusryčiai nakvynėje
-  07:15    🚗 Išvykimas → Fjaðrárgljúfur (~1 val 20 min, 83 km)
-  08:35    🅿️ Fjaðrárgljúfur – nemokamas 🟢
-  08:40    🏞️ Fjaðrárgljúfur – gilus žalias kanjonas, takas viršuje (~50 min)
+  06:15    ☀️ Ankstyvi pusryčiai nakvynėje
+  06:45    🚗 Išvykimas → Fjaðrárgljúfur (~1 val 20 min, 83 km)
+  08:05    🅿️ Fjaðrárgljúfur – nemokamas 🟢
+  08:10    🏞️ Fjaðrárgljúfur – gilus žalias kanjonas, takas viršuje (~50 min)
            ⚠️ Važiuoti tik iki oficialios kanjono aikštelės; nevažiuoti toliau
               link Laki / F206 – tai Highlands F-road, į planą neįeina.
-  09:30    🚗 Važiavimas → Skaftafell (~1 val 15 min, 78 km)
-  10:45    🅿️ Skaftafell (Vatnajökull NP) parkingas 🟡 (~750 ISK)
-  11:00    🥾 Skaftafell – Svartifoss krioklys (bazalto kolonos) +
-           Svínafellsjökull ledyno vaizdas (~1.5-2 val žygis)
-  12:50    🍽️ Pietūs – šalti sumuštiniai / užkandžiai iš kuprinės (~40 min)
-  13:30    🚗 Važiavimas → Jökulsárlón (~1 val, 57 km)
-  14:30    🅿️ Jökulsárlón – nemokamas 🟢
-  14:35    🧊 Jökulsárlón – ledkalnių lagūna + valties ekskursija (~1.5 val)
-           💡 Valtis: REZERVUOTI iš anksto, sezono pabaiga (~€60/asm)
-  16:05    💎 Diamond Beach – ledkalnių gabalai ant juodo smėlio (~40 min)
-  16:45    🚗 Grįžimas → Skeiðflöt (~3 val 25 min, 207 km)
+  09:00    🚗 Važiavimas → Skaftafell (~1 val 15 min, 78 km)
+  10:15    🅿️ Skaftafell (Vatnajökull NP) parkingas 🟡 (~750 ISK)
+  10:30    🥾 Skaftafell – Svartifoss krioklys (bazalto kolonos) +
+           Svínafellsjökull ledyno vaizdas (~1 val 50 min žygis)
+  12:20    🍽️ Pietūs – šalti sumuštiniai / užkandžiai iš kuprinės (~40 min)
+  13:00    🚗 Važiavimas → Jökulsárlón (~1 val, 57 km)
+  14:00    🅿️ Jökulsárlón – parkingas
+  14:05    💎 Diamond Beach – ledkalnių gabalai ant juodo smėlio (~40 min)
+  14:45    🧊 Jökulsárlón – lagūnos vaizdai nuo kranto (~15 min)
+  15:00    📋 ZODIAC registracija / saugos apranga (atvykti laiku!)
+  15:30    🚤 JÖKULSÁRLÓN ZODIAC – tarp ledkalnių link ledyno
+           (~1 val 15 min; 49 800 ISK / 3 asm.; REZERVUOTI iš anksto)
+  16:45    🚤 Ekskursijos pabaiga / persirengimas (~15 min)
+  17:00    🚗 Grįžimas → Skeiðflöt (~3 val 25 min, 207 km)
            💡 Sustojimas pakeliui: Kirkjubæjarklaustur (Systrakaffi, kava)
-  20:10    🛏️ Nakvynė – Skeiðflöt (vėlyva diena!)
-  20:30    🍽️ Vėlyva vakarienė – greitai gamintis Skeiðflöt virtuvėje
+  20:25    🛏️ Nakvynė – Skeiðflöt (vėlyva diena!)
+  20:45    🍽️ Vėlyva vakarienė – greitai gamintis Skeiðflöt virtuvėje
   💡 PATARIMAS: pasiimkite užkandžių/vandens – paskutinė atkarpa ilga.
-     Jökulsárlón valtį ir Diamond Beach galima sukeisti pagal oro sąlygas.
+     Jei vėluojama, trumpinti Fjaðrárgljúfur arba Skaftafell, bet nevėluoti
+     į 15:00 Zodiac registraciją. Ekskursija priklauso nuo oro sąlygų.
 
 
 ┌───────────────────────────────────────────────────────────────┐
@@ -157,7 +161,7 @@
   • 📱 SafeTravel.is + vedur.is (orai) + 112 Iceland app
   • 🛏️ Nakvynės: D01 Paradise Cave · D02–D04 Skeiðflöt rezervuotos
   • 🍳 Parašyti nakvynėms dėl virtuvės naudojimo ir pusryčių įskaičiavimo
-  • 🧊 Jökulsárlón valties ekskursija – rezervuoti internetu (jei norima)
+  • 🚤 Jökulsárlón Zodiac – rezervuoti 09.06 ~15:30 (49 800 ISK / 3 asm.)
   • 🚗 Duster yra mechaninis 4WD; maršrute F-roads nėra. 4WD suteiks
        papildomo sukibimo ant žvyro / šlapiu oru, bet kelių uždarymų nepaisyti
        negalima. Kasdien tikrinti umferdin.is + vedur.is.
