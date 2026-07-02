@@ -167,9 +167,12 @@
   DIENA 04:
       🟢 Fjaðrárgljúfur – nemokamas
          🔗 https://www.google.com/maps/search/?api=1&query=Fjadrargljufur+parking
-      🟢 Jökulsárlón – nemokamas (pietinė pusė)
+      � Skaftafell (Vatnajökull NP) – mokamas (~750 ISK)
+         🔗 https://www.google.com/maps/search/?api=1&query=Skaftafell+Visitor+Center+parking
+      🟢 Diamond Beach – nemokamas
+         🔗 https://www.google.com/maps/search/?api=1&query=Diamond+Beach+Iceland+parking
+      🟢 Jökulsárlón – nemokamas (pietinė pusė; ta pati zona kaip Diamond Beach)
          🔗 https://www.google.com/maps/search/?api=1&query=Jokulsarlon+parking
-      🟢 Diamond Beach – nemokamas (ta pati aikštelė)
 
   DIENA 05:
       🟡 Reykjavík centras – mokamas (~600 ISK/val), zona P1
