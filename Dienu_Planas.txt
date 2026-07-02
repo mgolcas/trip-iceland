@@ -99,22 +99,23 @@
 │  DIENA 04 – 09.06 (Sekmadienis) – JÖKULSÁRLÓN + SKAFTAFELL   ⚠️│
 └───────────────────────────────────────────────────────────────┘
   ⚠️ ILGA DIENA – ~7.5 val kelio iš viso (Skaftafell + Jökulsárlón toli į rytus)
-  06:15    ☀️ Ankstyvi pusryčiai nakvynėje
-  06:45    🚗 Išvykimas → Fjaðrárgljúfur (~1 val 20 min, 83 km)
-  08:05    🅿️ Fjaðrárgljúfur – nemokamas 🟢
-  08:10    🏞️ Fjaðrárgljúfur – gilus žalias kanjonas, takas viršuje (~50 min)
+  06:00    ☀️ Ankstyvi pusryčiai nakvynėje
+  06:30    🚗 Išvykimas → Fjaðrárgljúfur (~1 val 20 min, 83 km)
+  07:50    🅿️ Fjaðrárgljúfur – nemokamas 🟢
+  07:55    🏞️ Fjaðrárgljúfur – gilus žalias kanjonas, takas viršuje (~50 min)
            ⚠️ Važiuoti tik iki oficialios kanjono aikštelės; nevažiuoti toliau
               link Laki / F206 – tai Highlands F-road, į planą neįeina.
-  09:00    🚗 Važiavimas → Skaftafell (~1 val 15 min, 78 km)
-  10:15    🅿️ Skaftafell (Vatnajökull NP) parkingas 🟡 (~750 ISK)
-  10:30    🥾 Skaftafell – Svartifoss krioklys (bazalto kolonos) +
+  08:45    🚗 Važiavimas → Skaftafell (~1 val 15 min, 78 km)
+  10:00    🅿️ Skaftafell (Vatnajökull NP) parkingas 🟡 (~750 ISK)
+  10:15    🥾 Skaftafell – Svartifoss krioklys (bazalto kolonos) +
            Svínafellsjökull ledyno vaizdas (~1 val 50 min žygis)
-  12:20    🍽️ Pietūs – šalti sumuštiniai / užkandžiai iš kuprinės (~40 min)
-  13:00    🚗 Važiavimas → Jökulsárlón (~1 val, 57 km)
-  14:00    🅿️ Jökulsárlón – parkingas
-  14:05    💎 Diamond Beach – ledkalnių gabalai ant juodo smėlio (~40 min)
-  14:45    🧊 Jökulsárlón – lagūnos vaizdai nuo kranto (~15 min)
-  15:00    📋 ZODIAC registracija / saugos apranga (atvykti laiku!)
+  12:05    🍽️ Pietūs – šalti sumuštiniai / užkandžiai iš kuprinės (~40 min)
+  12:45    🚗 Važiavimas → Jökulsárlón (~1 val, 57 km)
+  13:45    🅿️ Jökulsárlón – parkingas
+  13:50    💎 Diamond Beach – ledkalnių gabalai ant juodo smėlio (~40 min)
+  14:30    📋 ZODIAC registracija / saugos apranga
+           ⏱️ Registracijos deadline – 15:00; turas 15:30 (REZERVUOTI iš anksto!)
+           💡 Lagūnos vaizdai – stebėti laukiant registracijoje arba iš katerio
   15:30    🚤 JÖKULSÁRLÓN ZODIAC – tarp ledkalnių link ledyno
            (~1 val 15 min; 49 800 ISK / 3 asm.; REZERVUOTI iš anksto)
   16:45    🚤 Ekskursijos pabaiga / persirengimas (~15 min)
@@ -124,7 +125,7 @@
   20:45    🍽️ Vėlyva vakarienė – greitai gamintis Skeiðflöt virtuvėje
   💡 PATARIMAS: pasiimkite užkandžių/vandens – paskutinė atkarpa ilga.
      Jei vėluojama, trumpinti Fjaðrárgljúfur arba Skaftafell, bet nevėluoti
-     į 15:00 Zodiac registraciją. Ekskursija priklauso nuo oro sąlygų.
+     į 15:00 Zodiac registracijos deadline. Ekskursija priklauso nuo oro sąlygų.
 
 
 ┌───────────────────────────────────────────────────────────────┐
@@ -140,8 +141,9 @@
   12:30    🧖 SKY LAGOON – 7 žingsnių „Skjól" ritualas, infinity baseinas
            prie vandenyno (~1 val 45 min)
            💡 REZERVUOTI laiką iš anksto; rankšluostis įskaičiuotas
-  14:20    🚗 Važiavimas → KEF oro uostas (~50 min, 44 km)
-  15:10    🚗 Grąžinimas Blue Car / Zero Car (degalai pilni!): pranešti
+  14:20    🚗 Išvykimas → KEF oro uostas (~1 val su degalais, 44 km)
+           ⛽ Sustoti degalams pakeliui (N1 Keflavík arba Hafnarfjörður)
+  15:20    🚗 Grąžinimas Blue Car / Zero Car (degalai pilni!): pranešti
            apie žalą, raktą palikti keybox; iki terminalo ~3–4 min pėsčiomis
            🔗 https://www.zerocar.is/info/pickup-dropoff-process
   16:00    🛫 Saugumo kontrolė, vartai
