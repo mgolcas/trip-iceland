@@ -167,7 +167,7 @@
   DIENA 04:
       🟢 Fjaðrárgljúfur – nemokamas
          🔗 https://www.google.com/maps/search/?api=1&query=Fjadrargljufur+parking
-      � Skaftafell (Vatnajökull NP) – mokamas (~750 ISK)
+      🟡 Skaftafell (Vatnajökull NP) – mokamas (~750 ISK)
          🔗 https://www.google.com/maps/search/?api=1&query=Skaftafell+Visitor+Center+parking
       🟢 Diamond Beach – nemokamas
          🔗 https://www.google.com/maps/search/?api=1&query=Diamond+Beach+Iceland+parking
