@@ -182,12 +182,86 @@
 ╚═══════════════════════════════════════════════════════════════╝
 
   💡 Strategija:
-     • pusryčiai – nakvynėse (patvirtinti, ar įskaičiuoti visiems 3);
-     • pietūs – šalti užkandžiai / sumuštiniai iš namų arba iš vakaro;
-     • vakarienės – gaminti patiems bendrose virtuvėse.
+     • pusryčiai – gaminti patiems iš atsivežto ir vietoje pirkto maisto;
+     • pietūs – šalti užkandžiai / sumuštiniai iš vakaro;
+     • vakarienės – gaminti patiems nakvynių virtuvėse;
+     • restoranuose vakarieniauti neplanuojama.
+
+  🧳 IŠ LIETUVOS Į REGISTRUOTĄ BAGAŽĄ (3 žmonėms / 5 dienoms):
+
+     PUSRYČIAMS:
+     [ ] Avižiniai dribsniai                           0,8 kg
+     [ ] Granola / sausi pusryčiai                    0,6 kg
+     [ ] Grikiai pusryčiams                           0,4 kg
+     [ ] Kava ir arbata                                 0,3 kg
+     [ ] Riešutų ar migdolų sviestas                   0,4 kg
+
+     PIETUMS / SUMUŠTINIAMS:
+     [ ] Tortilijos ir trapučiai                        0,7 kg
+     [ ] Vytintos / rūkytos dešros (vakuumuotos)         0,8 kg
+     [ ] Sūdyti / rūkyti lašiniai (vakuumuoti)          0,5 kg
+     [ ] Kietasis sūris iš pasterizuoto pieno             0,8 kg
+     [ ] Konservuotas paštetas / mėsos konservai          0,4 kg
+
+     VAKARIENEI:
+     [ ] Grikiai vakarienei                            0,8 kg
+     [ ] Ryžiai vakarienei                              0,8 kg
+     [ ] Paprasti makaronai vakarienei                  0,6 kg
+     [ ] Sausi padažų ar troškinių mišiniai D04 vakarui  0,6 kg
+     [ ] Druska, pipirai, prieskoniai, sultinio kubeliai 0,2 kg
+
+     DIENOS IR ŽYGIŲ UŽKANDŽIAMS:
+     [ ] Riešutai ir džiovinti vaisiai                  0,8 kg
+     [ ] Baltyminiai / energiniai batonėliai (15–18 vnt.) 0,7 kg
+     [ ] Šokoladas ir kiti užkandžiai                   0,3 kg
+
+     Bendras vežamo maisto svoris: ~10,5 kg visai grupei
+     (Islandijoje perkamas sviestas į šį svorį neįtrauktas).
+     Visus produktus vežti neatidarytose originaliose pakuotėse; skysčius
+     ir riešutų sviestą dėti į sandarius maišelius, vengti stiklo.
+
+  ⚠️ MUITINĖ: vienas keliautojas gali įsivežti iki 10 kg maisto, kurio
+     vertė neviršija 25 000 ISK. Kiekvieno keleivio limitas vertinamas atskirai,
+     todėl maistą paskirstyti tarp lagaminų ir išsaugoti pirkimo kvitus.
+     Lietuva yra ES / EEE, todėl asmeniniam vartojimui galima vežtis oficialiai
+     pagamintus ir paženklintus mėsos bei pieno produktus. Rinktis neatidarytas
+     vakuumines pakuotes ir pasterizuoto pieno sūrį. Nevežti naminės ar žalios
+     mėsos, nepasterizuotų pieno produktų ir produktų be originalios etiketės.
+
+  ❄️ LAIKYMAS: kelionė iki pirmos nakvynės ilga, todėl geriausia vežti tik
+     tuos gaminius, kurių etiketėje leidžiama laikyti kambario temperatūroje.
+     Produktams, kuriems būtinas šaldymas, naudoti termo krepšį su visiškai
+     užšaldytais šalčio paketais ir atvykus laikyti šaldytuve.
+
+  🛒 ISLANDIJOJE PIRKTI ŠVIEŽIUS PRODUKTUS:
+     duoną, pieną, sviestą, skyr/jogurtą, kiaušinius, varškės sūrį, lašišą, daržoves,
+     vaisius, avokadus ir kitus greitai gendančius produktus.
+
+  🇮🇸 ISLANDIŠKI PRODUKTAI PARAGAVIMUI (KRÓNAN VÍK):
+
+     [ ] Žalia islandiška lašiša, ~550–600 g       ~2178–2376 ISK / €15–16,50
+     [ ] Plokkfiskur, 1 kg (vakarienė trims)          ~1849 ISK / €12,84
+         Tradicinis žuvies, bulvių ir svogūnų troškinys.
+     [ ] Taðreykt bleikja, 200 g                     ~1380 ISK / €9,58
+         Dūmais rūkyta arktinė palija; valgyti su rúgbrauð ir sviestu.
+     [ ] Harðfiskur, 100 g                            ~1749 ISK / €12,15
+         Džiovinta islandiška žuvis; vienos pakuotės pakaks visiems paragauti.
+     [ ] Rúgbrauð, 400 g                              ~399 ISK / €2,77
+         Saldoka tamsi islandiška ruginė duona.
+     [ ] Islandiška aviena, ~700–900 g                ~€15–30
+         Kepti vieną vakarienę nakvynėje.
+     [ ] Skyr – 3 skirtingi skoniai                  ~€5–10
+     [ ] Omnom šokoladas su jūros druska, 60 g       ~836 ISK / €5,81
+     [ ] Kleinur – islandiškos susuktos spurgos       ~1 pakuotė
+     [ ] Hákarl – fermentuotas ryklys                 tik maža pakuotė
+         Nebūtinas; pirkti tik jei visi nori paragauti dėl patirties.
+
+     Prioritetinis rinkinys: plokkfiskur + taðreykt bleikja + rúgbrauð +
+     harðfiskur + Omnom. Orientacinė kaina trims: ~€43–50.
+
   💡 KRÓNAN Vík = pagrindinė bazė maistui 3 naktims Skeiðflöt. Pirkti:
-     duona/tortilijos, sūris, skyr/jogurtai, kiaušiniai, sriubos, pasta,
-     vaisiai, riešutai, kava/arbata. Bónus yra Hvolsvöllur ir Selfoss pakeliui.
+     šviežius produktus pagal aukščiau esantį sąrašą. Bónus taip pat yra
+     Hvolsvöllur ir Selfoss pakeliui.
   💡 D04 grįžimas iš Jökulsárlón vėlyvas – vakarienei turėti greitai paruošiamą
      maistą nakvynėje, o pietums/kelionei pasiimti termosą ir užkandžių.
 

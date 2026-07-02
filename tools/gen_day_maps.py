@@ -143,7 +143,7 @@ DAYS = {
         ("Katla ledo urvas", -19.0028, 63.4176, "sight", "drive"),
         ("Nakvynė – Skeiðflöt", SKEIDFLOT[0], SKEIDFLOT[1], "hotel", "drive"),
     ]),
-    4: ("04 – Jökulsárlón + Skaftafell ⚠️", [
+    4: ("04 – Jökulsárlón + Skaftafell ⚠️ ILGA DIENA", [
         ("Nakvynė – Skeiðflöt", SKEIDFLOT[0], SKEIDFLOT[1], "hotel", "start"),
         ("🅿️ Fjaðrárgljúfur parkingas", -18.1717, 63.7703, "parking", "drive"),
         ("Fjaðrárgljúfur kanjonas", -18.1718, 63.7713, "sight", "walk"),
@@ -152,12 +152,12 @@ DAYS = {
         ("🅿️ Skaftafell lankytojų centras", -16.9665, 64.0165, "parking", "drive"),
         ("Svartifoss krioklys", -16.9753, 64.0275, "sight", "walk"),
         ("🅿️ Skaftafell (grįžimas prie automobilio)", -16.9665, 64.0165, "parking", "walk", False),
-        ("🅿️ Jökulsárlón parkingas", -16.17974, 64.04804, "parking", "drive"),
-        ("Jökulsárlón ledynų lagūna", -16.1958, 64.0489, "sight", "walk"),
-        ("🅿️ Jökulsárlón (grįžimas prie automobilio)", -16.17974, 64.04804, "parking", "walk", False),
         ("🅿️ Diamond Beach parkingas", -16.1779, 64.0455, "parking", "drive"),
         ("Diamond Beach", -16.1777, 64.0443, "beach", "walk"),
         ("🅿️ Diamond Beach (grįžimas prie automobilio)", -16.1779, 64.0455, "parking", "walk", False),
+        ("🅿️ Jökulsárlón parkingas", -16.17974, 64.04804, "parking", "drive"),
+        ("Jökulsárlón ledynų lagūna", -16.1958, 64.0489, "sight", "walk"),
+        ("🅿️ Jökulsárlón (grįžimas prie automobilio)", -16.17974, 64.04804, "parking", "walk", False),
         ("Nakvynė – Skeiðflöt", SKEIDFLOT[0], SKEIDFLOT[1], "hotel", "drive"),
     ]),
     5: ("05 – Reykjavík + Sky Lagoon + išvykimas", [
