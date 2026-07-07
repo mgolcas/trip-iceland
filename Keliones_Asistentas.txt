@@ -1,0 +1,408 @@
+=================================================================
+  ISLANDIJOS KELIONĖ 2026 – KELIONĖS ASISTENTAS
+  Pasiruošimo kontrolinis sąrašas
+  Kelionė: 2026.09.07 – 2026.09.11  |  3 keliautojai
+  Maršrutas: pietinė pakrantė (Ring Road, Kelias 1)
+=================================================================
+
+
+╔═══════════════════════════════════════════════════════════════╗
+║  ✈️  1. SKRYDŽIAI                                              ║
+╚═══════════════════════════════════════════════════════════════╝
+
+  [x] ✈️ Išvykimas : 09.07  15:25 Vilnius (VNO) → 16:45 KEF (Keflavík) ✅
+        ⚠️ Atvykti į VNO ~13:15; tikslų laiką patikrinti biliete.
+  [x] ✈️ Grįžimas  : 09.11  17:45 KEF → 09.12 00:40 Vilnius (VNO) ✅
+        ⚠️ KEF check-in ~14:30 (international ~3 val prieš)
+        🎁 Bilietai nupirkti ir yra dovana – į kelionės biudžetą neįtraukti.
+  [ ] 📱 Boarding pass į telefoną + atsarginė kopija PDF
+  [ ] 🧳 Patikrinti bagažo normas (rankinis vs registruotas)
+
+
+╔═══════════════════════════════════════════════════════════════╗
+║  🚗  2. AUTOMOBILIO NUOMA (svarbiausia!)                       ║
+╚═══════════════════════════════════════════════════════════════╝
+
+  [x] 🚗 ZERO CAR – REZERVACIJA PERKELTA į naujas datas
+        Užsakymas : 09.07 17:00–09.11 17:00
+        Paėmimas  : faktiškai ~17:35, po bagažo atsiėmimo
+        Grąžinimas: faktiškai ~14:00–14:15, prieš 17:45 skrydį
+                     17:00 palikta rezervacijoje lankstumui; ankstesnis
+                     faktinis grąžinimas kainos nekeičia.
+        Modelis   : Dacia Duster 4WD (arba tos pačios klasės analogas)
+        Pavaros   : mechaninė pavarų dėžė
+        Talpa     : 5 vietos; bagažinė ~90 × 70 × 99 cm
+        Nauja kaina: ~€568,22 už 3 žmones / ~€189,41 asm. (be kuro)
+        Grąžinimas: 22 297 ISK (~€154,84, kursu 1 € = 144 ISK)
+                     į kortelę per 7–15 darbo dienų.
+        Paėmimas : po muitinės pereiti į Departures Hall, išeiti iš terminalo
+                    ir per P1 nueiti iki Blue Car / Zero Car biuro (~3–4 min).
+                    Zero Car / Blue Express keybox atidaromas gautu keycode.
+                    Prieš išvažiuojant nufotografuoti automobilį iš visų
+                    pusių, stiklus, ratus ir kuro lygį.
+        Grąžinimas: pilnas bakas; jei yra žala, pranešti Blue Car darbuotojui;
+                    raktą galima palikti keybox, iki terminalo grįžti pėsčiomis.
+        🔗 Oficiali paėmimo / grąžinimo instrukcija:
+           https://www.zerocar.is/info/pickup-dropoff-process
+        💡 Plane F-roads nėra. 4WD naudingas sukibimui ant žvyro ar šlapiu
+           oru, tačiau nesuteikia leidimo važiuoti uždarytais keliais / bekele.
+        ⚠️ Ties Fjaðrárgljúfur nevažiuoti toliau link Laki / F206.
+        [ ] Patikrinti galutinį pakeitimo patvirtinimą ir kad drop-off yra KEF.
+
+  [x] 🛡️ DRAUDIMAS – į Zero Car kainą įtraukta:
+        ✓ CDW + SCDW, Gravel Protection, Sand & Ash Protection
+        ✓ Zero Excess ir pagalba kelyje
+        ⚠️ Išimtys vis tiek galioja: netinkamas kuras, neatsargumas,
+           važiavimas bekele, salono / sankabos pažeidimai ir kt.
+
+  [ ] 📋 Pasiimti iš nuomos punkto: sutartį, draudimą, grąžinimo info
+  [ ] ⛽ Grąžinant – pilnas bakas (kitaip baudžia brangiai)
+  [ ] 💳 Kreditinė kortelė su PIN (užstatui ir degalams)
+
+  ⛽ DEGALAI:
+      • Tikslų kuro tipą patikrinti ant kuro dangtelio, rakto ir sutartyje;
+        nepasikliauti vien modeliu (gali būti suteiktas analogiškas automobilis)
+      • Kaina ~€2.0-2.2/l (rugsėjis 2026 prognozė)
+      • Tinklai: N1, Olís, ÓB, Orkan, Atlantsolía
+      • Daug kolonėlių self-service – reikia kortelės su PIN
+      • Pilti Hvolsvöllur, Vík, Kirkjubæjarklaustur – toliau mažiau stočių
+      • Skeiðflöt yra tarp Skógar/Dyrhólaey/Vík – degalus pildyti Vík arba Hvolsvöllur
+
+
+╔═══════════════════════════════════════════════════════════════╗
+║  📋  3. DOKUMENTAI IR DRAUDIMAS                                ║
+╚═══════════════════════════════════════════════════════════════╝
+
+  [ ] 🪪 Pasas / ID – galioti bent 3 mėn. po kelionės
+        ℹ️ Islandija – Šengeno zona, bet NE ES (ID kortelės pakanka)
+  [ ] 🏥 Europos sveikatos draudimo kortelė (ESSDK) – KIEKVIENAM
+  [ ] 🛡️ Kelionių draudimas (medicina min. €30,000, auto avarija):
+        ✅ Mantas  – SEB kreditinės kortelės kelionių draudimas
+        [ ] Mama   – ISIGYTI atskirą kelionių draudimą prieš kelionę
+        [ ] Tėtis  – ISIGYTI atskirą kelionių draudimą prieš kelionę
+        💡 SEB kortelės draudimas NEAPIMA kitų šeimos narių (tėvų).
+           Rekomenduojama: Gjensidige / If / PZU / Lietuvos draudimas
+           (~€15–30/asm. 5 dienoms; medicinos limitas min. €30 000)
+  [ ] 🚗 Vairuotojo pažymėjimas – lietuviško PAKANKA (IDP nereikia)
+
+
+╔═══════════════════════════════════════════════════════════════╗
+║  🛏️  4. NAKVYNĖS – REZERVUOTA                                 ║
+╚═══════════════════════════════════════════════════════════════╝
+
+  [x] 🛏️ D01 (09.07–09.08) – Gesthús Selfoss ✅
+        Kaina    : €179,10 už 3 žmones / €59,70 asm.
+        Adresas  : Engjavegur 56, 800 Selfoss, Iceland
+        Check-in : 09.07 21:00–22:00 – atvykimo laikas PATVIRTINTAS
+        Check-out: 09.08 iki 11:00
+        Kambarys : Twin Room, 3 suaugę; privatus vonios kambarys
+        Lovos    : 3 lovos – 2 ant grindų ir 1 dviaukštės lovos viršuje ✅
+        Patalynė : suteikiama ✅
+        Virtuvėlė: šaldytuvas, kaitlentė, virdulys, skrudintuvas,
+                   kavos aparatas, virtuvės reikmenys; puodai ir keptuvė
+                   patvirtinti; mikrobangės nepatvirtino ✅
+        Raktas   : atvykus rasti registratūros pastatą; jei registratūra
+                   uždaryta, self check-in bet kuriuo metu – detalės
+                   atvykimo dieną, durys paliktos atrakintos, raktas kambaryje.
+        Išvykimas: anksti išvykstant raktą palikti raudonoje dėžutėje prie
+                   registratūros įėjimo ✅
+        [ ] Atvykimo dieną patikrinti gautas kambario / self check-in detales.
+        💡 Skrydžiui vėluojant informuoti apgyvendinimo vietą.
+
+  [x] 🛏️ D02–D04 (09.08–09.11) – Farmhouse Lodge, Airbnb ✅
+        Tipas    : Entire guesthouse, 1 miegamasis, 3 lovos, 1 vonia
+        Kaina    : €1 380,00 už 3 žmones / €460,00 asm.
+        Host     : Arnar
+        Adresas  : Skeiðflöt, 871, Iceland
+        GPS      : 63.4374645, -19.1899663
+        Check-in : 09.08 nuo 16:00
+        Check-out: 09.11 iki 10:00; self-checkout patvirtintas,
+                   planuojama išvykti ~06:30
+        Vonios k.: privatus, studijos viduje ✅
+        Lovos    : paruoš 3 atskiras lovas trims suaugusiesiems ✅
+        Įskaičiuota: patalynė, rankšluosčiai, šildymas ir galutinis valymas ✅
+        Šaldytuvas: privatus šaldytuvas studijoje, galima naudoti visą viešnagę ✅
+        💡 Vieta tarp Skógar/Dyrhólaey/Vík: Vík ~15 min, Sólheimajökull ~20 min.
+        💡 D04 Jökulsárlón diena lieka ilga – maistą vakarui turėti nakvynėje.
+        🍳 The Barn bendra pilnai įrengta virtuvė veikia 24 val. –
+           Farmhouse Lodge komanda patvirtino raštu.
+        🥐 Pusryčiai: viešbučio pusryčių NEUŽSAKYTI. Visus pusryčius
+           gamintis patiems iš parduotuvėje nupirkto savo maisto.
+
+  [x] 🗑️ Paradise Cave 09.03–09.04 – ATŠAUKTA NEMOKAMAI; sumokėta €0
+  [x] 🗑️ Sena Skeiðflöt 09.04–09.07 – ATŠAUKTA NEMOKAMAI; sumokėta €0
+  [x] ✉️ Farmhouse patvirtino: privačią vonią, 3 atskiras lovas,
+        privatų šaldytuvą, patalynę, rankšluosčius, šildymą, galutinį
+        valymą ir galimą ankstyvą self-checkout.
+  [ ] 🔑 Prieš atvykimą sulaukti check-in, checkout ir rakto palikimo
+        instrukcijų.
+
+  🛒 KRÓNAN Vík centre – pirkti maistą nakvynei (pigesnė nei restoranai).
+     Pasipildyti atsargas 09.08 arba 09.09 vakare.
+     🔗 https://www.google.com/maps/search/?api=1&query=Kronan+Vik
+
+
+╔═══════════════════════════════════════════════════════════════╗
+║  📱  5. PROGRAMĖLĖS IR SVETAINĖS                              ║
+╚═══════════════════════════════════════════════════════════════╝
+
+  [ ] 🗺️ Google Maps – atsisiųsti OFFLINE žemėlapį (Pietų Islandija)
+  [ ] 🌦️ vedur.is – oficiali orų prognozė (keičiasi greitai!)
+  [ ] 🚨 safetravel.is – kelių/sąlygų įspėjimai, kelionės planas
+  [ ] 🚧 road.is (Vegagerðin) – kelių būklė realiu laiku
+  [ ] 📞 112 Iceland – pagalbos app (GPS vieta gelbėtojams)
+  [ ] 🌌 Aurora forecast (vedur.is) – šiaurės pašvaistė rugsėjį GALIMA!
+
+
+╔═══════════════════════════════════════════════════════════════╗
+║  🅿️  6. PARKINGAI PAGAL DIENAS                                ║
+╚═══════════════════════════════════════════════════════════════╝
+
+  DIENA 01:
+      🟡 Þingvellir P1/P2 (~1000 ISK/d., galioja visoms aikštelėms)
+         🔗 https://www.google.com/maps/search/?api=1&query=Thingvellir+P1+parking
+      🟢 Geysir – nemokamas (prie lankytojų centro)
+      🟢 Gullfoss – nemokamas (viršutinė aikštelė)
+      🟡 Kerið – įėjimas ~600 ISK/asm (apima parkavimą)
+         🔗 https://www.google.com/maps/search/?api=1&query=Kerid+crater+parking
+
+  DIENA 02:
+      🟡 Seljalandsfoss (~800 ISK/d.)
+         🔗 https://www.google.com/maps/search/?api=1&query=Seljalandsfoss+parking
+      🟢 Skógafoss – nemokamas
+         🔗 https://www.google.com/maps/search/?api=1&query=Skogafoss+parking
+      🟢 Skógar muziejus (Kvernufoss takui) – nemokamas
+         🔗 https://www.google.com/maps/search/?api=1&query=Skogar+museum+parking
+
+  DIENA 03:
+      🟡 Sólheimajökull (~750 ISK)
+         🔗 https://www.google.com/maps/search/?api=1&query=Solheimajokull+parking
+      🟢 Dyrhólaey – nemokamas (⚠️ kartais uždarytas dėl paukščių perėjimo)
+         🔗 https://www.google.com/maps/search/?api=1&query=Dyrholaey+parking
+      🟢 Reynisfjara – nemokamas
+         🔗 https://www.google.com/maps/search/?api=1&query=Reynisfjara+parking
+
+  DIENA 04:
+      🟢 Fjaðrárgljúfur – nemokamas
+         🔗 https://www.google.com/maps/search/?api=1&query=Fjadrargljufur+parking
+      🟡 Skaftafell (Vatnajökull NP) – mokamas (~750 ISK)
+         🔗 https://www.google.com/maps/search/?api=1&query=Skaftafell+Visitor+Center+parking
+      🟢 Diamond Beach – nemokamas
+         🔗 https://www.google.com/maps/search/?api=1&query=Diamond+Beach+Iceland+parking
+      � Jökulsárlón – 1 000 ISK/auto (Vatnajökull NP; mokama prie kioskelių vietoje)
+         🔗 https://www.google.com/maps/search/?api=1&query=Jokulsarlon+parking
+
+  DIENA 05:
+      🟡 Reykjavík centras – mokamas (~600 ISK/val), zona P1
+         🔗 https://www.google.com/maps/search/?api=1&query=Reykjavik+parking+P1
+      🟢 KEF oro uostas – grąžinimas nuomos punkte
+
+
+╔═══════════════════════════════════════════════════════════════╗
+║  🍽️  7. MAISTAS (Islandija brangi – planuoti)                 ║
+╚═══════════════════════════════════════════════════════════════╝
+
+  💡 Strategija:
+     • pusryčiai – gaminti patiems iš atsivežto ir vietoje pirkto maisto;
+     • pietūs – šalti užkandžiai / sumuštiniai iš vakaro;
+     • vakarienės – gaminti patiems nakvynių virtuvėse;
+     • restoranuose vakarieniauti neplanuojama.
+
+  🧳 IŠ LIETUVOS Į REGISTRUOTĄ BAGAŽĄ (3 žmonėms / 5 dienoms):
+
+     PUSRYČIAMS:
+     [ ] Avižiniai dribsniai                           0,8 kg
+     [ ] Granola / sausi pusryčiai                    0,6 kg
+     [ ] Grikiai pusryčiams                           0,4 kg
+     [ ] Kava ir arbata                                 0,3 kg
+     [ ] Riešutų ar migdolų sviestas                   0,4 kg
+
+     PIETUMS / SUMUŠTINIAMS:
+     [ ] Tortilijos ir trapučiai                        0,7 kg
+     [ ] Vytintos / rūkytos dešros (vakuumuotos)         0,8 kg
+     [ ] Sūdyti / rūkyti lašiniai (vakuumuoti)          0,5 kg
+     [ ] Kietasis sūris iš pasterizuoto pieno             0,8 kg
+     [ ] Konservuotas paštetas / mėsos konservai          0,4 kg
+
+     VAKARIENEI:
+     [ ] Grikiai vakarienei                            0,8 kg
+     [ ] Ryžiai vakarienei                              0,8 kg
+     [ ] Paprasti makaronai vakarienei                  0,6 kg
+     [ ] Sausi padažų ar troškinių mišiniai D04 vakarui  0,6 kg
+     [ ] Druska, pipirai, prieskoniai, sultinio kubeliai 0,2 kg
+
+     DIENOS IR ŽYGIŲ UŽKANDŽIAMS:
+     [ ] Riešutai ir džiovinti vaisiai                  0,8 kg
+     [ ] Baltyminiai / energiniai batonėliai (15–18 vnt.) 0,7 kg
+     [ ] Šokoladas ir kiti užkandžiai                   0,3 kg
+
+     Bendras vežamo maisto svoris: ~10,5 kg visai grupei
+     (Islandijoje perkamas sviestas į šį svorį neįtrauktas).
+     Visus produktus vežti neatidarytose originaliose pakuotėse; skysčius
+     ir riešutų sviestą dėti į sandarius maišelius, vengti stiklo.
+
+  ⚠️ MUITINĖ: vienas keliautojas gali įsivežti iki 10 kg maisto, kurio
+     vertė neviršija 25 000 ISK. Kiekvieno keleivio limitas vertinamas atskirai,
+     todėl maistą paskirstyti tarp lagaminų ir išsaugoti pirkimo kvitus.
+     Lietuva yra ES / EEE, todėl asmeniniam vartojimui galima vežtis oficialiai
+     pagamintus ir paženklintus mėsos bei pieno produktus. Rinktis neatidarytas
+     vakuumines pakuotes ir pasterizuoto pieno sūrį. Nevežti naminės ar žalios
+     mėsos, nepasterizuotų pieno produktų ir produktų be originalios etiketės.
+
+  ❄️ LAIKYMAS: kelionė iki pirmos nakvynės ilga, todėl geriausia vežti tik
+     tuos gaminius, kurių etiketėje leidžiama laikyti kambario temperatūroje.
+     Produktams, kuriems būtinas šaldymas, naudoti termo krepšį su visiškai
+     užšaldytais šalčio paketais ir atvykus laikyti šaldytuve.
+
+  🛒 ISLANDIJOJE PIRKTI ŠVIEŽIUS PRODUKTUS:
+     duoną, pieną, sviestą, skyr/jogurtą, kiaušinius, varškės sūrį, lašišą, daržoves,
+     vaisius, avokadus ir kitus greitai gendančius produktus.
+
+  🇮🇸 ISLANDIŠKI PRODUKTAI PARAGAVIMUI (KRÓNAN VÍK):
+
+     [ ] Žalia islandiška lašiša, ~550–600 g       ~2178–2376 ISK / €15–16,50
+     [ ] Plokkfiskur, 1 kg (vakarienė trims)          ~1849 ISK / €12,84
+         Tradicinis žuvies, bulvių ir svogūnų troškinys.
+     [ ] Taðreykt bleikja, 200 g                     ~1380 ISK / €9,58
+         Dūmais rūkyta arktinė palija; valgyti su rúgbrauð ir sviestu.
+     [ ] Harðfiskur, 100 g                            ~1749 ISK / €12,15
+         Džiovinta islandiška žuvis; vienos pakuotės pakaks visiems paragauti.
+     [ ] Rúgbrauð, 400 g                              ~399 ISK / €2,77
+         Saldoka tamsi islandiška ruginė duona.
+     [ ] Islandiška aviena, ~700–900 g                ~€15–30
+         Kepti vieną vakarienę nakvynėje.
+     [ ] Skyr – 3 skirtingi skoniai                  ~€5–10
+     [ ] Omnom šokoladas su jūros druska, 60 g       ~836 ISK / €5,81
+     [ ] Kleinur – islandiškos susuktos spurgos       ~1 pakuotė
+     [ ] Hákarl – fermentuotas ryklys                 tik maža pakuotė
+         Nebūtinas; pirkti tik jei visi nori paragauti dėl patirties.
+
+     Prioritetinis rinkinys: plokkfiskur + taðreykt bleikja + rúgbrauð +
+     harðfiskur + Omnom. Orientacinė kaina trims: ~€43–50.
+
+  💡 KRÓNAN Vík = pagrindinė bazė maistui 3 naktims Skeiðflöt. Pirkti:
+     šviežius produktus pagal aukščiau esantį sąrašą. Bónus taip pat yra
+     Hvolsvöllur ir Selfoss pakeliui.
+  💡 D04 grįžimas iš Jökulsárlón vėlyvas – vakarienei turėti greitai paruošiamą
+     maistą nakvynėje, o pietums/kelionei pasiimti termosą ir užkandžių.
+
+  ATSARGINIAI MAISTO TAŠKAI (jei reikia kavos / karšto maisto / planas keičiasi):
+  • Hvolsvöllur : Gallery Pizza, Eldstó Art Café, N1 grill
+  • Skógar      : Mía's food truck, Skógafoss Bistro Bar
+  • Vík         : Suður-Vík, Halldórskaffi, Smiðjan Brugghús (burgeriai),
+                  Skool Beans (kava), Krónan parduotuvė
+  • Reynisfjara : Black Beach Restaurant
+  • Reykjavík   : Bæjarins Beztu (hot dog), Sægreifinn (omarų sriuba),
+                  Hlöllabátar (sumuštiniai)
+  • Kirkjubæjarklaustur : Systrakaffi (pakeliui iš/į Jökulsárlón)
+
+  GOOGLE MAPS NUORODOS (atsarginės):
+      [D01] Geysir Glíma (Geysir Center)
+            🔗 https://www.google.com/maps/search/?api=1&query=Geysir+Center+Restaurant
+      [D02] Skógafoss Bistro Bar
+            🔗 https://www.google.com/maps/search/?api=1&query=Skogafoss+Bistro+Bar
+      [D02–D04] Suður-Vík (Vík)
+            🔗 https://www.google.com/maps/search/?api=1&query=Sudur-Vik+Restaurant
+      [D03] Halldórskaffi (Vík)
+            🔗 https://www.google.com/maps/search/?api=1&query=Halldorskaffi+Vik
+      [D03] Black Beach Restaurant (Reynisfjara)
+            🔗 https://www.google.com/maps/search/?api=1&query=Black+Beach+Restaurant+Reynisfjara
+      [D04] Systrakaffi (Kirkjubæjarklaustur)
+            🔗 https://www.google.com/maps/search/?api=1&query=Systrakaffi
+      [D05] Bæjarins Beztu (Reykjavík)
+            🔗 https://www.google.com/maps/search/?api=1&query=Baejarins+Beztu+Pylsur
+
+  💰 Biudžetas: pagrindinis patiekalas ~€18-30/asm, sriuba ~€12-18,
+     hot dog ~€4. Vanduo iš čiaupo – švarus, nemokamas, gerti drąsiai.
+
+
+╔═══════════════════════════════════════════════════════════════╗
+║  🧳  8. KĄ PASIIMTI (rugsėjis – vėsu, vėjuota, lietinga)       ║
+╚═══════════════════════════════════════════════════════════════╝
+
+  [ ] 🧥 Vandeniui/vėjui atsparus striukė (hardshell) – BŪTINA
+  [ ] 🧤 Sluoksniai: termo apatiniai, flisas, kepurė, pirštinės
+  [ ] 🥾 Žygio batai (vandeniui atsparūs) – Waterfall Way, kanjonai
+  [ ] 👖 Greitai džiūstančios kelnės (Seljalandsfoss permerks)
+  [ ] 🩳 Sky Lagoon: maudymosi kostiumas + atskiras rankšluostis KIEKVIENAM
+  [ ] 🕶️ Akiniai nuo saulės, kremas (vėjas + ryški šviesa)
+  [ ] 🔌 EU/Šengeno tipas F kištukas (Islandija = tas pats kaip LT)
+  [ ] 💊 Vaistinėlė, asmeniniai vaistai
+  [ ] 🔋 Power bankas, automobilio USB įkroviklis, telefono laikiklis
+  [ ] 🌌 Šiaurės pašvaistės stebėjimui – šiltas pledas, statyvas (foto)
+
+
+╔═══════════════════════════════════════════════════════════════╗
+║  ⚠️  9. SAUGUMAS ISLANDIJOJE                                   ║
+╚═══════════════════════════════════════════════════════════════╝
+
+  • 🌊 Reynisfjara „sneaker waves" – mirtinai pavojingos. Laikytis
+    TOLI nuo vandens, niekada nestovėti nugara į jūrą.
+  • 💨 Vėjas gali atplėšti automobilio dureles – laikyti tvirtai,
+    statytis nosimi prieš vėją.
+  • 🌦️ Orai keičiasi per minutes – tikrinti vedur.is kas rytą.
+  • 🚗 Negreitėti ant žvyro/vienos juostos tiltų; gyvuliai kelyje.
+  • 🅿️ Niekada nestovėti ant kelio fotografuojant – tik aikštelėse.
+  • 📵 Toliau nuo miestų – silpnas ryšys; turėti offline žemėlapį.
+
+
+╔══════════════════════════════════════════════════════════════╗
+║  💶 10. KELIONĖS BIUDŽETAS – 3 ŽMONĖMS                      ║
+╚══════════════════════════════════════════════════════════════╝
+
+  Skaičiavimo data: 2026-07-06
+  Naudojamas kursas: 1 € = 144 ISK. Kronomis nurodytos galutinės sumos
+  eurais yra orientacinės – kortelės nuskaitymo dieną kursas gali skirtis.
+
+  ŽINOMOS / REZERVACIJŲ KAINOS:
+
+  Pozicija                              3 žmonėms       1 žmogui
+  -----------------------------------------------------------------
+  ✈️ Skrydžiai                            €0,00           €0,00
+     Jau nupirkti; dovana, todėl į kelionės biudžetą neįtraukiami.
+  🛏️ Gesthús Selfoss (09.07–09.08)          €179,10         €59,70
+  🛏️ Farmhouse Lodge, Airbnb (09.08–09.11) €1 380,00       €460,00
+  🚗 Automobilio nuoma                  ~€568,22        ~€189,41
+     Perskaičiuota atėmus 22 297 ISK (~€154,84) grąžinimą.
+  🧊 Katla Ice Cave ✅ (09.09 14:00–17:00)    €631,38       €210,46
+     3 keleiviai · rezervacija perkelta ir rodoma ON SCHEDULE.
+     Tröll Expeditions · Víkubraut 26, 301 Vík
+     🔗 https://www.google.com/maps/dir/?api=1&destination=63.41780311341887,-19.013676749717284
+  🚤 Jökulsárlón Zodiac ✅ (09.10 15:10; 49 800 ISK) €349,42 €116,47
+     Rezervacija perkelta iš 09.06 į 09.10 15:10; bilietai automatiškai atnaujinti.
+  🧖 Sky Lagoon Saman ✅ (09.11 11:00; 50 970 ISK) €357,50 €119,17
+     3 suaugusieji · sumokėta visa suma · atvykus mokėti 0 ISK.
+  -----------------------------------------------------------------
+  Žinomų kainų suma                   ~€3 465,62      ~€1 155,21
+
+
+  PLANUOJAMOS KELIONĖS IŠLAIDOS:
+
+  Pozicija                              3 žmonėms       1 žmogui
+  -----------------------------------------------------------------
+  ⛽ Kuras (~1250 km maršrutui)             ~€200,00         ~€66,67
+     Rezervas skaičiuojant ~7,5 l/100 km ir ~€2,00/l.
+  🅿️ Parkingai (~10 000 ISK)             ~€69,44          ~€23,15
+     Bendras rezervas visoms mokamoms aikštelėms ir Reykjavík.
+  🌋 Kerið įėjimas (3 × 600 ISK)         ~€12,50           ~€4,17
+  🛒 Maistas iš parduotuvių (Islandijoje)      ~€300,00         ~€100,00
+     Didžioji dalis maisto vežama iš Lietuvos bagaže (~10,5 kg / grupei).
+     Islandijoje pirkti tik šviežius produktus (duona, pienas, daržovės ir kt.).
+  -----------------------------------------------------------------
+  Planuojamų išlaidų suma                ~€581,94          ~€193,98
+
+  BAZINIS VISOS KELIONĖS BIUDŽETAS        ~€4 047,56       ~€1 349,19
+  Rekomenduojamas nenumatytų išlaidų rezervas  €300,00          €100,00
+  PRAKTINIS BIUDŽETAS SU REZERVU           ~€4 347,56       ~€1 449,19
+  💰 TĖVŲ ĮNAŠAS (pervedimas Mantui)       −€2 000,00              –
+  ──────────────────────────────────────────────────────────────────
+  LIKUSIOS IŠLAIDOS IŠ SAVO KIŠENĖS        ~€2 347,56         –
+  (skaičiuoti galutinai, kai žinomos visos išlaidos)
+  PASIRENKAMI PRIEDAI (neįtraukti į bazinę sumą):
+
+  • Pusryčius kelionėje gamintis patiems iš savo maisto.
+    Jų produktai jau įtraukti į €300 islandiškų parduotuvių biudžetą.
+  • Kelionių draudimas, suvenyrai ir asmeninės išlaidos neįtraukti,
+    nes jų kainos dar nepateiktos.
+
+=================================================================
