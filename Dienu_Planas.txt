@@ -168,7 +168,7 @@
       palikimo instrukcijos bus atsiųstos prieš atvykimą.
   [x] Zero Car – rezervacija 09.07 17:00–09.11 17:00 ✅
       Planuojamas faktinis grąžinimas 09.11 apie 14:00–14:15.
-      [x] Į kortelę turi būti grąžinta 22 297 ISK per 7–15 darbo dienų.
+      [x] Į kortelę grąžinta 22 297 ISK ✅
       [ ] Patikrinti galutinį patvirtinimą ir kad grąžinimo vieta yra KEF.
   [x] Tröll Katla – 09.09 14:00, 3 keleiviai ✅ PATVIRTINTA
   [x] Jökulsárlón Zodiac – perkelta iš 09.06 į 09.10 15:10 ✅ PATVIRTINTA
