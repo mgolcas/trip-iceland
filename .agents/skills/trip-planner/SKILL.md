@@ -172,6 +172,9 @@ The generic per-mode route labels (`🚇 Metro/tramvajus/keltas` for `transit`, 
 - Cite current local prices with currency, conditions, date checked, and a direct source URL. Never retain an old price without refreshing it online.
 - Verify that every recommended restaurant still operates and check its exact-day opening and kitchen hours, current menu/prices, address, and reservation requirements.
 - Check sunrise and sunset for the destination and dates; finish outdoor activities before the last useful light.
+- For driving routes, proactively check for toll roads, toll tunnels, congestion charges, or mandatory ferry
+  fares along the actual route (distinct from per-site parking/entrance fees) and record a price+payment method
+  or an explicit "no tolls on this route" — do this by default, not only when asked.
 - Preserve the language and naming style already used in the trip files. Respond in the user's language unless asked otherwise.
 - State uncertainty instead of filling gaps with confident guesses.
 - Keep Google My Maps' current layer limits in mind and verify them before restructuring a map.

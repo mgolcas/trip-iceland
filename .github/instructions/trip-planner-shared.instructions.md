@@ -66,6 +66,15 @@ Before assuming a booked ticket's arrival time can be moved earlier or later, ve
 
 For sites that separate a general or worship entrance from a paid tourist/permit entrance, or that restrict access by season, weather, or booked slot (a national park visitor center, a glacier area requiring a guided tour, a religious site with prayer-time closures), do not assume a "free" or informal entrance is usable just because it exists and is free. Verify with an official or authoritative source (park authority, ministry/foundation announcement, official tourism-board notice) whether visitors are actually funneled to a different route or requirement regardless of intent, not only a general blog's description of what's available. When this cannot be confirmed with confidence, say so explicitly and offer the traveler a choice (pay/book for guaranteed entry, or risk it) rather than silently recommending the free or informal option as if it were confirmed to work.
 
+## Identify toll roads and other route-wide charges by default
+
+For any trip that involves driving (or a route with tunnels, bridges, ferries, or a city congestion zone), proactively check — without waiting to be asked — whether the planned route crosses any toll road, toll tunnel, congestion charge, or mandatory vehicle fare, as a check distinct from per-site parking and entrance fees (which are already tracked per day). For every leg of the route:
+
+- identify each toll point by name and confirm whether the itinerary actually passes through it (a toll existing somewhere in the destination country does not mean this specific route uses it);
+- record the price, vehicle-type/axle basis if it varies, and the payment method and deadline (electronic plate-based tolls in several countries, including Iceland's tunnel tolls, must be paid online within a set window after the crossing, not at a gate);
+- if the route has no tolls at all, state that explicitly in `Keliones_Asistentas.txt` (e.g. alongside the parking table) rather than leaving the question unanswered — a confirmed "no tolls on this route" is as valuable as a toll list;
+- do this automatically whenever a driving route is planned or changed, not only when the traveler asks about tolls.
+
 ## Audit KML route labels against the transport actually described
 
 `tools/gen_day_maps.py`'s generic per-mode route labels (e.g. a `transit` label implying metro/tram/ferry) are a reasonable default but are not always accurate for a specific leg — e.g. a leg whose description only mentions a bus/taxi, or only a ferry, or only a hike, should not carry a label implying an unrelated mode. Periodically audit every route leg's generated name against its actual description/note text, and use the per-leg `line_label` override (9th tuple field on a stop entry, where supported) to correct any leg whose real transport doesn't match the generic label for its `mode`. Do this whenever legs are added or their descriptions change, not only when explicitly asked.

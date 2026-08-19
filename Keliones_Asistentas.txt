@@ -173,6 +173,12 @@
 ║  🅿️  6. PARKINGAI PAGAL DIENAS                                ║
 ╚═══════════════════════════════════════════════════════════════╝
 
+  ✅ MOKAMI KELIAI (tolls): ŠIAME MARŠRUTE JŲ NĖRA. Islandijoje yra tik vienas
+     mokamas kelio tunelis – Vaðlaheiðargöng (šiaurėje, prie Akureyri) – jis
+     NEPATENKA į šį pietų pakrantės maršrutą (patikrinta 2026-08-19,
+     safe.bluecarrental.is). Žemiau išvardytos vietos yra parkavimo/įėjimo
+     mokesčiai (ne keliai) – jau įtraukti į dienų sąrašą ir biudžetą (10 skyrius).
+
   DIENA 01:
       🟡 Þingvellir P1/P2 (~1000 ISK/d., galioja visoms aikštelėms)
          🔗 https://www.google.com/maps/search/?api=1&query=Thingvellir+P1+parking
@@ -392,6 +398,57 @@
   Skaičiavimo data: 2026-07-06
   Naudojamas kursas: 1 € = 144 ISK. Kronomis nurodytos galutinės sumos
   eurais yra orientacinės – kortelės nuskaitymo dieną kursas gali skirtis.
+
+  💱 VALIUTOS KURSAS (patikrinta 2026-08-19, ECB oficialus orientacinis kursas):
+     1 € = 142,2 ISK (svyravo 141,4–149,0 per pastaruosius 12 mėn.,
+     vidurkis ~144,3). 🔗 https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-isk.en.html
+     💡 Šiame faile naudojamas 144 ISK/€ apytikslis kursas biudžeto
+     skaičiavimams nekeičiamas atgaline data – faktinė konvertavimo suma
+     priklausys nuo kortelės/banko kurso mokėjimo dieną.
+
+  💳 GRYNI PINIGAI AR KORTELĖ? Islandija yra viena iš labiausiai bekonteivio
+     (cashless) šalių pasaulyje – kortele (įsk. kontaktinę/telefono) galima
+     atsiskaityti beveik visur, net už mažas sumas (kava, WC, parkingo
+     automatai), o užsienio valiuta (EUR, USD) priimama itin retai, praktiškai
+     tik KEF oro uoste (patikrinta 2026-08-19, en.wikipedia.org/wiki/Icelandic_króna).
+     ISIGRYNINTI NEBŪTINA – visą kelionę galima praleisti be grynų, jei
+     kortelė veikia (patikrinti, ar ji priima užsienio operacijas ir
+     ar nėra per mažas dienos limitas). Nedidelį grynųjų rezervą (~5–10
+     000 ISK) verta turėti tik kaip atsarginį variantą tinklo/POS
+     gedimo atveju, ne kaip pagrindinę mokėjimo priemonę.
+
+  💳 KURIA KORTELE MOKĖTI (turimos: SEB debetinė, SEB Gold kreditinė, Wise
+     virtuali, Monese virtuali + fizinė be plano):
+     • 🥇 PIRMENYBĖ – WISE (virtuali, per Google/Apple Pay ar internetu):
+       naudoja artimą tarpbankiniam (mid-market) kursą, be procentinio
+       antkainio; tik nedidelis, skaidrus konvertavimo mokestis (tiksli ISK
+       riba nepatikrinta šioje sesijoje – prieš kelionę pasitikrinti Wise
+       app skaičiuoklėje). Mėnesinio mokesčio nėra – jokio plano pirkti
+       nereikia. ATM grynųjų išėmimas iki ~£250 (~€290) per mėn. nemokamas,
+       bet grynieji šiai kelionei nebūtini (žr. aukščiau).
+     • 🥈 ATSARGINĖ FIZINĖ KORTELĖ degalinių automatams – SEB Gold arba
+       Monese fizinė: kai kurie automatinio degalų pylimo terminalai
+       (N1/Olís ir kt.) reikalauja fizinės kortelės su lustu/PIN, o ne
+       vien telefono/virtualios kortelės – tam pravers SEB Gold (tikras
+       banko produktas, patikimai priimamas visur) arba jau turima Monese
+       fizinė kortelė.
+     • ⚠️ MONESE NEMOKAMAS PLANAS (dabar turimas) – užsienio valiutos
+       (ISK) kortelės mokestis 3% už operaciją (patikrinta 2026-08-19,
+       monese.com/our-pricing-eu) – BRANGIAUSIAS variantas, naudoti tik
+       kaip paskutinę atsarginę priemonę.
+     • ⚠️ SEB (debetinė/Gold): konvertavimo antkainis Lietuvos bankuose
+       paprastai ~2 % nuo tarpbankinio kurso; Gold statusas dažniausiai
+       suteikia kelionių draudimą/lounge, bet NE geresnį FX kursą.
+       Tikslaus dabartinio SEB tarifo šioje sesijoje patikrinti nepavyko
+       (svetainė blokavo užklausas) – prieš kelionę pasitikrinti SEB
+       app/kainyne.
+     💡 AR VERTA LAIKINAI PIRKTI MONESE/WISE PLANĄ 1 MĖN.? Su dabartiniu
+       nemokamu Wise (be jokio mokesčio, be antkainio) šiai ~5 dienų
+       kelionei atskiro mokamo Monese plano (€2,95–14,95/mėn.) pirkti
+       NEAPSIMOKA – net Monese Premium (€14,95/mėn., 0 % FX) kainuotų
+       daugiau nei realus 5 dienų FX mokestis per Wise. Naudoti Wise kaip
+       pagrindinę mokėjimo priemonę, o Monese/SEB fizines korteles laikyti
+       tik atsargai.
 
   ŽINOMOS / REZERVACIJŲ KAINOS:
 

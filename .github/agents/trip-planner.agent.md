@@ -182,6 +182,9 @@ Always **compute** the weekday from the actual date — never copy from a prior 
 - **Day flow**: minimise backtracking. Group nearby stops together.
 - **Public holidays**: always check the destination's official holiday list for the travel dates.
 - **Daylight**: note sunrise/sunset for the latitude and month. Plan outdoor stops to finish before last useful light.
+- **Toll roads**: for driving routes, proactively check for toll roads, toll tunnels, congestion charges, or
+  mandatory ferry fares along the actual route (distinct from per-site parking/entrance fees) and record a
+  price+payment method or an explicit "no tolls on this route" — do this by default, not only when asked.
 - **Check-in windows**: for every booked flight, rental car, ferry, or tour with its own check-in step, record whether
   it's optional or mandatory, its exact check-in window and cutoff computed to real calendar dates/times, and keep a
   calendar reminders file (`.ics`) up to date for it — see "Track time-sensitive check-in windows" in the shared policy.
