@@ -1,22 +1,32 @@
 #!/usr/bin/env python3
 """Generate one Google My Maps KML file (5 day-layers) for the Iceland trip.
 
-Convention (see .github/agents/trip-planner.agent.md):
+Convention (see .github/instructions/trip-planner-shared.instructions.md,
+.github/agents/trip-planner.agent.md, .agents/skills/trip-planner/SKILL.md):
 - ONE map: 5 days = 5 layers (<Folder>), well under the 10-layer My Maps limit.
 - 1 day = 1 layer. Each stop = its own clickable <Placemark> with a Maps link.
 - Routes drawn per layer, colour-coded by mode:
-    DRIVE -> solid blue   (real road geometry from OSRM)
+    DRIVE -> solid blue   (real road geometry + duration/distance from OSRM)
     WALK  -> green        (straight segment; used for hikes / on-foot stops)
+  Each route is numbered 1-based per day (restarts every folder) and uses
+  short_name() to strip ⚠️/✅ annotations and "– HH:MM" time suffixes so the
+  Google Maps mobile bottom sheet doesn't truncate the label.
 - Each stop's (lon, lat) = the OBJECT / viewpoint you actually visit; the link opens
   its place card (SEARCH[name]) -> tap Directions for live navigation. Route lines are
   only a visual overview (Google Maps does not turn-by-turn along a custom KML line).
   Where parking is far from the object (Thingvellir, Skaftafell), add a separate parking
   pin in the same day layer.
+- Reserved/timed-entry stops (Katla, Jökulsárlón Zodiac, Sky Lagoon) carry a
+  "– HH:MM" suffix on the stop pin name only (never on the route label).
+- Pin icon colour+shape both come from KINDS[kind] (paddle icon matching the
+  colour) — never emit <color> without the matching <Icon><href>, or Google My
+  Maps silently falls back to a plain default marker for every stop.
 
 Run:  python3 tools/gen_day_maps.py
 Output: Iceland.kml
 """
 import json
+import math
 import re
 import urllib.request
 from urllib.parse import quote_plus
@@ -24,7 +34,6 @@ from urllib.parse import quote_plus
 KEF = (-22.6056, 63.9850)   # KEF (Keflavík) – car pickup / drop-off
 VIK = (-19.0061, 63.4186)   # Vík í Mýrdal – restaurants / Katla meeting area
 HVO = (-20.2218, 63.7510)   # Hvolsvöllur – fuel / food stop area
-PARADISE = (-19.97736, 63.599725)     # Paradise Cave Hostel & Guesthouse
 SELFOSS = (-20.9875, 63.9329)         # Gesthús Selfoss – D01 night
 SKEIDFLOT = (-19.1899663, 63.4374645) # Skeiðflöt Airbnb – D02–D04 nights
 
@@ -40,7 +49,6 @@ SEARCH = {
     (-20.1199, 64.3271): "Gullfoss",
     (-20.8851, 64.0413): "Kerid Crater",
     (-20.2218, 63.7510): "Hvolsvollur",
-    (-19.9774, 63.5997): "Paradise Cave Hostel Guesthouse Seljalandsskola",
     (-19.9886, 63.6156): "Seljalandsfoss",
     (-19.9864, 63.6209): "Gljufrabui",
     (-19.5113, 63.5320): "Skogafoss",
@@ -136,7 +144,7 @@ DAYS = {
         ("🅿️ Sólheimajökull parkingas", -19.3704, 63.5304, "parking", "drive"),
         ("Sólheimajökull ledynas", -19.3584, 63.5346, "sight", "walk"),
         ("🅿️ Sólheimajökull (grįžimas prie automobilio)", -19.3704, 63.5304, "parking", "walk", False),
-        ("Vík-Inn hótel – Katla susitikimas", -19.0137, 63.4178, "sight", "drive"),
+        ("Vík-Inn hótel (Katla susitikimas) – 14:00", -19.0137, 63.4178, "sight", "drive"),
         ("🅿️ Reynisfjara parkingas", -19.0447, 63.4042, "parking", "drive"),
         ("Reynisfjara juodas paplūdimys", -19.0716, 63.4057, "beach", "walk"),
         ("🅿️ Reynisfjara (grįžimas prie automobilio)", -19.0447, 63.4042, "parking", "walk", False),
@@ -158,7 +166,7 @@ DAYS = {
         ("Diamond Beach", -16.1777, 64.0443, "beach", "walk"),
         ("🅿️ Diamond Beach (grįžimas prie automobilio)", -16.1779, 64.0455, "parking", "walk", False),
         ("🅿️ Jökulsárlón parkingas", -16.17974, 64.04804, "parking", "drive"),
-        ("Jökulsárlón ledynų lagūna", -16.1958, 64.0489, "sight", "walk"),
+        ("Jökulsárlón ledynų lagūna (Zodiac) – 15:10", -16.1958, 64.0489, "sight", "walk"),
         ("🅿️ Jökulsárlón (grįžimas prie automobilio)", -16.17974, 64.04804, "parking", "walk", False),
         ("Nakvynė – Skeiðflöt", SKEIDFLOT[0], SKEIDFLOT[1], "hotel", "drive"),
     ]),
@@ -168,7 +176,7 @@ DAYS = {
         ("Hallgrímskirkja", -21.92654, 64.14202, "sight", "walk"),
         ("Sun Voyager / Harpa", -21.9224, 64.1475, "sight", "walk"),
         ("🅿️ Reykjavík (grīžimas prie automobilio)", -21.92697, 64.1419, "parking", "walk", False),
-        ("Sky Lagoon (Kópavogur)", -21.94629, 64.11648, "sight", "drive"),
+        ("Sky Lagoon (Kópavogur) – 11:00", -21.94629, 64.11648, "sight", "drive"),
         ("Keflavik oro uostas", KEF[0], KEF[1], "transit", "drive"),
     ]),
 }
@@ -179,20 +187,45 @@ LINE_STYLES = {
 }
 
 
-def osrm_geometry(a, b):
-    """Return list of (lon,lat) following roads, or [a,b] on failure."""
+def osrm_route(a, b):
+    """Return (points, duration_seconds); duration is None on OSRM failure."""
     url = (f"http://router.project-osrm.org/route/v1/driving/"
            f"{a[0]},{a[1]};{b[0]},{b[1]}?overview=full&geometries=geojson")
     try:
         with urllib.request.urlopen(url, timeout=30) as r:
             d = json.load(r)
-        return [(c[0], c[1]) for c in d["routes"][0]["geometry"]["coordinates"]]
+        route = d["routes"][0]
+        return [(c[0], c[1]) for c in route["geometry"]["coordinates"]], route["duration"]
     except Exception:
-        return [a, b]
+        return [a, b], None
 
 
 def esc(s):
     return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+
+
+def haversine_km(a, b):
+    lon1, lat1 = a
+    lon2, lat2 = b
+    r = 6371.0088
+    p1, p2 = math.radians(lat1), math.radians(lat2)
+    dphi = math.radians(lat2 - lat1)
+    dlmb = math.radians(lon2 - lon1)
+    x = math.sin(dphi / 2) ** 2 + math.cos(p1) * math.cos(p2) * math.sin(dlmb / 2) ** 2
+    return 2 * r * math.asin(math.sqrt(x))
+
+
+def haversine_path_km(pts):
+    return sum(haversine_km(pts[j], pts[j + 1]) for j in range(len(pts) - 1))
+
+
+def short_name(name):
+    """Core place name without a trailing ⚠️/✅ status annotation or "– HH:MM" time
+    suffix, for compact route-line labels that fit the Google Maps mobile bottom
+    sheet without truncation. Full annotated/timed names stay on the stop pins."""
+    prefix = re.split(r"⚠️|✅", name, maxsplit=1)[0]
+    prefix = re.sub(r"\s*[–-]\s*\d{1,2}:\d{2}\s*$", "", prefix)
+    return prefix.strip()
 
 
 def maps_link(name, lon, lat):
@@ -209,7 +242,8 @@ def maps_link(name, lon, lat):
 
 def build_day_folder(day, title, stops):
     out = [f"    <Folder>\n      <name>DIENA {esc(title)}</name>"]
-    # route lines first (so pins render on top)
+    # route lines first (so pins render on top); each numbered 1-based per day so
+    # tapping a line in the Google Maps mobile app shows its place in the order.
     for i in range(1, len(stops)):
         prev = stops[i - 1]
         cur = stops[i]
@@ -217,18 +251,23 @@ def build_day_folder(day, title, stops):
         a = (prev[1], prev[2])
         b = (cur[1], cur[2])
         if mode == "drive":
-            pts = osrm_geometry(a, b)
+            pts, duration_s = osrm_route(a, b)
             if pts:          # anchor endpoints to exact stop coords (avoids OSRM snap offset)
                 pts[0] = a
                 pts[-1] = b
+            dist_km = haversine_path_km(pts)
+            minutes = round(duration_s / 60 * 1.15 / 5) * 5 if duration_s else None
+            duration_text = f"~{max(5, minutes)} min, {dist_km:.0f} km" if minutes else f"~{dist_km:.0f} km"
         else:
             pts = [a, b]
+            duration_text = None
         color, width = LINE_STYLES.get(mode, LINE_STYLES["walk"])
         coordstr = " ".join(f"{x},{y},0" for x, y in pts)
         label = {"drive": "🚗 Vairavimas", "walk": "🚶 Ėjimas / hike"}.get(mode, mode)
+        name_text = f"{label} ({duration_text})" if duration_text else label
         out.append(
             "      <Placemark>\n"
-            f"        <name>{label}: {esc(prev[0])} → {esc(cur[0])}</name>\n"
+            f"        <name>{i}. {esc(name_text)}: {esc(short_name(prev[0]))} → {esc(short_name(cur[0]))}</name>\n"
             "        <Style><LineStyle>"
             f"<color>{color}</color><width>{width}</width>"
             "</LineStyle></Style>\n"
@@ -242,7 +281,7 @@ def build_day_folder(day, title, stops):
         show_pin = stop[5] if len(stop) > 5 else True
         if not show_pin:
             continue
-        color, _ = KINDS.get(kind, KINDS["sight"])
+        color, icon = KINDS.get(kind, KINDS["sight"])
         link = maps_link(name, lon, lat)
         desc = f"<![CDATA[🔗 <a href=\"{link}\">{link}</a>]]>"
         out.append(
@@ -251,7 +290,7 @@ def build_day_folder(day, title, stops):
             f"        <description>{desc}</description>\n"
             "        <Style><IconStyle>"
             f"<color>{color}</color><scale>1.1</scale>"
-            "<Icon><href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon>"
+            f"<Icon><href>http://maps.google.com/mapfiles/kml/paddle/{icon}.png</href></Icon>"
             "</IconStyle></Style>\n"
             f"        <Point><coordinates>{lon},{lat},0</coordinates></Point>\n"
             "      </Placemark>"

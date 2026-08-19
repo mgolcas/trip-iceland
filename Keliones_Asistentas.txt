@@ -44,6 +44,8 @@
                     raktą galima palikti keybox, iki terminalo grįžti pėsčiomis.
         🔗 Oficiali paėmimo / grąžinimo instrukcija:
            https://www.zerocar.is/info/pickup-dropoff-process
+        💡 Prieš atvykstant užpildyti online check-in (Zero Car svetainėje) –
+           pagreitina automobilio perdavimą (patikrinta 2026-08-19).
         💡 Plane F-roads nėra. 4WD naudingas sukibimui ant žvyro ar šlapiu
            oru, tačiau nesuteikia leidimo važiuoti uždarytais keliais / bekele.
         ⚠️ Ties Fjaðrárgljúfur nevažiuoti toliau link Laki / F206.
@@ -370,8 +372,11 @@
      🔗 https://www.google.com/maps/dir/?api=1&destination=63.41780311341887,-19.013676749717284
   🚤 Jökulsárlón Zodiac ✅ (09.10 15:10; 49 800 ISK) €349,42 €116,47
      Rezervacija perkelta iš 09.06 į 09.10 15:10; bilietai automatiškai atnaujinti.
-  🧖 Sky Lagoon Saman ✅ (09.11 11:00; 50 970 ISK) €357,50 €119,17
+     Patikrinta 2026-08-19: operatorius (icelagoon.is) patvirtina Zodiac sezoną
+     gegužė–spalis ir 2026 m. suaugusiojo kainą 16 600 ISK/asm. – atitinka rezervuotą kainą.
+  🧖 Sky Lagoon Saman ✅ (09.11 11:00; 50 970 ISK) €357,50 €119,17
      3 suaugusieji · sumokėta visa suma · atvykus mokėti 0 ISK.
+     Patikrinta 2026-08-19: Saman paketas vis dar siūlomas (skylagoon.com).
   -----------------------------------------------------------------
   Žinomų kainų suma                   ~€3 465,62      ~€1 155,21
 

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Trip Planner"
+  short_description: "Plan trips with live-verified facts"
+  default_prompt: "Use $trip-planner to review or update this trip using freshly web-verified prices, hours, restaurant status, and schedules."

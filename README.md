@@ -11,16 +11,13 @@ Automobilis: **Zero Car – Dacia Duster 4WD, mechaninis; rezervacija perkelta �
 | Failas | Paskirtis |
 |--------|-----------|
 | [`Dienu_Planas.txt`](Dienu_Planas.txt) | Pagrindinis dienų planas su tikslais laikais (MASTER) |
-| [`Dienu_Planas_ORIGINAL_2026-09-03_09-07.txt`](Dienu_Planas_ORIGINAL_2026-09-03_09-07.txt) | Archyvuotas pradinis planas iki skrydžio atšaukimo |
 | [`Keliones_Asistentas.txt`](Keliones_Asistentas.txt) | Pasiruošimo sąrašas: skrydžiai, auto nuoma, degalai, orai, sauga |
-| [`Iceland.kml`](Iceland.kml) | Teminis Google My Maps žemėlapis + dienos planas (PLANAS) |
-| [`Iceland_Dienos.kml`](Iceland_Dienos.kml) | Dienų maršrutų žemėlapis (1 diena = 1 sluoksnis, keliai + žygiai) |
+| [`Iceland.kml`](Iceland.kml) | Dienų žemėlapis (5 sluoksniai D01–D05) – auto-generuojamas |
 | [`tools/gen_day_maps.py`](tools/gen_day_maps.py) | Dienų žemėlapio generatorius (OSRM kelių geometrija) |
 
 ## Žemėlapių importas
 
-Importuok `Iceland.kml` ir `Iceland_Dienos.kml` į [Google My Maps](https://www.google.com/mymaps)
-kaip atskirus žemėlapius.
+Importuok `Iceland.kml` į [Google My Maps](https://www.google.com/mymaps).
 
 ## Maršruto santrauka
 
@@ -30,4 +27,7 @@ kaip atskirus žemėlapius.
 - **D04 09.10** – Jökulsárlón Zodiac 15:10 ✅ + Skaftafell + Fjaðrárgljúfur ⚠️ ilga diena
 - **D05 09.11** – Trumpas Reykjavík + Sky Lagoon + išvykimas
 
-Planavimo agentas ir konvencijos: [`.github/agents/trip-planner.agent.md`](.github/agents/trip-planner.agent.md).
+Planavimo agentas ir konvencijos: [`.github/agents/trip-planner.agent.md`](.github/agents/trip-planner.agent.md)
+(GitHub Copilot) arba [`.agents/skills/trip-planner/SKILL.md`](.agents/skills/trip-planner/SKILL.md) (Codex) –
+abu remiasi ta pačia bendra politika [`.github/instructions/trip-planner-shared.instructions.md`](.github/instructions/trip-planner-shared.instructions.md)
+ir šios kelionės duomenimis [`.github/instructions/trip-context.instructions.md`](.github/instructions/trip-context.instructions.md).

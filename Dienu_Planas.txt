@@ -20,42 +20,44 @@
   17:05    🧳 Bagažas / muitinė; eiti į Blue Car / Zero Car biurą
   17:35    🚗 Automobilio paėmimas, būklės / kuro foto (~30 min)
            ✅ Rezervacijos pradžia 17:00; faktinis paėmimas po bagažo.
-  18:05    🚗 Išvykimas → Selfoss parduotuvė (~1 val 25–35 min, ~100 km)
-  19:35    🛒 Maistas / pusryčiai Selfoss parduotuvėje prieš nakvynę
+           💡 Prieš atvykstant užpildyti online check-in (Zero Car) – greitesnis perdavimas.
+  18:05    🚗 Išvykimas → Selfoss parduotuvė (~1 val 40 min, ~95 km)
+           🔧 patikrinta OSRM 2026-08-19: 95,2 km / ~88 min be rezervo × 1,15.
+  19:45    🛒 Maistas / pusryčiai Selfoss parduotuvėje prieš nakvynę (~30 min)
            Jei parduotuvė nebedirba – vakarienė Selfoss centre arba turimos atsargos.
-  20:05    🛏️ Gesthús Selfoss – Engjavegur 56, 800 Selfoss
+  20:15    🍽️ Lengva vakarienė / poilsis automobilyje ar Selfoss centre iki check-in.
+  21:00    🛏️ Gesthús Selfoss – Engjavegur 56, 800 Selfoss
            Check-in nuo 15:00; atvykimas 21:00–22:00 patvirtintas.
            Jei registratūra uždaryta – galimas self check-in bet kuriuo metu:
            detalės bus atsiųstos atvykimo dieną, durys paliktos atrakintos,
            raktas – kambaryje.
-  20:20    🍽️ Lengva vakarienė ir ankstyvas poilsis.
            💡 Ryte išvažiuoti anksti; oficialus checkout iki 11:00.
 
 
 ┌────────────────────────────────────────────────────────────────┐
 │ DIENA 02 – 09.08 (Antradienis) – AUKSINIS RATAS + KRIOKLIAI    │
 └────────────────────────────────────────────────────────────────┘
-  ⚠️ INTENSYVI DIENA: ~5 val 50 min vairavimo + lankymas. Išvykti laiku!
+  ⚠️ INTENSYVI DIENA: ~5 val 40 min vairavimo + lankymas (patikrinta OSRM 2026-08-19). Išvykti laiku!
   05:50    ☀️ Pusryčiai Gesthús, daiktai į automobilį
-  06:25    🚗 Išvykimas → Þingvellir (~50 min)
-  07:15    🌿 Þingvellir – Almannagjá, Öxarárfoss (~1 val 20 min)
-  08:35    🚗 Važiavimas → Geysir (~1 val)
-  09:35    💨 Strokkur / Geysir (~45 min)
-  10:20    🚗 Važiavimas → Gullfoss (~10 min)
-  10:30    💦 Gullfoss (~45 min)
-  11:15    🍽️ Ankstyvi pietūs / užkandžiai (~25 min)
-  11:40    🚗 Važiavimas → Kerið (~55 min)
-  12:35    🌋 Kerið krateris (~35 min)
-  13:10    🚗 Važiavimas per Selfoss → Seljalandsfoss (~1 val 30 min)
+  06:25    🚗 Išvykimas → Þingvellir (~1 val)
+  07:25    🌿 Þingvellir – Almannagjá, Öxarárfoss (~1 val 20 min)
+  08:45    🚗 Važiavimas → Geysir (~1 val 10 min)
+  09:55    💨 Strokkur / Geysir (~45 min)
+  10:40    🚗 Važiavimas → Gullfoss (~10 min)
+  10:50    💦 Gullfoss (~45 min)
+  11:35    🍽️ Ankstyvi pietūs / užkandžiai (~25 min)
+  12:00    🚗 Važiavimas → Kerið (~55 min)
+  12:55    🌋 Kerið krateris (~35 min)
+  13:30    🚗 Važiavimas per Selfoss → Seljalandsfoss (~1 val 30 min)
            🛒 Trumpai apsipirkti Selfoss tik jei nepadaryta D01 vakare.
-  14:45    💦 Seljalandsfoss + Gljúfrabúi (~1 val 15 min)
+  15:00    💦 Seljalandsfoss + Gljúfrabúi (~1 val 15 min)
            ⚠️ Neperšlampami drabužiai; avalynė su geru sukibimu.
-  16:00    🚗 Važiavimas tiesiai → Kvernufoss (~30 min)
-  16:30    🚶 Kvernufoss takas ir krioklys (~50 min)
-  17:20    🚗 Važiavimas → Farmhouse Lodge, Skeiðflöt (~20–25 min)
-  17:45    🛏️ Check-in / daiktų palikimas
+  16:15    🚗 Važiavimas tiesiai → Kvernufoss (~35 min)
+  16:50    🚶 Kvernufoss takas ir krioklys (~50 min)
+  17:40    🚗 Važiavimas → Farmhouse Lodge, Skeiðflöt (~20 min)
+  18:00    🛏️ Check-in / daiktų palikimas
            🔑 Instrukcijas šeimininkas atsiųs prieš atvykimą.
-  18:45    🍽️ Vakarienė / poilsis
+  19:00    🍽️ Vakarienė / poilsis
 
   PRIORITETAI JEI VĖLUOJAMA:
   1) išlaikyti Þingvellir, Geysir, Gullfoss ir Seljalandsfoss;
