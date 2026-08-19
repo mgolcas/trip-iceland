@@ -1,0 +1,85 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//trip-iceland//Islandija 2026 Priminimai//LT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Islandija 2026 – Check-in priminimai
+BEGIN:VEVENT
+UID:iceland2026-zerocar-checkin-open@trip-iceland
+DTSTAMP:20260819T000000Z
+DTSTART:20260831T170000Z
+DTEND:20260831T173000Z
+SUMMARY:🚗 Zero Car online check-in atsidaro
+DESCRIPTION:Privalomas online check-in – vietoje jokio check-in proceso nėra\, be jo keybox nepasieksi automobilio. Atsidaro likus 7 d. iki paėmimo (09.07 17:00 KEF). Atlikti: https://www.zerocar.is
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Zero Car online check-in atsidaro
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:iceland2026-zerocar-checkin-lastchance@trip-iceland
+DTSTAMP:20260819T000000Z
+DTSTART:20260906T090000Z
+DTEND:20260906T093000Z
+SUMMARY:⚠️ Paskutinė proga – Zero Car online check-in
+DESCRIPTION:Jei dar neatlikta\, atlikti ŠIANDIEN prieš rytojaus (09.07) skrydį ir automobilio paėmimą. https://www.zerocar.is
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Paskutinė proga Zero Car check-in
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:iceland2026-flight1-checkin-open@trip-iceland
+DTSTAMP:20260819T000000Z
+DTSTART:20260905T122500Z
+DTEND:20260905T125500Z
+SUMMARY:✈️ Online check-in atsidaro – VNO→KEF (09.07 15:25)
+DESCRIPTION:Atsidaro likus 48 val. iki išvykimo (jei vietos nepirktos su bilietu). Jei pirktas auto check-in\, jau turėjo įvykti automatiškai likus 50 val. (~09.05 10:25 UTC). Pasitikrinti boarding pass. Oro uoste check-in galimas už papildomą mokestį.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Flight 1 online check-in
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:iceland2026-flight1-boarding@trip-iceland
+DTSTAMP:20260819T000000Z
+DTSTART:20260907T105500Z
+DTEND:20260907T112500Z
+SUMMARY:✈️ Ruoštis eiti į išvykimo vartus (VNO→KEF)
+DESCRIPTION:Griežtas terminalas – prie vartų būti ne vėliau 14:55 Vilniaus laiku (30 min prieš 15:25 išvykimą). Vėluojant į vartus registracija anuliuojama.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Eiti į išvykimo vartus VNO
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:iceland2026-flight2-checkin-open@trip-iceland
+DTSTAMP:20260819T000000Z
+DTSTART:20260909T174500Z
+DTEND:20260909T181500Z
+SUMMARY:✈️ Online check-in atsidaro – KEF→VNO (09.11 17:45)
+DESCRIPTION:Atsidaro likus 48 val. iki išvykimo (jei vietos nepirktos su bilietu). Jei pirktas auto check-in\, jau turėjo įvykti automatiškai likus 50 val. (~09.09 15:45 UTC). Pasitikrinti boarding pass. Oro uoste check-in galimas už papildomą mokestį.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Flight 2 online check-in
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:iceland2026-flight2-boarding@trip-iceland
+DTSTAMP:20260819T000000Z
+DTSTART:20260911T161500Z
+DTEND:20260911T164500Z
+SUMMARY:✈️ Ruoštis eiti į išvykimo vartus (KEF→VNO)
+DESCRIPTION:Griežtas terminalas – prie vartų būti ne vėliau 17:15 (30 min prieš 17:45 išvykimą iš KEF). Vėluojant į vartus registracija anuliuojama.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Eiti į išvykimo vartus KEF
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

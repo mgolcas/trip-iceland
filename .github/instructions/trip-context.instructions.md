@@ -22,6 +22,7 @@ applyTo: ["*.kml", "Dienu_Planas.txt", "Keliones_Asistentas.txt", "*.py"]
 | `Dienu_Planas.txt` | **Master** human-readable itinerary with real clock times. Reread many times per day during the trip | Quick daily overview |
 | `Keliones_Asistentas.txt` | Prep checklist + logistics (flights, car rental, fuel, documents, packing, food, safety, budget, restaurant links) | Pre-trip prep, occasional lookups |
 | `tools/gen_day_maps.py` | Source of truth — DAYS/SEARCH/LINKS → generates `Iceland.kml` | Editing stops/coords |
+| `Islandija_Priminimai.ics` | Calendar reminders — check-in windows and boarding/pickup deadlines (flights, Zero Car). Import into a calendar app | Pre-trip prep, especially 08.31–09.07 |
 
 **Rule**: `Dienu_Planas.txt` is the master reference for times and day numbering. `Iceland.kml` is always regenerated from `gen_day_maps.py` — never modified directly.
 

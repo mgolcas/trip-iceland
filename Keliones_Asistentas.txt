@@ -5,6 +5,9 @@
   Maršrutas: pietinė pakrantė (Ring Road, Kelias 1)
 =================================================================
 
+  📅 Visi check-in / boarding priminimai importuoti į kalendorių:
+     Islandija_Priminimai.ics (importuoti į Google/Apple Calendar).
+
 
 ╔═══════════════════════════════════════════════════════════════╗
 ║  ✈️  1. SKRYDŽIAI                                              ║
@@ -17,6 +20,13 @@
         🎁 Bilietai nupirkti ir yra dovana – į kelionės biudžetą neįtraukti.
   [ ] 📱 Boarding pass į telefoną + atsarginė kopija PDF
   [ ] 🧳 Patikrinti bagažo normas (rankinis vs registruotas)
+  [ ] 🌐 Online check-in: jei vietos su bilietu nenupirktos, atsidaro tik likus
+        48 val. iki skrydžio; jei nupirktas auto check-in, įvyksta automatiškai
+        likus 50 val. Oro uoste check-in galimas, bet už papildomą mokestį.
+        • Išvykimas 09.07 15:25 → atsidaro 09.05 ~15:25 (auto: ~09.05 13:25)
+        • Grįžimas  09.11 17:45 → atsidaro 09.09 ~17:45 (auto: ~09.09 15:45)
+  [ ] ⏱️ Prie išvykimo vartų būti ne vėliau kaip 30 min prieš skrydžio laiką –
+        vėluojant į vartus registracija anuliuojama.
 
 
 ╔═══════════════════════════════════════════════════════════════╗
@@ -44,8 +54,11 @@
                     raktą galima palikti keybox, iki terminalo grįžti pėsčiomis.
         🔗 Oficiali paėmimo / grąžinimo instrukcija:
            https://www.zerocar.is/info/pickup-dropoff-process
-        💡 Prieš atvykstant užpildyti online check-in (Zero Car svetainėje) –
-           pagreitina automobilio perdavimą (patikrinta 2026-08-19).
+        ⚠️ PRIVALOMAS online check-in (Zero Car svetainėje) – vietoje jokio
+           check-in proceso NĖRA; be jo keybox su raktais nepasieksi.
+           Atsidaro likus 7 dienoms iki paėmimo → nuo 08.31 ~17:00
+           (patikrinta 2026-08-19).
+        [ ] Atlikti Zero Car online check-in (nuo 08.31, likus 7 d. iki paėmimo).
         💡 Plane F-roads nėra. 4WD naudingas sukibimui ant žvyro ar šlapiu
            oru, tačiau nesuteikia leidimo važiuoti uždarytais keliais / bekele.
         ⚠️ Ties Fjaðrárgljúfur nevažiuoti toliau link Laki / F206.
@@ -346,6 +359,30 @@
   • 🚗 Negreitėti ant žvyro/vienos juostos tiltų; gyvuliai kelyje.
   • 🅿️ Niekada nestovėti ant kelio fotografuojant – tik aikštelėse.
   • 📵 Toliau nuo miestų – silpnas ryšys; turėti offline žemėlapį.
+
+  [ ] 📖 Prieš kelionę perskaityti: https://safe.bluecarrental.is (patikrinta 2026-08-19)
+      Saugaus vairavimo Islandijoje gidas. Svarbiausi punktai šiai kelionei
+      (paved Ring Road, rugsėjis, be F-roads):
+      • 🚦 Greičio ribos: griežtai laikytis – pažeidimai baudžiami didelėmis baudomis.
+      • 🔒 Saugos diržai privalomi VISIEMS keleiviams, įskaitant galinę sėdynę.
+      • 🪟 Priekinio stiklo įskilimai nuo skriejančių akmenukų – dažniausias
+        nuomotų automobilių incidentas Islandijoje; ne pavojinga, bet erzina.
+        Ant žvyro laikytis atstumo nuo priekyje važiuojančio automobilio.
+      • 🪨 Žvyrkeliai: net ir šalia populiarių vietų (ne tik Ring Road atšakose)
+        – sumažinti greitį, ypač posūkiuose ir prieš vienos juostos tiltus.
+      • 🌉 Siauri keliai / vienos juostos tiltai: sulėtinti pravažiuojant
+        priešpriešinį transportą.
+      • 🛞 Pratrūkusios padangos – dažniausia priežastis: greitis ant žvyro.
+      • 💨 Vėjas ir durelės: net silpnas vėjas gali sulaužyti dureles atidarant –
+        laikyti tvirtai (žr. ir aukščiau).
+      • ⛽ Kuro tipas: būtina patikrinti prie kolonėlės – žalia kolonėlė =
+        95 okt. benzinas, juoda = dyzelinas; visose stotelėse yra abu tipai.
+      • 💳 Keliai/tuneliai/parkingai: kai kur mokami elektroniniu būdu (pvz.
+        tuneliai) – sekti ženklus ir apmokėti laiku (žr. ir sekciją 6).
+      • 🔗 Realaus laiko sąlygos: road.is (kelių būklė), en.vedur.is (orai),
+        safetravel.is (aktyvūs įspėjimai) – jau įtraukta į sekciją 5.
+      💡 F-roads, upių brastos, sniego/žiemos vairavimas šiai kelionei
+        NEAKTUALU (paved Ring Road, rugsėjis, 4WD naudojamas tik sukibimui).
 
 
 ╔══════════════════════════════════════════════════════════════╗

@@ -83,6 +83,28 @@ If live verification is unavailable, fails, or produces no reliable answer, mark
 
 For a future trip, verify again shortly before booking, 7–14 days before departure, and on the travel day for same-day variables such as disruptions, prayer times, weather, traffic, road/trail conditions, and ferry/transit service.
 
+## Track time-sensitive check-in windows and create calendar reminders
+
+Flights, rental cars, ferries, and some tours impose their own mandatory or time-limited check-in step that is
+separate from the trip's own schedule and easy to miss because it falls before or between travel days. For every
+booked flight, rental car, ferry, or tour that has one, verify and record in `Keliones_Asistentas.txt`:
+
+- whether online/app check-in is optional or mandatory (e.g. some rental agencies have no on-site process at all
+  and require a completed online check-in before their keybox/counter will release the booking);
+- the exact window it becomes available (often relative to departure/pickup, e.g. "opens 48 hours before departure"
+  or "7 days before pickup") and any earlier automatic check-in the traveler may have purchased;
+- any hard cutoff (boarding-gate time, latest online check-in time, latest on-site arrival) and the fee or
+  consequence of missing it;
+- compute the actual calendar date/time for each window and cutoff from the trip's real booked times — never leave
+  it as a relative rule the traveler has to recompute themselves under time pressure.
+
+Whenever a new check-in-bearing booking is confirmed or its time changes, regenerate or update a calendar file
+(`.ics`, one `VEVENT` per reminder, UTC `Z` timestamps so every device renders it correctly regardless of local
+timezone) covering at least: each check-in window opening, a final "last chance to check in" reminder before the
+window closes, and a boarding-gate/pickup-deadline reminder timed to give the traveler enough buffer to act (not
+timed at the deadline itself). Tell the user the file was generated and that they still need to import it into
+their calendar app — this repository cannot create the reminder for them automatically.
+
 ## Match detail level to how each file is read
 
 `Dienu_Planas.txt` and `Keliones_Asistentas.txt` serve different reading patterns and must not duplicate the same detail:
@@ -137,6 +159,8 @@ When a verified fact changes, update every affected source of truth in the same 
 - `Keliones_Asistentas.txt` for logistics, reservations, restaurants, prices, and checklists;
 - `tools/gen_day_maps.py` for stops, coordinates, route modes, and map links;
 - `<Destination>.kml` only by regenerating it from the generator;
+- a calendar reminders file (`.ics`) for check-in windows and boarding/pickup cutoffs, whenever a check-in-bearing
+  booking is added or its time changes;
 - `README.md` when its summary, links, or reservation list becomes stale.
 
 Review the final diff for stale duplicates and contradictory values. Never update only one occurrence of a fact when other managed files repeat it.

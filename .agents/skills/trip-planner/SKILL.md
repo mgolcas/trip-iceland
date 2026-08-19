@@ -36,6 +36,7 @@ Use these roles unless the trip context defines different filenames:
 | `Dienu_Planas.txt` | Master human-readable itinerary with real clock times and day numbering. Reread many times per day during the trip | Keep entries short and scannable (time + terse action, at most 1-2 short critical sub-lines) — see “Match detail level to how each file is read” in the shared policy |
 | `Keliones_Asistentas.txt` | Flights, transport, logistics, reservations, restaurants, and preparation notes. Read mainly during pre-trip prep, occasionally during the trip | Home for full reasoning, alternatives, prices, sources, and checklist detail |
 | `tools/gen_day_maps.py` | Source of truth for stops, coordinates, map links, route modes, and KML generation | Edit for map or stop changes, then regenerate KML |
+| A calendar reminders file (`.ics`) | Check-in window openings, "last chance" check-in reminders, and boarding/pickup-deadline reminders for flights, rental cars, ferries, and tours | Regenerate whenever a check-in-bearing booking is added or its time changes; tell the user to import it into their calendar app |
 
 Keep `Dienu_Planas.txt` authoritative for times and day numbering. Never resolve a mismatch by hand-editing generated KML.
 
@@ -174,6 +175,9 @@ The generic per-mode route labels (`🚇 Metro/tramvajus/keltas` for `transit`, 
 - Preserve the language and naming style already used in the trip files. Respond in the user's language unless asked otherwise.
 - State uncertainty instead of filling gaps with confident guesses.
 - Keep Google My Maps' current layer limits in mind and verify them before restructuring a map.
+- For every booked flight, rental car, ferry, or tour with its own check-in step, record whether it is optional or
+  mandatory, its exact check-in window and cutoff computed to real calendar dates/times, and keep a calendar
+  reminders file (`.ics`) up to date for it — see "Track time-sensitive check-in windows" in the shared policy.
 
 ## Protect private data
 

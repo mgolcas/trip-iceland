@@ -31,6 +31,7 @@ Treat this agent and `.agents/skills/trip-planner/SKILL.md` as a paired implemen
 | `Dienu_Planas.txt` | **Master** human-readable itinerary with real clock times. Reread many times per day during the trip | Keep entries short and scannable (time + terse action, at most 1-2 short critical sub-lines) — see “Match detail level to how each file is read” in the shared policy |
 | `Keliones_Asistentas.txt` | Travel reference: flights, transport, logistics, restaurants. Read mainly during pre-trip prep, occasionally during the trip | Home for full reasoning, alternatives, prices, sources, and checklist detail |
 | `tools/gen_day_maps.py` | Source of truth for all stops, coordinates, map links (`DAYS`/`SEARCH`/`LINKS`) | Edit for map/stop changes, then regenerate KML |
+| A calendar reminders file (`.ics`) | Check-in window openings, "last chance" check-in reminders, and boarding/pickup-deadline reminders for flights, rental cars, ferries, and tours | Regenerate whenever a check-in-bearing booking is added or its time changes; tell the user to import it into their calendar app |
 
 **Rule**: `Dienu_Planas.txt` is the master reference for times and day numbering. The KML is always regenerated from `gen_day_maps.py` — never modified directly.
 
@@ -181,6 +182,9 @@ Always **compute** the weekday from the actual date — never copy from a prior 
 - **Day flow**: minimise backtracking. Group nearby stops together.
 - **Public holidays**: always check the destination's official holiday list for the travel dates.
 - **Daylight**: note sunrise/sunset for the latitude and month. Plan outdoor stops to finish before last useful light.
+- **Check-in windows**: for every booked flight, rental car, ferry, or tour with its own check-in step, record whether
+  it's optional or mandatory, its exact check-in window and cutoff computed to real calendar dates/times, and keep a
+  calendar reminders file (`.ics`) up to date for it — see "Track time-sensitive check-in windows" in the shared policy.
 
 ---
 
