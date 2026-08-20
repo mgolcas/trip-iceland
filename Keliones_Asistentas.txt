@@ -42,7 +42,8 @@
         Modelis   : Dacia Duster 4WD (arba tos pačios klasės analogas)
         Pavaros   : mechaninė pavarų dėžė
         Talpa     : 5 vietos; bagažinė ~90 × 70 × 99 cm
-        Nauja kaina: ~€568,22 už 3 žmones / ~€189,41 asm. (be kuro)
+      Nauja kaina su papildomu vairuotoju: ~€602,94 už 3 žmones /
+             ~€200,98 asm. (be kuro)
         Grąžinimas: 22 297 ISK (~€154,84, kursu 1 € = 144 ISK)
                      į kortelę gauta ✅
         Paėmimas : po muitinės pereiti į Departures Hall, išeiti iš terminalo
@@ -52,6 +53,13 @@
                     pusių, stiklus, ratus ir kuro lygį.
         Grąžinimas: pilnas bakas; jei yra žala, pranešti Blue Car darbuotojui;
                     raktą galima palikti keybox, iki terminalo grįžti pėsčiomis.
+        🚨 ZERO CAR AVARINIS KONTAKTAS: +354 773-7070
+           Jei yra sužeistųjų, pirmiausia skambinti 112, tik tada susisiekti
+           su Zero Car / paslaugos teikėju. Numeris pateiktas Zero Car
+           užsakymo informacijoje, bet viešame puslapyje nepatvirtintas
+           (patikrinta 2026-08-20).
+           🔗 Bendras Zero Car kontaktų puslapis:
+              https://www.zerocar.is/info/contact-us
         🔗 Oficiali paėmimo / grąžinimo instrukcija:
            https://www.zerocar.is/info/pickup-dropoff-process
         ⚠️ PRIVALOMAS online check-in (Zero Car svetainėje) – vietoje jokio
@@ -70,6 +78,12 @@
         ⚠️ Išimtys vis tiek galioja: netinkamas kuras, neatsargumas,
            važiavimas bekele, salono / sankabos pažeidimai ir kt.
 
+   [x] 👤 PAPILDOMAS VAIRUOTOJAS – pridėtas užsakymo lange ✅
+         Kaina: 1 250 ISK/parą × 4 paros = 5 000 ISK (~€34,72)
+         (patikrinta 2026-08-20, pagal užsakymo langą ir
+         https://www.zerocar.is/info/extras; vairuoti gali tik sutartyje
+         įregistruoti vairuotojai).
+
   [ ] 📋 Pasiimti iš nuomos punkto: sutartį, draudimą, grąžinimo info
   [ ] ⛽ Grąžinant – pilnas bakas (kitaip baudžia brangiai)
   [ ] 💳 Kreditinė kortelė su PIN (užstatui ir degalams)
@@ -79,6 +93,17 @@
         nepasikliauti vien modeliu (gali būti suteiktas analogiškas automobilis)
       • Kaina ~€2.0-2.2/l (rugsėjis 2026 prognozė)
       • Tinklai: N1, Olís, ÓB, Orkan, Atlantsolía
+      • 💡 PIGIAUSIA: ÓB, Orkan ir Atlantsolía self-service kolonėlės –
+        paprastai ~2-15% pigesnės už N1/Olís (patikrinta 2026-08-20,
+        gsmbensin.is – realaus laiko kainų palyginimas). Rinktis ÓB/Orkan,
+        kai yra galimybė pasirinkti.
+      • ✅ Zero Car raktų pakabukas – "Discount Key Tag" – patvirtinta:
+        7 ISK nuolaida už litrą degalų OLÍS stotelėse, Kaffitár kava
+        65 ISK, 10% nuolaida Olís restoranams (Grill 66, ReDi Deli, Lemon).
+        💡 7 ISK/l nuolaida nepadengia ÓB/Orkan kainos pranašumo (žr.
+        aukščiau) – degalams vis tiek rinktis ÓB/Orkan; raktų pakabuką
+        naudoti Olís stotelėse tik kavai/užkandžiams arba kai Olís yra
+        vienintelė stotelė pakeliui.
       • Daug kolonėlių self-service – reikia kortelės su PIN
       • Pilti Hvolsvöllur, Vík, Kirkjubæjarklaustur – toliau mažiau stočių
       • Skeiðflöt yra tarp Skógar/Dyrhólaey/Vík – degalus pildyti Vík arba Hvolsvöllur
@@ -90,6 +115,9 @@
 
   [ ] 🪪 Pasas / ID – galioti bent 3 mėn. po kelionės
         ℹ️ Islandija – Šengeno zona, bet NE ES (ID kortelės pakanka)
+  [ ] 📄 Rezervacijų patvirtinimai telefone ir PDF kopija offline:
+     skrydžiai, Zero Car, nakvynės, Katla Ice Cave, Jökulsárlón Zodiac,
+     Sky Lagoon
   [ ] 🏥 Europos sveikatos draudimo kortelė (ESSDK) – KIEKVIENAM
   [ ] 🛡️ Kelionių draudimas (medicina min. €30,000, auto avarija):
         ✅ Mantas  – SEB kreditinės kortelės kelionių draudimas
@@ -98,7 +126,10 @@
         💡 SEB kortelės draudimas NEAPIMA kitų šeimos narių (tėvų).
            Rekomenduojama: Gjensidige / If / PZU / Lietuvos draudimas
            (~€15–30/asm. 5 dienoms; medicinos limitas min. €30 000)
-  [ ] 🚗 Vairuotojo pažymėjimas – lietuviško PAKANKA (IDP nereikia)
+  [ ] 🚗 Vairuotojo pažymėjimas – kiekvienam vairuotojui turėti originalą;
+     lietuviško PAKANKA, IDP nereikia. Zero Car pažymėjimą tikrina
+     sudarant nuomos sutartį; vairuoti gali tik sutartyje įregistruoti
+     vairuotojai.
 
 
 ╔═══════════════════════════════════════════════════════════════╗
@@ -155,6 +186,10 @@
   🛒 KRÓNAN Vík centre – pirkti maistą nakvynei (pigesnė nei restoranai).
      Pasipildyti atsargas 09.08 arba 09.09 vakare.
      🔗 https://www.google.com/maps/search/?api=1&query=Kronan+Vik
+  💡 Bónus, Krónan ir Nettó yra trys pagrindiniai pigūs tinklai Islandijoje –
+     visi tinka kasdieniam apsipirkimui; rinktis kurį rasi pakeliui.
+  💧 Vandentiekio vanduo Islandijoje – švarus ir geriamas visur, buteliuoto
+     vandens pirkti nereikia; užtenka pasiimti daugkartinius butelius.
 
 
 ╔═══════════════════════════════════════════════════════════════╗
@@ -167,6 +202,10 @@
   [ ] 🚧 road.is (Vegagerðin) – kelių būklė realiu laiku
   [ ] 📞 112 Iceland – pagalbos app (GPS vieta gelbėtojams)
   [ ] 🌌 Aurora forecast (vedur.is) – šiaurės pašvaistė rugsėjį GALIMA!
+  [ ] 🅿️ Parka arba EasyPark – Reykjavík gatvių parkavimo apmokėjimui
+        (patikrinta 2026-08-20, visitreykjavik.is/parking-reykjavik).
+        Kaip patikrinti, ar parkavimas mokamas: žiūrėti ženklą/skaitiklį su
+        zonos raide (P1–P4); už miesto centro dauguma vietų nemokamos.
 
 
 ╔═══════════════════════════════════════════════════════════════╗
@@ -214,7 +253,10 @@
          🔗 https://www.google.com/maps/search/?api=1&query=Jokulsarlon+parking
 
   DIENA 05:
-      🟡 Reykjavík centras – mokamas (~600 ISK/val), zona P1
+      🟡 Reykjavík centras – mokamas, zona P1 660 ISK/val (max 3 val.),
+         P2/P4 ~240 ISK/val; galioja 09:00–21:00 (savaitgaliais nuo 10:00).
+         Mokėti Parka arba EasyPark programėle, arba parkomatu.
+         (patikrinta 2026-08-20, visitreykjavik.is/parking-reykjavik)
          🔗 https://www.google.com/maps/search/?api=1&query=Reykjavik+parking+P1
       🟢 KEF oro uostas – grąžinimas nuomos punkte
 
@@ -342,7 +384,7 @@
 ╚═══════════════════════════════════════════════════════════════╝
 
   [ ] 🧥 Vandeniui/vėjui atsparus striukė (hardshell) – BŪTINA
-  [ ] 🧤 Sluoksniai: termo apatiniai, flisas, kepurė, pirštinės
+  [ ] 🧤 Sluoksniai: termo apatiniai, flisas, kepurė, pirštinės, šalikas
   [ ] 🥾 Žygio batai (vandeniui atsparūs) – Waterfall Way, kanjonai
   [ ] 👖 Greitai džiūstančios kelnės (Seljalandsfoss permerks)
   [ ] 🩳 Sky Lagoon: maudymosi kostiumas + atskiras rankšluostis KIEKVIENAM
@@ -417,38 +459,17 @@
      000 ISK) verta turėti tik kaip atsarginį variantą tinklo/POS
      gedimo atveju, ne kaip pagrindinę mokėjimo priemonę.
 
-  💳 KURIA KORTELE MOKĖTI (turimos: SEB debetinė, SEB Gold kreditinė, Wise
-     virtuali, Monese virtuali + fizinė be plano):
-     • 🥇 PIRMENYBĖ – WISE (virtuali, per Google/Apple Pay ar internetu):
-       naudoja artimą tarpbankiniam (mid-market) kursą, be procentinio
-       antkainio; tik nedidelis, skaidrus konvertavimo mokestis (tiksli ISK
-       riba nepatikrinta šioje sesijoje – prieš kelionę pasitikrinti Wise
-       app skaičiuoklėje). Mėnesinio mokesčio nėra – jokio plano pirkti
-       nereikia. ATM grynųjų išėmimas iki ~£250 (~€290) per mėn. nemokamas,
-       bet grynieji šiai kelionei nebūtini (žr. aukščiau).
-     • 🥈 ATSARGINĖ FIZINĖ KORTELĖ degalinių automatams – SEB Gold arba
-       Monese fizinė: kai kurie automatinio degalų pylimo terminalai
-       (N1/Olís ir kt.) reikalauja fizinės kortelės su lustu/PIN, o ne
-       vien telefono/virtualios kortelės – tam pravers SEB Gold (tikras
-       banko produktas, patikimai priimamas visur) arba jau turima Monese
-       fizinė kortelė.
-     • ⚠️ MONESE NEMOKAMAS PLANAS (dabar turimas) – užsienio valiutos
-       (ISK) kortelės mokestis 3% už operaciją (patikrinta 2026-08-19,
-       monese.com/our-pricing-eu) – BRANGIAUSIAS variantas, naudoti tik
-       kaip paskutinę atsarginę priemonę.
-     • ⚠️ SEB (debetinė/Gold): konvertavimo antkainis Lietuvos bankuose
-       paprastai ~2 % nuo tarpbankinio kurso; Gold statusas dažniausiai
-       suteikia kelionių draudimą/lounge, bet NE geresnį FX kursą.
-       Tikslaus dabartinio SEB tarifo šioje sesijoje patikrinti nepavyko
-       (svetainė blokavo užklausas) – prieš kelionę pasitikrinti SEB
-       app/kainyne.
-     💡 AR VERTA LAIKINAI PIRKTI MONESE/WISE PLANĄ 1 MĖN.? Su dabartiniu
-       nemokamu Wise (be jokio mokesčio, be antkainio) šiai ~5 dienų
-       kelionei atskiro mokamo Monese plano (€2,95–14,95/mėn.) pirkti
-       NEAPSIMOKA – net Monese Premium (€14,95/mėn., 0 % FX) kainuotų
-       daugiau nei realus 5 dienų FX mokestis per Wise. Naudoti Wise kaip
-       pagrindinę mokėjimo priemonę, o Monese/SEB fizines korteles laikyti
-       tik atsargai.
+  💳 KURIA KORTELE MOKĖTI:
+     • 🥇 WISE (virtuali) – mid-market kursas, be antkainio, be mėn.
+       mokesčio – naudoti kaip pagrindinę.
+     • 🥈 SEB Gold / Monese fizinė – atsarginė degalinių automatams
+       (kai kurie N1/Olís terminalai reikalauja fizinės kortelės su PIN).
+     • ⚠️ Monese nemokamas planas – 3% mokestis už ISK operaciją
+       (patikrinta 2026-08-19) – tik paskutinis atsarginis variantas.
+     • ⚠️ SEB – konvertavimo antkainis ~2% (tikslus tarifas nepatikrintas –
+       pasitikrinti SEB app prieš kelionę).
+     💡 Atskiro mokamo Monese plano pirkti neapsimoka – Wise nemokamai
+       padengia šios ~5 d. kelionės poreikius.
 
   ŽINOMOS / REZERVACIJŲ KAINOS:
 
@@ -458,7 +479,7 @@
      Jau nupirkti; dovana, todėl į kelionės biudžetą neįtraukiami.
   🛏️ Gesthús Selfoss (09.07–09.08)          €179,10         €59,70
   🛏️ Farmhouse Lodge, Airbnb (09.08–09.11) €1 380,00       €460,00
-  🚗 Automobilio nuoma                  ~€568,22        ~€189,41
+   🚗 Automobilio nuoma                  ~€602,94        ~€200,98
      Perskaičiuota atėmus 22 297 ISK (~€154,84) grąžinimą.
   🧊 Katla Ice Cave ✅ (09.09 14:00–17:00)    €631,38       €210,46
      3 keleiviai · rezervacija perkelta ir rodoma ON SCHEDULE.
@@ -472,7 +493,7 @@
      3 suaugusieji · sumokėta visa suma · atvykus mokėti 0 ISK.
      Patikrinta 2026-08-19: Saman paketas vis dar siūlomas (skylagoon.com).
   -----------------------------------------------------------------
-  Žinomų kainų suma                   ~€3 465,62      ~€1 155,21
+   Žinomų kainų suma                   ~€3 500,34      ~€1 166,78
 
 
   PLANUOJAMOS KELIONĖS IŠLAIDOS:
@@ -488,15 +509,16 @@
      Didžioji dalis maisto vežama iš Lietuvos bagaže (~10,5 kg / grupei).
      Islandijoje pirkti tik šviežius produktus (duona, pienas, daržovės ir kt.).
   -----------------------------------------------------------------
-  Planuojamų išlaidų suma                ~€581,94          ~€193,98
+   Planuojamų išlaidų suma                ~€581,94          ~€193,98
 
-  BAZINIS VISOS KELIONĖS BIUDŽETAS        ~€4 047,56       ~€1 349,19
+   BAZINIS VISOS KELIONĖS BIUDŽETAS        ~€4 082,28       ~€1 360,76
   Rekomenduojamas nenumatytų išlaidų rezervas  €300,00          €100,00
-  PRAKTINIS BIUDŽETAS SU REZERVU           ~€4 347,56       ~€1 449,19
-  💰 TĖVŲ ĮNAŠAS (pervedimas Mantui)       −€2 000,00              –
+   PRAKTINIS BIUDŽETAS SU REZERVU           ~€4 382,28       ~€1 460,76
+   💰 TĖVŲ ĮNAŠAS (pervedimas Mantui)       −€2 000,00              –
   ──────────────────────────────────────────────────────────────────
-  LIKUSIOS IŠLAIDOS IŠ SAVO KIŠENĖS        ~€2 347,56         –
-  (skaičiuoti galutinai, kai žinomos visos išlaidos)
+    LIKUSIOS IŠLAIDOS IŠ SAVO KIŠENĖS        ~€2 347,56         –
+   (papildomas vairuotojas jau apmokėtas; skaičiuoti galutinai,
+    kai žinomos visos išlaidos)
   PASIRENKAMI PRIEDAI (neįtraukti į bazinę sumą):
 
   • Pusryčius kelionėje gamintis patiems iš savo maisto.

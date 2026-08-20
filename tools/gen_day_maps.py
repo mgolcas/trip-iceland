@@ -42,6 +42,7 @@ SKEIDFLOT = (-19.1899663, 63.4374645) # Skeiðflöt Airbnb – D02–D04 nights
 SEARCH = {
     (-22.6056, 63.9850): "Keflavik Airport",
     (-20.9875, 63.9329): "Gesthus Selfoss Iceland",
+    (-21.0018, 63.9378): "Kronan Selfoss Iceland",
     (-21.1300, 64.2558): "Thingvellir National Park",
     (-20.3024, 64.3104): "Strokkur Geysir",
     (-20.3034, 64.3093): "Geysir Center Iceland",
@@ -108,6 +109,7 @@ KINDS = {
 DAYS = {
     1: ("01 – Atvykimas → Selfoss", [
         ("Keflavik oro uostas", KEF[0], KEF[1], "transit", "start"),
+        ("Krónan Selfoss", -21.0018, 63.9378, "food", "drive"),
         ("Nakvynė – Gesthús Selfoss", SELFOSS[0], SELFOSS[1], "hotel", "drive"),
     ]),
     2: ("02 – Auksinis ratas + Kriokliai ⚠️ ILGA DIENA", [

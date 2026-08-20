@@ -11,6 +11,7 @@
   🛏️ NAKVYNĖS  : 09.07 Gesthús Selfoss
                  09.08–09.11 Farmhouse Lodge, Skeiðflöt
   ☀️ ŠVIESA    : saulė teka maždaug 06:32–06:42, leidžiasi 20:05–20:19
+  🅿️💰 = mokamas parkingas toje aikštelėje (kainos: Keliones_Asistentas.txt §6)
 
 
 ┌────────────────────────────────────────────────────────────────┐
@@ -23,8 +24,8 @@
            💡 Prieš atvykstant užpildyti online check-in (Zero Car) – greitesnis perdavimas.
   18:05    🚗 Išvykimas → Selfoss parduotuvė (~1 val 40 min, ~95 km)
            🔧 patikrinta OSRM 2026-08-19: 95,2 km / ~88 min be rezervo × 1,15.
-  19:45    🛒 Maistas ir vanduo / pusryčiai Selfoss parduotuvėje prieš nakvynę (~30 min)
-           Jei parduotuvė nebedirba – vakarienė Selfoss centre arba turimos atsargos.
+  19:45    🛒 Maistas ir vanduo Selfoss parduotuvėje prieš nakvynę (~30 min)
+           Dauguma parduotuviu dirba iki 21 val.
   20:15    🍽️ Lengva vakarienė / poilsis automobilyje ar Selfoss centre iki check-in.
   21:00    🛏️ Gesthús Selfoss – Engjavegur 56, 800 Selfoss
            Check-in nuo 15:00; atvykimas 21:00–22:00 patvirtintas.
@@ -40,17 +41,17 @@
   ⚠️ INTENSYVI DIENA: ~5 val 40 min vairavimo + lankymas (patikrinta OSRM 2026-08-19). Išvykti laiku!
   05:50    ☀️ Pusryčiai Gesthús, daiktai į automobilį
   06:25    🚗 Išvykimas → Þingvellir (~1 val)
-  07:25    🌿 Þingvellir – Almannagjá, Öxarárfoss (~1 val 20 min)
+  07:25    🌿 Þingvellir – Almannagjá, Öxarárfoss (~1 val 20 min) 🅿️💰
   08:45    🚗 Važiavimas → Geysir (~1 val 10 min)
   09:55    💨 Strokkur / Geysir (~45 min)
   10:40    🚗 Važiavimas → Gullfoss (~10 min)
   10:50    💦 Gullfoss (~45 min)
   11:35    🍽️ Ankstyvi pietūs / užkandžiai (~25 min)
   12:00    🚗 Važiavimas → Kerið (~55 min)
-  12:55    🌋 Kerið krateris (~35 min)
+  12:55    🌋 Kerið krateris (~35 min) 🅿️💰
   13:30    🚗 Važiavimas per Selfoss → Seljalandsfoss (~1 val 30 min)
            🛒 Trumpai apsipirkti Selfoss tik jei nepadaryta D01 vakare.
-  15:00    💦 Seljalandsfoss + Gljúfrabúi (~1 val 15 min)
+  15:00    💦 Seljalandsfoss + Gljúfrabúi (~1 val 15 min) 🅿️💰
            ⚠️ Neperšlampami drabužiai; avalynė su geru sukibimu.
   16:15    🚗 Važiavimas tiesiai → Kvernufoss (~35 min)
   16:50    🚶 Kvernufoss takas ir krioklys (~50 min)
@@ -75,7 +76,7 @@
            (~3 val 20 min, ~10–12 km)
   10:30    🍽️ Užkandžiai / persirengimas (~20 min)
   10:50    🚗 Važiavimas → Sólheimajökull (~20 min)
-  11:10    🧊 Sólheimajökull lagūnos takas (~1 val)
+  11:10    🧊 Sólheimajökull lagūnos takas (~1 val) 🅿️💰
            ⚠️ Ant ledyno savarankiškai nelipti.
   12:10    🚗 Važiavimas → Vík (~35 min)
   12:45    📍 Susitikimo vieta: Vík-Inn hótel vestibiulis, Víkubraut 26
@@ -106,10 +107,10 @@
   06:00    🚗 Išvykimas → Fjaðrárgljúfur (~1 val 20 min)
   07:20    🏞️ Fjaðrárgljúfur (~45 min)
   08:05    🚗 Važiavimas → Skaftafell (~1 val 15 min)
-  09:20    🥾 Skaftafell – Svartifoss + ledyno vaizdas (~2 val)
+  09:20    🥾 Skaftafell – Svartifoss + ledyno vaizdas (~2 val) 🅿️💰
   11:20    🍽️ Pietūs / užkandžiai (~35 min)
   11:55    🚗 Važiavimas → Jökulsárlón (~1 val)
-  12:55    💎 Diamond Beach + lagūnos vaizdai (~1 val)
+  12:55    💎 Diamond Beach + lagūnos vaizdai (~1 val) 🅿️💰
   13:55    📋 Zodiac registracija / rezervo laikas
            ⏱️ Check-in ticket office: 30 min prieš išplaukimą.
            🅿️ Vatnajökull NP parkingas 1 000 ISK; mokėti kioske vietoje.
@@ -131,7 +132,7 @@
   05:55    ☀️ Pusryčiai, savarankiškas išsiregistravimas
            🔑 Raktą palikti pagal prieš atvykimą gautą instrukciją.
   06:30    🚗 Išvykimas → Reykjavík (~3 val, 172 km)
-  09:30    🅿️ Reykjavík centras
+  09:30    🅿️ Reykjavík centras 💰
   09:40    ⛪ Hallgrímskirkja + trumpa centro panorama (~40 min)
   10:20    📸 Sun Voyager – trumpa foto stotelė (~15 min)
   10:35    🚗 Važiavimas → Sky Lagoon (~15 min)
