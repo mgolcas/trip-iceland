@@ -1,3 +1,4 @@
+Stop names and descriptions in `gen_day_maps.py` must never carry booking/ticket status
 ---
 name: trip-planner
 description: Plan and maintain trips for any destination and transport mode with mandatory live web verification of prices, opening hours, restaurant status, schedules, coordinates, and other changeable facts. Use when Codex is asked to plan or review an itinerary, answer trip questions, add, move, or remove locations, update a day plan, manage restaurants or lodging, verify coordinates and travel times, edit a Google My Maps KML workflow, or keep Dienu_Planas.txt, Keliones_Asistentas.txt, and tools/gen_day_maps.py consistent. Trigger on requests such as plan trip, itinerary, day plan, add location, restaurant, route, map, KML, or trip assistant.
@@ -33,12 +34,20 @@ Use these roles unless the trip context defines different filenames:
 | File | Role | Edit rule |
 |---|---|---|
 | `<Destination>.kml` | Day-route map with one folder per day, route lines, and pins | Never edit by hand; regenerate with `tools/gen_day_maps.py` |
-| `Dienu_Planas.txt` | Master human-readable itinerary with real clock times and day numbering. Reread many times per day during the trip | Keep entries short and scannable (time + terse action, at most 1-2 short critical sub-lines) — see “Match detail level to how each file is read” in the shared policy |
+| `Dienu_Planas.txt` | Master human-readable itinerary with real clock times and day numbering. Reread many times per day during the trip | Keep entries short and scannable (time + terse action), use short symbol-prefixed sub-lines (per shared symbol agreement), and keep technical verification/math details out of this file (store them in `Keliones_Asistentas.txt`) |
 | `Keliones_Asistentas.txt` | Flights, transport, logistics, reservations, restaurants, and preparation notes. Read mainly during pre-trip prep, occasionally during the trip | Home for full reasoning, alternatives, prices, sources, and checklist detail |
 | `tools/gen_day_maps.py` | Source of truth for stops, coordinates, map links, route modes, and KML generation | Edit for map or stop changes, then regenerate KML |
 | A calendar reminders file (`.ics`) | Check-in window openings, "last chance" check-in reminders, and boarding/pickup-deadline reminders for flights, rental cars, ferries, and tours | Regenerate whenever a check-in-bearing booking is added or its time changes; tell the user to import it into their calendar app |
 
 Keep `Dienu_Planas.txt` authoritative for times and day numbering. Never resolve a mismatch by hand-editing generated KML.
+
+**Lodging information agreement**: keep each accommodation's complete practical details (check-in/out rules, late arrival, access, parking, internet, bathroom, kitchen, and key handover) together in the reservation section. In the day schedule, retain only the timed arrival/departure or an action that must happen at that moment; do not duplicate the lodging details.
+
+**Booking and transport information agreement**: keep complete practical details for each booking (pickup/check-in windows, online check-in, payment/refund status, return instructions, and required follow-ups) together in the reservation section. In the day schedule, retain only the timed action needed at that moment; do not duplicate booking details.
+
+**Hotel pin naming agreement**: for every lodging stop in `tools/gen_day_maps.py`, use only the exact property name used by the booking or official property source (for example `Gesthús Selfoss` or `Farmhouse Lodge`). Do not prepend labels such as `Nakvynė –`, dates, addresses, or descriptive notes; the `hotel` pin kind already identifies it as lodging. Keep the exact name in route labels as well.
+
+**Complex hike planning agreement**: when a walk is a real hike, has meaningful distance/elevation, an out-and-back section, a trail junction, or a route-finding risk, recommend planning it in a suitable third-party hiking app such as Komoot. Record the exact start, intermediate waypoints, turnaround/end point, return point, distance, elevation, surface, estimated time, and offline-navigation check. Keep the KML walk route as a visual overview with every itinerary pin in order; do not present it as turn-by-turn trail navigation.
 
 ## Follow the planning workflow
 
@@ -162,6 +171,10 @@ The Google Maps mobile bottom sheet truncates long placemark names. Route labels
 Stop names and descriptions in `gen_day_maps.py` must never carry booking/ticket status (`✅ bilietai nupirkti`, `⚠️ rezervuoti`, `⚠️ REZERVUOTI IŠ ANKSTO`, or similar). That is planning bookkeeping, not wayfinding, and it goes stale the moment a ticket is bought since the KML is only regenerated on request. Keep stop names to the plain place name plus, where useful for wayfinding, a time (`Katla ledo urvas – 14:00`) or a genuine access constraint (`Dyrhólaey ⚠️ kartais uždarytas dėl paukščių perėjimo`). Track ticket/reservation status only in `Dienu_Planas.txt` and `Keliones_Asistentas.txt`.
 
 For any stop with a reservation, timed-entry ticket, or scheduled departure (a booked tour, a site with a timed slot, a cruise or boat tour with a fixed departure), append the specific clock time to the stop name (`Katla ledo urvas – 14:00`, `Jökulsárlón Zodiac – 15:10`). Unlike booking status, this is genuinely useful wayfinding information right on the map — it tells the traveler something to act on at that exact pin without opening `Dienu_Planas.txt`. Keep the time in sync with the schedule whenever `Dienu_Planas.txt` changes.
+
+### Construct route names from actual endpoints
+Every generated route-line name must use the previous and current stop's base place names in itinerary order: `N. 🚗 Vairavimas (~XX min, YY km): START → END`. Keep `(grįžimas prie automobilio)` only as a return-pin note; strip it from route labels so the route describes the actual parking point, not the action of returning to the car. Apply this to every day and transport mode.
+- Consecutive `walk` stops that form one continuous outing must be rendered as one multi-point route placemark, listing every stop in order (`START → PIN 1 → PIN 2 → END`). This includes an out-and-back walk ending at the same parking pin; do not create separate route lines for each short walking segment. Route numbering counts generated route placemarks, not raw stop entries.
 
 ### Audit KML route labels against the transport actually described
 The generic per-mode route labels (`🚇 Metro/tramvajus/keltas` for `transit`, etc.) are a reasonable default but not always accurate for a specific leg — e.g. a leg whose description only mentions a bus/taxi, or only a ferry, or only a hike, shouldn't carry a label implying an unrelated mode. Periodically audit every route leg's generated name against its actual description/note text, and use the per-leg `line_label` override (9th tuple field on a stop entry) to correct any leg whose real transport doesn't match the generic label for its `mode`. Do this whenever legs are added or their descriptions change, not only when explicitly asked.

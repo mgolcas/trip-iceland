@@ -7,7 +7,8 @@ Convention (see .github/instructions/trip-planner-shared.instructions.md,
 - 1 day = 1 layer. Each stop = its own clickable <Placemark> with a Maps link.
 - Routes drawn per layer, colour-coded by mode:
     DRIVE -> solid blue   (real road geometry + duration/distance from OSRM)
-    WALK  -> green        (straight segment; used for hikes / on-foot stops)
+    WALK  -> green        (multi-point overview; detailed hikes should be planned
+                           in a third-party hiking app such as Komoot)
   Each route is numbered 1-based per day (restarts every folder) and uses
   short_name() to strip ⚠️/✅ annotations and "– HH:MM" time suffixes so the
   Google Maps mobile bottom sheet doesn't truncate the label.
@@ -110,74 +111,75 @@ DAYS = {
     1: ("01 – Atvykimas → Selfoss", [
         ("Keflavik oro uostas", KEF[0], KEF[1], "transit", "start"),
         ("Krónan Selfoss", -21.0018, 63.9378, "food", "drive"),
-        ("Nakvynė – Gesthús Selfoss", SELFOSS[0], SELFOSS[1], "hotel", "drive"),
+        ("Gesthús Selfoss", SELFOSS[0], SELFOSS[1], "hotel", "drive"),
     ]),
     2: ("02 – Auksinis ratas + Kriokliai ⚠️ ILGA DIENA", [
-        ("Nakvynė – Gesthús Selfoss", SELFOSS[0], SELFOSS[1], "hotel", "start"),
+        ("Gesthús Selfoss", SELFOSS[0], SELFOSS[1], "hotel", "start"),
         # Þingvellir: važiuojame iki P1 aikštelės, pėsčiomis per parką, grįžtame į P1
         ("🅿️ Þingvellir P1 – Hakið", -21.13639, 64.25564, "parking", "drive"),
         ("Almannagjá plyšys + Lögberg", -21.1247222, 64.2647222, "sight", "walk"),
         ("Öxarárfoss krioklys", -21.117885, 64.2658062, "sight", "walk"),
-        ("🅿️ P1 – grįžimas prie automobilio", -21.13639, 64.25564, "parking", "walk", False),
+        ("🅿️ Þingvellir P1 – Hakið (grįžimas prie automobilio)", -21.13639, 64.25564, "parking", "walk", False),
         ("🅿️ Geysir parkingas", -20.30337, 64.30927, "parking", "drive"),
         ("Strokkur geizeris", -20.3007211, 64.3127094, "sight", "walk"),
-        ("🅿️ Geysir (grįžimas prie automobilio)", -20.30337, 64.30927, "parking", "walk", False),
+        ("🅿️ Geysir parkingas (grįžimas prie automobilio)", -20.30337, 64.30927, "parking", "walk", False),
         ("🅿️ Gullfoss parkingas", -20.1299, 64.3252, "parking", "drive"),
         ("Gullfoss krioklys", -20.1199, 64.3271, "sight", "walk"),
-        ("🅿️ Gullfoss (grįžimas prie automobilio)", -20.1299, 64.3252, "parking", "walk", False),
+        ("🅿️ Gullfoss parkingas (grįžimas prie automobilio)", -20.1299, 64.3252, "parking", "walk", False),
         ("🅿️ Kerið parkingas", -20.8867, 64.0419, "parking", "drive"),
         ("Kerið krateris", -20.8851, 64.0413, "sight", "walk"),
-        ("🅿️ Kerið (grįžimas prie automobilio)", -20.8867, 64.0419, "parking", "walk", False),
+        ("🅿️ Kerið parkingas (grįžimas prie automobilio)", -20.8867, 64.0419, "parking", "walk", False),
         ("🅿️ Seljalandsfoss parkingas", -19.9938, 63.6157, "parking", "drive"),
         ("Seljalandsfoss krioklys", -19.9886, 63.6156, "sight", "walk"),
         ("Gljúfrabúi krioklys", -19.9864, 63.6209, "sight", "walk"),
-        ("🅿️ Seljalandsfoss (grįžimas prie automobilio)", -19.9938, 63.6157, "parking", "walk", False),
-        ("🅿️ Kvernufoss parkingas", -19.49, 63.5251, "parking", "drive"),
-        ("Kvernufoss krioklys", -19.4814, 63.5288, "sight", "walk"),
-        ("🅿️ Kvernufoss (grįžimas prie automobilio)", -19.49, 63.5251, "parking", "walk", False),
-        ("Nakvynė – Skeiðflöt", SKEIDFLOT[0], SKEIDFLOT[1], "hotel", "drive"),
-    ]),
-    3: ("03 – Waterfall Way + Katla + Krantas", [
-        ("Nakvynė – Skeiðflöt", SKEIDFLOT[0], SKEIDFLOT[1], "hotel", "start"),
+        ("🅿️ Seljalandsfoss parkingas (grįžimas prie automobilio)", -19.9938, 63.6157, "parking", "walk", False),
         ("🅿️ Skógafoss parkingas", -19.5128, 63.5277, "parking", "drive"),
         ("Skógafoss krioklys", -19.5113, 63.5320, "sight", "walk"),
         ("Hestavaðsfoss", -19.5075, 63.5334, "sight", "walk"),
-        ("🅿️ Skógafoss (grįžimas prie automobilio)", -19.5128, 63.5277, "parking", "walk", False),
+        ("🅿️ Skógafoss parkingas (grįžimas prie automobilio)", -19.5128, 63.5277, "parking", "walk", False),
+        ("🅿️ Kvernufoss parkingas", -19.49, 63.5251, "parking", "drive"),
+        ("Kvernufoss krioklys", -19.4814, 63.5288, "sight", "walk"),
+        ("🅿️ Kvernufoss parkingas (grįžimas prie automobilio)", -19.49, 63.5251, "parking", "walk", False),
+        ("Farmhouse Lodge", SKEIDFLOT[0], SKEIDFLOT[1], "hotel", "drive"),
+    ]),
+    3: ("03 – Waterfall Way + Katla + Krantas", [
+        ("Farmhouse Lodge", SKEIDFLOT[0], SKEIDFLOT[1], "hotel", "start"),
+        ("🅿️ Skógafoss parkingas", -19.5128, 63.5277, "parking", "drive"),
         ("🅿️ Sólheimajökull parkingas", -19.3704, 63.5304, "parking", "drive"),
         ("Sólheimajökull ledynas", -19.3584, 63.5346, "sight", "walk"),
-        ("🅿️ Sólheimajökull (grįžimas prie automobilio)", -19.3704, 63.5304, "parking", "walk", False),
+        ("🅿️ Sólheimajökull parkingas (grįžimas prie automobilio)", -19.3704, 63.5304, "parking", "walk", False),
         ("Vík-Inn hótel (Katla susitikimas) – 14:00", -19.0137, 63.4178, "sight", "drive"),
         ("🅿️ Reynisfjara parkingas", -19.0447, 63.4042, "parking", "drive"),
         ("Reynisfjara juodas paplūdimys", -19.0716, 63.4057, "beach", "walk"),
-        ("🅿️ Reynisfjara (grįžimas prie automobilio)", -19.0447, 63.4042, "parking", "walk", False),
+        ("🅿️ Reynisfjara parkingas (grįžimas prie automobilio)", -19.0447, 63.4042, "parking", "walk", False),
         ("🅿️ Dyrhólaey parkingas", -19.1289, 63.4041, "parking", "drive"),
         ("Dyrhólaey", -19.1284, 63.4015, "sight", "walk"),
-        ("🅿️ Dyrhólaey (grįžimas prie automobilio)", -19.1289, 63.4041, "parking", "walk", False),
-        ("Nakvynė – Skeiðflöt", SKEIDFLOT[0], SKEIDFLOT[1], "hotel", "drive"),
+        ("🅿️ Dyrhólaey parkingas (grįžimas prie automobilio)", -19.1289, 63.4041, "parking", "walk", False),
+        ("Farmhouse Lodge", SKEIDFLOT[0], SKEIDFLOT[1], "hotel", "drive"),
     ]),
     4: ("04 – Jökulsárlón + Skaftafell ⚠️ ILGA DIENA", [
-        ("Nakvynė – Skeiðflöt", SKEIDFLOT[0], SKEIDFLOT[1], "hotel", "start"),
+        ("Farmhouse Lodge", SKEIDFLOT[0], SKEIDFLOT[1], "hotel", "start"),
         ("🅿️ Fjaðrárgljúfur parkingas", -18.1717, 63.7703, "parking", "drive"),
         ("Fjaðrárgljúfur kanjonas", -18.1718, 63.7713, "sight", "walk"),
-        ("🅿️ Fjaðrárgljúfur (grįžimas prie automobilio)", -18.1717, 63.7703, "parking", "walk", False),
+        ("🅿️ Fjaðrárgljúfur parkingas (grįžimas prie automobilio)", -18.1717, 63.7703, "parking", "walk", False),
         # Skaftafell: važiuojame iki lankytojų centro, ~1.5 km pėsčiomis iki Svartifoss
         ("🅿️ Skaftafell lankytojų centras", -16.9665, 64.0165, "parking", "drive"),
         ("Svartifoss krioklys", -16.9753, 64.0275, "sight", "walk"),
-        ("🅿️ Skaftafell (grįžimas prie automobilio)", -16.9665, 64.0165, "parking", "walk", False),
+        ("🅿️ Skaftafell lankytojų centras (grįžimas prie automobilio)", -16.9665, 64.0165, "parking", "walk", False),
         ("🅿️ Diamond Beach parkingas", -16.1779, 64.0455, "parking", "drive"),
         ("Diamond Beach", -16.1777, 64.0443, "beach", "walk"),
-        ("🅿️ Diamond Beach (grįžimas prie automobilio)", -16.1779, 64.0455, "parking", "walk", False),
+        ("🅿️ Diamond Beach parkingas (grįžimas prie automobilio)", -16.1779, 64.0455, "parking", "walk", False),
         ("🅿️ Jökulsárlón parkingas", -16.17974, 64.04804, "parking", "drive"),
         ("Jökulsárlón ledynų lagūna (Zodiac) – 15:10", -16.1958, 64.0489, "sight", "walk"),
-        ("🅿️ Jökulsárlón (grįžimas prie automobilio)", -16.17974, 64.04804, "parking", "walk", False),
-        ("Nakvynė – Skeiðflöt", SKEIDFLOT[0], SKEIDFLOT[1], "hotel", "drive"),
+        ("🅿️ Jökulsárlón parkingas (grįžimas prie automobilio)", -16.17974, 64.04804, "parking", "walk", False),
+        ("Farmhouse Lodge", SKEIDFLOT[0], SKEIDFLOT[1], "hotel", "drive"),
     ]),
     5: ("05 – Reykjavík + Sky Lagoon + išvykimas", [
-        ("Nakvynė – Skeiðflöt", SKEIDFLOT[0], SKEIDFLOT[1], "hotel", "start"),
+        ("Farmhouse Lodge", SKEIDFLOT[0], SKEIDFLOT[1], "hotel", "start"),
         ("🅿️ Hallgrímskirkja parkingas", -21.92697, 64.1419, "parking", "drive"),
         ("Hallgrímskirkja", -21.92654, 64.14202, "sight", "walk"),
         ("Sun Voyager / Harpa", -21.9224, 64.1475, "sight", "walk"),
-        ("🅿️ Reykjavík (grīžimas prie automobilio)", -21.92697, 64.1419, "parking", "walk", False),
+        ("🅿️ Hallgrímskirkja parkingas (grįžimas prie automobilio)", -21.92697, 64.1419, "parking", "walk", False),
         ("Sky Lagoon (Kópavogur) – 11:00", -21.94629, 64.11648, "sight", "drive"),
         ("Keflavik oro uostas", KEF[0], KEF[1], "transit", "drive"),
     ]),
@@ -226,6 +228,7 @@ def short_name(name):
     suffix, for compact route-line labels that fit the Google Maps mobile bottom
     sheet without truncation. Full annotated/timed names stay on the stop pins."""
     prefix = re.split(r"⚠️|✅", name, maxsplit=1)[0]
+    prefix = re.sub(r"\s*\(grįžimas prie automobilio\)\s*$", "", prefix, flags=re.IGNORECASE)
     prefix = re.sub(r"\s*[–-]\s*\d{1,2}:\d{2}\s*$", "", prefix)
     return prefix.strip()
 
@@ -244,14 +247,23 @@ def maps_link(name, lon, lat):
 
 def build_day_folder(day, title, stops):
     out = [f"    <Folder>\n      <name>DIENA {esc(title)}</name>"]
-    # route lines first (so pins render on top); each numbered 1-based per day so
-    # tapping a line in the Google Maps mobile app shows its place in the order.
-    for i in range(1, len(stops)):
+    # Route lines first (so pins render on top). Consecutive walk stops form one
+    # multi-point route; driving legs remain separate road-to-road segments.
+    route_number = 0
+    i = 1
+    while i < len(stops):
         prev = stops[i - 1]
-        cur = stops[i]
-        mode = cur[4]
-        a = (prev[1], prev[2])
-        b = (cur[1], cur[2])
+        mode = stops[i][4]
+        route_stops = [prev, stops[i]]
+        i += 1
+        if mode == "walk":
+            while i < len(stops) and stops[i][4] == "walk":
+                route_stops.append(stops[i])
+                i += 1
+        route_number += 1
+        route_points = [(stop[1], stop[2]) for stop in route_stops]
+        a = route_points[0]
+        b = route_points[-1]
         if mode == "drive":
             pts, duration_s = osrm_route(a, b)
             if pts:          # anchor endpoints to exact stop coords (avoids OSRM snap offset)
@@ -261,15 +273,16 @@ def build_day_folder(day, title, stops):
             minutes = round(duration_s / 60 * 1.15 / 5) * 5 if duration_s else None
             duration_text = f"~{max(5, minutes)} min, {dist_km:.0f} km" if minutes else f"~{dist_km:.0f} km"
         else:
-            pts = [a, b]
+            pts = route_points
             duration_text = None
         color, width = LINE_STYLES.get(mode, LINE_STYLES["walk"])
         coordstr = " ".join(f"{x},{y},0" for x, y in pts)
         label = {"drive": "🚗 Vairavimas", "walk": "🚶 Ėjimas / hike"}.get(mode, mode)
         name_text = f"{label} ({duration_text})" if duration_text else label
+        endpoint_text = " → ".join(short_name(stop[0]) for stop in route_stops)
         out.append(
             "      <Placemark>\n"
-            f"        <name>{i}. {esc(name_text)}: {esc(short_name(prev[0]))} → {esc(short_name(cur[0]))}</name>\n"
+            f"        <name>{route_number}. {esc(name_text)}: {esc(endpoint_text)}</name>\n"
             "        <Style><LineStyle>"
             f"<color>{color}</color><width>{width}</width>"
             "</LineStyle></Style>\n"

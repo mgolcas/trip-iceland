@@ -206,6 +206,24 @@
         (patikrinta 2026-08-20, visitreykjavik.is/parking-reykjavik).
         Kaip patikrinti, ar parkavimas mokamas: žiūrėti ženklą/skaitiklį su
         zonos raide (P1–P4); už miesto centro dauguma vietų nemokamos.
+   [ ] 🥾 Komoot – sudėtingesniems žygiams susiplanuoti ir turėti offline trasą.
+            Rekomenduojama iš anksto susikurti šiuos maršrutus:
+            • D03 Waterfall Way: Skógafoss parkingas → WATERFALL WAY takas →
+               pakabinamas tiltelis / pasirinktas apsisukimo taškas → Skógafoss parkingas.
+               Diena plane nurodytas ~10–12 km ir ~3 val. 20 min žygis; Komoot'e
+               patikrinti, kad pasirinkta būtent pėsčiųjų trasa, ne kelias.
+            • D04 Skaftafell: lankytojų centras → Svartifoss → lankytojų centras.
+               Oficialus parko S2 maršrutas yra 5,8 km žiedas, apie 2 val., lengvas;
+               planui pasirinktas trumpesnis variantas iki Svartifoss ir atgal.
+            Komoot'e kiekvienam žygiui patikrinti: atstumą, aukščio profilį, dangą,
+            vandens / WC vietas, numatomą laiką ir ar trasa grįžta į tą pačią aikštelę.
+            Prieš išvykstant išsisaugoti trasą offline ir įjungti telefono energijos
+            taupymą; KML yra tik maršruto schema, ne turn-by-turn žygio navigacija.
+            ⚠️ Komoot trasa nepakeičia vietinių įspėjimų: ryte tikrinti SafeTravel,
+            road.is, orus ir parko / tako uždarymus. Ant ledyno be gido neiti.
+            🔗 Komoot: https://www.komoot.com/
+            🔗 Oficialūs Skaftafell takai: https://www.vatnajokulsthjodgardur.is/en/areas/skaftafell
+            (Skaftafell informacija ir S2 parametrai patikrinti 2026-08-21)
 
 
 ╔═══════════════════════════════════════════════════════════════╗
