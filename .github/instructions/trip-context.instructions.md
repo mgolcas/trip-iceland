@@ -47,7 +47,7 @@ tik neidentifikuojančią kelionės informaciją.
 | 02 | 09.08 | Antradienis | Auksinis ratas + kriokliai (Þingvellir, Geysir, Gullfoss, Kerið, Seljalandsfoss, Gljúfrabúi, Skógafoss, Hestavaðsfoss, Kvernufoss) ⚠️ INTENSYVI DIENA (~5h40 vairavimo, patikrinta OSRM 2026-08-19) |
 | 03 | 09.09 | Trečiadienis | Waterfall Way žygis nuo Skógafoss + Sólheimajökull + Katla ledo urvas 14:00 + Reynisfjara + Dyrhólaey |
 | 04 | 09.10 | Ketvirtadienis | Fjaðrárgljúfur + Skaftafell (Svartifoss) + Diamond Beach + Jökulsárlón Zodiac 15:10 ⚠️ ILGA DIENA |
-| 05 | 09.11 | Penktadienis | Reykjavík (Hallgrímskirkja, Sun Voyager) + Sky Lagoon 11:00 + auto grąžinimas + išvykimas 17:45 |
+| 05 | 09.11 | Penktadienis | Seltún geoterminis plotas → Reykjavík (Hallgrímskirkja, Sun Voyager) + Sky Lagoon 11:00 + auto grąžinimas + išvykimas 17:45 |
 
 ---
 
