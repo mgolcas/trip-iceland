@@ -86,6 +86,7 @@ SEARCH = {
     (-16.1797, 64.0480): "Jokulsarlon Glacier Lagoon Parking",
     (-16.1779, 64.0455): "Diamond Beach Parking",
     (-21.9270, 64.1419): "Hallgrimskirkja Parking Lot",
+    (-22.0617, 63.8942): "Seltun geothermal area Krisuvík Iceland",
 }
 
 # Direct CID links overriding SEARCH (verified Google Maps place cards)
@@ -176,6 +177,9 @@ DAYS = {
     ]),
     5: ("05 – Reykjavík + Sky Lagoon + išvykimas", [
         ("Farmhouse Lodge", SKEIDFLOT[0], SKEIDFLOT[1], "hotel", "start"),
+        ("🅿️ Seltún parkingas (Krísuvík)", -22.0617, 63.8942, "parking", "drive"),
+        ("Seltún geoterminis plotas", -22.0617, 63.8942, "sight", "walk"),
+        ("🅿️ Seltún parkingas (grįžimas prie automobilio)", -22.0617, 63.8942, "parking", "walk", False),
         ("🅿️ Hallgrímskirkja parkingas", -21.92697, 64.1419, "parking", "drive"),
         ("Hallgrímskirkja", -21.92654, 64.14202, "sight", "walk"),
         ("Sun Voyager / Harpa", -21.9224, 64.1475, "sight", "walk"),
