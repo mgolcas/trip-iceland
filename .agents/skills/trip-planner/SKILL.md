@@ -49,6 +49,8 @@ Keep `Dienu_Planas.txt` authoritative for times and day numbering. Never resolve
 
 **Complex hike planning agreement**: when a walk is a real hike, has meaningful distance/elevation, an out-and-back section, a trail junction, or a route-finding risk, recommend planning it in a suitable third-party hiking app such as Komoot. Record the exact start, intermediate waypoints, turnaround/end point, return point, distance, elevation, surface, estimated time, and offline-navigation check. Keep the KML walk route as a visual overview with every itinerary pin in order; do not present it as turn-by-turn trail navigation.
 
+**Direct route links in the daily plan**: when the user supplies or requests a route link for a specific hike or object (for example a Komoot route), place the direct link as a short `📱` sub-line immediately below that object's entry in `Dienu_Planas.txt`. Keep only detailed route descriptions and verification notes in `Keliones_Asistentas.txt`, without repeating the same direct URL. Store each piece of information in one canonical location and never attach the link to a different day's outing.
+
 ## Follow the planning workflow
 
 1. Identify every schedule, route, map, logistics, or reference file affected by the request.

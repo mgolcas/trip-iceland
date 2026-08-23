@@ -208,6 +208,7 @@
         zonos raide (P1–P4); už miesto centro dauguma vietų nemokamos.
    [ ] 🥾 Komoot – sudėtingesniems žygiams susiplanuoti ir turėti offline trasą.
             Rekomenduojama iš anksto susikurti šiuos maršrutus:
+            • D02 Þingvellir: Þingvellir P1 → Almannagjá → Öxarárfoss → Þingvellir P1.
             • D03 Waterfall Way: Skógafoss parkingas → WATERFALL WAY takas →
                pakabinamas tiltelis / pasirinktas apsisukimo taškas → Skógafoss parkingas.
                Diena plane nurodytas ~10–12 km ir ~3 val. 20 min žygis; Komoot'e
@@ -236,18 +237,37 @@
      safe.bluecarrental.is). Žemiau išvardytos vietos yra parkavimo/įėjimo
      mokesčiai (ne keliai) – jau įtraukti į dienų sąrašą ir biudžetą (10 skyrius).
 
-  DIENA 01:
+  MOKĖJIMO PRAKTIKA (patikrinta 2026-08-23):
+      💳 Patikimiausias būdas – iš anksto įsidiegti Parka ir pridėti tarptautinę
+         Visa/Mastercard. Mokėti galima pagal automobilio numerį; kai kur
+         mokėjimas galimas ir iki 24 val. po išvažiavimo. Fizinis bekontaktis
+         mokėjimas prie kiekvieno aparato nepatvirtintas.
+      💵 Grynieji nė vienoje žemiau nurodytoje vietoje nebuvo patvirtinti kaip
+         privalomi, bet kaimo aikštelėms turėti nedidelį ISK rezervą verta.
+
+  DIENA 02 – AUKSINIS RATAS:
       🟡 Þingvellir P1/P2 (~1000 ISK/d., galioja visoms aikštelėms)
-         🔗 https://www.google.com/maps/search/?api=1&query=Thingvellir+P1+parking
-      🟢 Geysir – nemokamas (prie lankytojų centro)
-      🟢 Gullfoss – nemokamas (viršutinė aikštelė)
-      🟡 Kerið – įėjimas ~600 ISK/asm (apima parkavimą)
+         Mokėti per Checkit arba vietos aparate; kortelės/bekontakčio priėmimas
+         aparate nepatvirtintas.
+         🔗 https://www.thingvellir.is/en/service/parking-service/
+         🔗 https://www.checkit.is/en/thingvellir/thingvellir-pay
+      🟡 Geysir – mokamas per Parka; mokėti internetu galima iki 24 val. po išvykimo.
+         🔗 https://parka.is/pay/geysir/
+      ⚠️ Gullfoss – parkingo mokėjimo būdas ir mokestis oficialiai nepatvirtinti;
+         vietoje tikrinti ženklą. Turėti kortelę ir nedidelį ISK rezervą.
+         🔗 https://gullfoss.is/
+      🟡 Kerið – įėjimas ~600 ISK/asm, parkavimas įtrauktas. Saugiausia bilietą
+         pirkti internetu; mokėjimas vietoje kortele nepatvirtintas.
+         🔗 https://kerid.is/kerid-admission/
          🔗 https://www.google.com/maps/search/?api=1&query=Kerid+crater+parking
 
-  DIENA 02:
-      🟡 Seljalandsfoss (~800 ISK/d.)
+  DIENA 02 – KRIOKLIAI:
+      ⚠️ Seljalandsfoss – mokėjimo būdas internete nepatvirtintas; vietoje
+         tikrinti aparatą/ženklą. Turėti kortelę ir nedidelį ISK rezervą.
          🔗 https://www.google.com/maps/search/?api=1&query=Seljalandsfoss+parking
-      🟢 Skógafoss – nemokamas
+      🟡 Skógafoss – mokamas per Parka; priimamos tarptautinės Visa/Mastercard,
+         fizinio aparato bekontaktis režimas nepatvirtintas.
+         🔗 https://parka.is/pay/skogafoss/
          🔗 https://www.google.com/maps/search/?api=1&query=Skogafoss+parking
       🟢 Skógar muziejus (Kvernufoss takui) – nemokamas
          🔗 https://www.google.com/maps/search/?api=1&query=Skogar+museum+parking
@@ -263,18 +283,28 @@
   DIENA 04:
       🟢 Fjaðrárgljúfur – nemokamas
          🔗 https://www.google.com/maps/search/?api=1&query=Fjadrargljufur+parking
-      🟡 Skaftafell (Vatnajökull NP) – mokamas (~750 ISK)
+      🟡 Skaftafell (Vatnajökull NP) – mokamas; mokėti per Parka arba vietos
+         aparatą, kortelė per Parka patvirtinta, fizinio aparato bekontaktis
+         režimas nepatvirtintas.
+         🔗 https://parka.is/pay/skaftafell/
          🔗 https://www.google.com/maps/search/?api=1&query=Skaftafell+Visitor+Center+parking
       🟢 Diamond Beach – nemokamas
          🔗 https://www.google.com/maps/search/?api=1&query=Diamond+Beach+Iceland+parking
-      � Jökulsárlón – 1 000 ISK/auto (Vatnajökull NP; mokama prie kioskelių vietoje)
+      🟡 Jökulsárlón – 1 000 ISK/auto; mokėti per Parka arba aikštelės aparate.
+         Tas pats mokestis galioja Jökulsárlón ir abiem Fellsfjara aikštelėms
+         tą pačią dieną; kortelė per Parka patvirtinta, fizinio aparato
+         bekontaktis režimas nepatvirtintas.
+         🔗 https://parka.is/pay/jokulsarlon/
          🔗 https://www.google.com/maps/search/?api=1&query=Jokulsarlon+parking
 
   DIENA 05:
       🟡 Reykjavík centras – mokamas, zona P1 660 ISK/val (max 3 val.),
          P2/P4 ~240 ISK/val; galioja 09:00–21:00 (savaitgaliais nuo 10:00).
-         Mokėti Parka arba EasyPark programėle, arba parkomatu.
-         (patikrinta 2026-08-20, visitreykjavik.is/parking-reykjavik)
+         Mokėti Parka, EasyPark, SíminnPay arba parkomatu; priimamos kortelės
+         ir bekontaktis mokėjimas, taip pat monetos (ne visi aparatai jas priima).
+         (patikrinta 2026-08-23)
+         🔗 https://reykjavik.is/en/parking/parking-meters
+         🔗 https://reykjavik.is/en/parking/payment-apps
          🔗 https://www.google.com/maps/search/?api=1&query=Reykjavik+parking+P1
       🟢 KEF oro uostas – grąžinimas nuomos punkte
 
