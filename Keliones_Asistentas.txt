@@ -196,35 +196,14 @@
 ║  📱  5. PROGRAMĖLĖS IR SVETAINĖS                              ║
 ╚═══════════════════════════════════════════════════════════════╝
 
-  [ ] 🗺️ Google Maps – atsisiųsti OFFLINE žemėlapį (Pietų Islandija)
-  [ ] 🌦️ vedur.is – oficiali orų prognozė (keičiasi greitai!)
-  [ ] 🚨 safetravel.is – kelių/sąlygų įspėjimai, kelionės planas
-  [ ] 🚧 road.is (Vegagerðin) – kelių būklė realiu laiku
-  [ ] 📞 112 Iceland – pagalbos app (GPS vieta gelbėtojams)
-  [ ] 🌌 Aurora forecast (vedur.is) – šiaurės pašvaistė rugsėjį GALIMA!
-  [ ] 🅿️ Parka arba EasyPark – Reykjavík gatvių parkavimo apmokėjimui
-        (patikrinta 2026-08-20, visitreykjavik.is/parking-reykjavik).
-        Kaip patikrinti, ar parkavimas mokamas: žiūrėti ženklą/skaitiklį su
-        zonos raide (P1–P4); už miesto centro dauguma vietų nemokamos.
-   [ ] 🥾 Komoot – sudėtingesniems žygiams susiplanuoti ir turėti offline trasą.
-            Rekomenduojama iš anksto susikurti šiuos maršrutus:
-            • D02 Þingvellir: Þingvellir P1 → Almannagjá → Öxarárfoss → Þingvellir P1.
-            • D03 Waterfall Way: Skógafoss parkingas → WATERFALL WAY takas →
-               pakabinamas tiltelis / pasirinktas apsisukimo taškas → Skógafoss parkingas.
-               Diena plane nurodytas ~10–12 km ir ~3 val. 20 min žygis; Komoot'e
-               patikrinti, kad pasirinkta būtent pėsčiųjų trasa, ne kelias.
-            • D04 Skaftafell: lankytojų centras → Svartifoss → lankytojų centras.
-               Oficialus parko S2 maršrutas yra 5,8 km žiedas, apie 2 val., lengvas;
-               planui pasirinktas trumpesnis variantas iki Svartifoss ir atgal.
-            Komoot'e kiekvienam žygiui patikrinti: atstumą, aukščio profilį, dangą,
-            vandens / WC vietas, numatomą laiką ir ar trasa grįžta į tą pačią aikštelę.
-            Prieš išvykstant išsisaugoti trasą offline ir įjungti telefono energijos
-            taupymą; KML yra tik maršruto schema, ne turn-by-turn žygio navigacija.
-            ⚠️ Komoot trasa nepakeičia vietinių įspėjimų: ryte tikrinti SafeTravel,
-            road.is, orus ir parko / tako uždarymus. Ant ledyno be gido neiti.
-            🔗 Komoot: https://www.komoot.com/
-            🔗 Oficialūs Skaftafell takai: https://www.vatnajokulsthjodgardur.is/en/areas/skaftafell
-            (Skaftafell informacija ir S2 parametrai patikrinti 2026-08-21)
+   [x] 🗺️ Google Maps – atsisiųsti OFFLINE žemėlapį (Pietų Islandija)
+   [x] 🌦️ vedur.is – oficiali orų prognozė (keičiasi greitai!)
+   [x] 🚨 safetravel.is – kelių/sąlygų įspėjimai, kelionės planas
+   [x] 🚧 road.is (Vegagerðin) – kelių būklė realiu laiku
+   [x] 📞 112 Iceland – pagalbos app (GPS vieta gelbėtojams)
+   [x] 🌌 Aurora forecast (vedur.is) – šiaurės pašvaistė rugsėjį GALIMA!
+   [x] 🅿️ Parka arba EasyPark – Reykjavík gatvių parkavimo apmokėjimui
+   [x] 🥾 Komoot – offline žygio maršrutai ir nustatytos trasos.
 
 
 ╔═══════════════════════════════════════════════════════════════╗
@@ -265,17 +244,17 @@
       ⚠️ Seljalandsfoss – mokėjimo būdas internete nepatvirtintas; vietoje
          tikrinti aparatą/ženklą. Turėti kortelę ir nedidelį ISK rezervą.
          🔗 https://www.google.com/maps/search/?api=1&query=Seljalandsfoss+parking
+      🟢 Skógar muziejus (Kvernufoss takui) – nemokamas
+         🔗 https://www.google.com/maps/search/?api=1&query=Skogar+museum+parking
+
+   DIENA 02–03:
       🟡 Skógafoss – mokamas per Parka; priimamos tarptautinės Visa/Mastercard,
          fizinio aparato bekontaktis režimas nepatvirtintas.
          🔗 https://parka.is/pay/skogafoss/
          🔗 https://www.google.com/maps/search/?api=1&query=Skogafoss+parking
-      🟢 Skógar muziejus (Kvernufoss takui) – nemokamas
-         🔗 https://www.google.com/maps/search/?api=1&query=Skogar+museum+parking
-
-  DIENA 03:
       🟡 Sólheimajökull (~750 ISK)
          🔗 https://www.google.com/maps/search/?api=1&query=Solheimajokull+parking
-      🟢 Dyrhólaey – nemokamas (⚠️ kartais uždarytas dėl paukščių perėjimo)
+      🟢 Dyrhólaey – nemokamas (⚠️ kartais uždarytas dėl paukščių perėjimo); lankymas perkeltas į D02.
          🔗 https://www.google.com/maps/search/?api=1&query=Dyrholaey+parking
       🟢 Reynisfjara – nemokamas
          🔗 https://www.google.com/maps/search/?api=1&query=Reynisfjara+parking

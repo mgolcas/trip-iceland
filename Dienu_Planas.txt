@@ -37,44 +37,54 @@
   05:50    ☀️ Pusryčiai Gesthús, daiktai į automobilį
   06:25    🚗 Išvykimas → Þingvellir (~1 val)
   07:25    🌿 Þingvellir – Almannagjá, Öxarárfoss (~1 val 20 min) 🅿️💰
-           📱 Komoot žygio trasa: https://www.komoot.com/tour/3060299661?share_token=aOub0cGR6VtrwnapJV5RXb76QoqdoOM0uz5FpfPDRo7DJEjN5h&ref=wtd&t_s=referral&t_cid=route_share&t_ref_username=739603540951
+           📱 Komoot trasa: https://www.komoot.com/tour/3060299661
   08:45    🚗 Važiavimas → Geysir (~1 val 10 min)
   09:55    💨 Strokkur / Geysir (~45 min)
+           📱 Komoot trasa: https://www.komoot.com/tour/3061743163
   10:40    🚗 Važiavimas → Gullfoss (~10 min)
   10:50    💦 Gullfoss (~45 min)
+           📱 Komoot trasa: https://www.komoot.com/tour/3062083010
   11:35    🍽️ Ankstyvi pietūs / užkandžiai (~25 min)
   12:00    🚗 Važiavimas → Kerið (~55 min)
   12:55    🌋 Kerið krateris (~35 min) 🅿️💰
+           📱 Komoot trasa: https://www.komoot.com/tour/3062100074
   13:30    🚗 Važiavimas per Selfoss → Seljalandsfoss (~1 val 30 min)
            🛒 Trumpai apsipirkti Selfoss tik jei nepadaryta D01 vakare.
   15:00    💦 Seljalandsfoss + Gljúfrabúi (~1 val 15 min) 🅿️💰
+           📱 Komoot trasa: https://www.komoot.com/tour/3062303752
            ⚠️ Neperšlampami drabužiai; avalynė su geru sukibimu.
-  16:15    🚗 Važiavimas → Skógafoss (~30 min)
-  16:45    💦 Skógafoss + Hestavaðsfoss (~35 min) 🅿️💰
-  17:20    🚗 Važiavimas → Kvernufoss (~5 min)
-  17:25    🚶 Kvernufoss takas ir krioklys (~40 min)
-  18:05    🚗 Važiavimas → Farmhouse Lodge, Skeiðflöt (~20 min)
-  18:25    🛏️ Check-in / daiktų palikimas
-  19:00    🍽️ Vakarienė / poilsis
+  16:15    🚗 Važiavimas → Kvernufoss (~35 min)
+  16:50    🚶 Kvernufoss takas ir krioklys (~40 min)
+           📱 AllTrails: https://www.alltrails.com/trail/iceland/southern/kvernufoss-waterfall
+  17:30    🚗 Važiavimas → Dyrhólaey (~35 min)
+  18:05    🪨 Dyrhólaey panorama / švyturys (~45 min)
+           📱 Komoot trasa: https://www.komoot.com/smarttour/23112949
+           ⚠️ Prieš vykstant patikrinti, ar apžvalgos vieta atvira.
+  18:50    🚗 Važiavimas → Farmhouse Lodge, Skeiðflöt (~15 min)
+  19:05    🛏️ Check-in / daiktų palikimas
+  19:20    🍽️ Vakarienė / poilsis
 
-  ⏱️ Jei vėluojama: išlaikyti Þingvellir, Geysir, Gullfoss, Seljalandsfoss;
-      trumpinti Kerið; Kvernufoss perkelti į D03 arba praleisti.
+    ⏱️ Jei vėluojama: išlaikyti Þingvellir, Geysir, Gullfoss, Seljalandsfoss;
+      trumpinti Kerið, tada praleisti Dyrhólaey.
 
 
 ┌────────────────────────────────────────────────────────────────┐
 │ DIENA 03 – 09.09 (Trečiadienis) – WATERFALL WAY + KATLA + KRANTAS│
 └────────────────────────────────────────────────────────────────┘
   05:50    ☀️ Pusryčiai, pasiruošti visai dienai
-  06:25    🚗 Išvykimas → Skógafoss (~20 min)
+  06:25    🚗 Išvykimas → Skógafoss (~20 min) 
   06:45    🥾 Waterfall Way startas nuo Skógafoss parkingo / pasiruošimas (~25 min)
-  07:10    🥾 WATERFALL WAY – pilnas žygis iki pakabinamo tiltelio ir atgal
-           (~3 val 20 min, ~10–12 km)
+  07:10    🥾 WATERFALL WAY – Skálabrekkufoss–Steinbogafoss žiedinė trasa
+           (~2 val 27 min, ~7,9 km, +280 m; sudėtinga)
+           📱 Komoot trasa: https://www.komoot.com/smarttour/5955917
+           ⚠️ Techniški / pavojingi ruožai; geri batai ir atsargumas.
   10:30    🍽️ Grįžti į Skógafoss parkingą / užkandžiai / persirengimas (~20 min)
   10:50    🚗 Važiavimas → Sólheimajökull (~20 min)
   11:10    🧊 Sólheimajökull lagūnos takas (~1 val) 🅿️💰
-           ⚠️ Ant ledyno savarankiškai nelipti.
+           📱 Komoot trasa: https://www.komoot.com/smarttour/34232799
+           ⚠️ Uždari batai su geru sukibimu, geriausia neperšlampami; ant ledyno savarankiškai nelipti.
   12:10    🚗 Važiavimas → Vík (~35 min)
-  12:45    📍 Susitikimo vieta: Vík-Inn hótel vestibiulis, Víkubraut 26
+  12:45    📍 Susitikimo vieta: Vík-Inn hótel, Víkubraut 26
            👋 Gidas pasitiks vestibiulyje.
            🍽️ Greiti pietūs, WC ir kava vietoje.
            🅿️ Parkingas prie viešbučio nemokamas.
@@ -82,11 +92,10 @@
   14:00    🗓️ KATLA LEDO URVAS - Tröll Expeditions – Super Jeep turas (14:00–17:00)
   17:00    🚗 Turo pabaiga → Reynisfjara (~15 min)
   17:20    🏖️ Reynisfjara (~55 min)
+           📱 Komoot trasa: https://www.komoot.com/smarttour/34229821
            ⚠️ Laikytis toli nuo vandens dėl sneaker waves.
-  18:15    🚗 Važiavimas → Dyrhólaey (~20 min)
-  18:35    🪨 Dyrhólaey panorama / švyturys (~45 min)
-  19:20    🚗 Grįžimas → Farmhouse Lodge (~20 min)
-  19:45    🍽️ Vakarienė ir ankstyvas miegas prieš ilgą D04
+  18:15    🚗 Grįžimas → Farmhouse Lodge (~20 min)
+  18:35    🍽️ Vakarienė ir ankstyvas miegas prieš ilgą D04
 
   ⏱️ Kritiška: nevėluoti į Katla 13:40 registraciją.
       Jei trūksta laiko, pirmiausia trumpinti Sólheimajökull.
@@ -98,11 +107,15 @@
   05:35    ☀️ Ankstyvi pusryčiai
   06:00    🚗 Išvykimas → Fjaðrárgljúfur (~1 val 20 min)
   07:20    🏞️ Fjaðrárgljúfur (~45 min)
+           📱 Komoot trasa: https://www.komoot.com/smarttour/9382035
   08:05    🚗 Važiavimas → Skaftafell (~1 val 15 min)
   09:20    🥾 Skaftafell – Svartifoss + ledyno vaizdas (~2 val) 🅿️💰
+           📱 Ilgesnė trasa: https://www.komoot.com/smarttour/984533
+           📱 Trumpesnė trasa: https://www.komoot.com/smarttour/984519
   11:20    🍽️ Pietūs / užkandžiai (~35 min)
   11:55    🚗 Važiavimas → Jökulsárlón (~1 val)
   12:55    💎 Diamond Beach + lagūnos vaizdai (~1 val) 🅿️💰
+           📱 Komoot trasa: https://www.komoot.com/smarttour/23115067
   13:55    📋 Zodiac registracija / rezervo laikas
            ⏱️ Check-in ticket office: 30 min prieš išplaukimą.
            🅿️ Vatnajökull NP parkingas 1 000 ISK (mokėti kioske vietoje).
@@ -131,9 +144,9 @@
                dėl aktyvios ugnikalnių veiklos.
   09:00    🚗 Važiavimas → Reykjavík (~30 min, ~25 km; Kelias 42 šiauryn)
   09:30    🅿️ Reykjavík centras 💰
-  09:40    ⛪ Hallgrímskirkja + trumpa centro panorama (~40 min)
-  10:20    📸 Sun Voyager – trumpa foto stotelė (~15 min)
-  10:35    🚗 Važiavimas → Sky Lagoon (~15 min)
+  09:40    ⛪ Hallgrímskirkja + trumpas pasivaikščiojimas po senamiesčio
+           gatveles prie bažnyčios (~50 min)
+  10:30    🚗 Važiavimas → Sky Lagoon (~15 min)
   10:50    🧖 SKY LAGOON registracija
   11:00    🧖 Sky Lagoon Saman / Skjól ritualas (~1 val 40 min)
   12:40    🚿 Persirengimas / greitas užkandis (~20 min)
@@ -163,8 +176,8 @@
   [x] Farmhouse Lodge – 09.08–09.11, €1 380, Airbnb ✅
       🛁 Privati vonia, privatus šaldytuvas, 3 atskiros lovos.
       ✅ Patalynė/rankšluosčiai/šildymas/galutinis valymas įskaičiuota.
-      🍳 The Barn bendra virtuvė 24 val.; galimas ankstyvas self-checkout.
-      📩 Check-in/checkout/rakto instrukcijos bus atsiųstos prieš atvykimą.
+      🍳 The Barn bendra virtuvė veikianti 24 val. per dieną.
+      📩 Check-in/checkout/rakto instrukcijos bus atsiųstos prieš atvykimą. Galimas ankstyvas self-checkout.
   [x] Zero Car – rezervacija 09.07 17:00–09.11 17:00 ✅
       🕒 Rezervacijos pradžia 17:00; faktinis paėmimas po bagažo.
       📱 Prieš atvykstant užpildyti Zero Car online check-in.

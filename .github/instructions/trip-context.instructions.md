@@ -44,8 +44,8 @@ tik neidentifikuojančią kelionės informaciją.
 | Day | Date | Weekday | Theme |
 |-----|------|---------|-------|
 | 01 | 09.07 | Pirmadienis | Vakarinis atvykimas KEF → Gesthús Selfoss |
-| 02 | 09.08 | Antradienis | Auksinis ratas + kriokliai (Þingvellir, Geysir, Gullfoss, Kerið, Seljalandsfoss, Gljúfrabúi, Skógafoss, Hestavaðsfoss, Kvernufoss) ⚠️ INTENSYVI DIENA (~5h40 vairavimo, patikrinta OSRM 2026-08-19) |
-| 03 | 09.09 | Trečiadienis | Waterfall Way žygis nuo Skógafoss + Sólheimajökull + Katla ledo urvas 14:00 + Reynisfjara + Dyrhólaey |
+| 02 | 09.08 | Antradienis | Auksinis ratas + kriokliai + Dyrhólaey (Þingvellir, Geysir, Gullfoss, Kerið, Seljalandsfoss, Gljúfrabúi, Kvernufoss, Dyrhólaey) ⚠️ INTENSYVI DIENA (~6h10 vairavimo, patikrinta OSRM 2026-08-24) |
+| 03 | 09.09 | Trečiadienis | Waterfall Way žygis nuo Skógafoss + Sólheimajökull + Katla ledo urvas 14:00 + Reynisfjara |
 | 04 | 09.10 | Ketvirtadienis | Fjaðrárgljúfur + Skaftafell (Svartifoss) + Diamond Beach + Jökulsárlón Zodiac 15:10 ⚠️ ILGA DIENA |
 | 05 | 09.11 | Penktadienis | Seltún geoterminis plotas → Reykjavík (Hallgrímskirkja, Sun Voyager) + Sky Lagoon 11:00 + auto grąžinimas + išvykimas 17:45 |
 
@@ -87,7 +87,7 @@ shortly before the trip per the shared verification policy.
 ### Access & seasonal notes
 - Nearly all stops are outdoor nature sites (waterfalls, beaches, glaciers, canyons, Þingvellir, Geysir,
   Gullfoss, Kerið) open **24/7** with no weekday-dependent closures — weekday of visit does not constrain access.
-- **Dyrhólaey** is sometimes closed to visitors during the bird nesting season — verify current status before D03.
+- **Dyrhólaey** is sometimes closed to visitors during the bird nesting season — verify current status before D02.
 - **Jökulsárlón boat tours** (amphibian + Zodiac) run seasonally (roughly Jun–Sep); September is near the end
   of the season, which is why advance booking was required.
 - Katla and Sólheimajökull glacier terrain must only be accessed with a guided tour — never unguided.
@@ -144,11 +144,11 @@ driving exceeds ~4 h.
 Verified one-way legs (OSRM, `patikrinta 2026-08-19`, planning time = OSRM × 1.15 rounded to 5 min):
 KEF→Selfoss ~1h40/95 km · Selfoss→Þingvellir ~1h/50 km · Þingvellir→Geysir ~1h10/60 km ·
 Geysir→Gullfoss ~10 min/10 km · Gullfoss→Kerið ~55 min/54 km · Kerið→Seljalandsfoss (via Selfoss) ~1h30/85 km ·
-Seljalandsfoss→Kvernufoss ~35 min/31 km · Kvernufoss→Skeiðflöt ~20 min/21 km · Skeiðflöt→Skógafoss ~20 min/20 km ·
+Seljalandsfoss→Kvernufoss ~35 min/31 km · Kvernufoss→Dyrhólaey ~35 min/28 km · Dyrhólaey→Skeiðflöt ~15 min/8 km · Skeiðflöt→Skógafoss ~20 min/20 km ·
 Skógafoss→Sólheimajökull ~20 min · Sólheimajökull→Vík ~32 min/31 km · Katla tour end→Reynisfjara ~15 min ·
-Reynisfjara→Dyrhólaey ~20 min · Dyrhólaey→Skeiðflöt ~20 min · Skeiðflöt→Fjaðrárgljúfur ~1h25/83 km ·
+Skeiðflöt→Fjaðrárgljúfur ~1h25/83 km ·
 Fjaðrárgljúfur→Skaftafell ~1h20/78 km · Skaftafell→Jökulsárlón ~1h/57 km · Jökulsárlón→Skeiðflöt ~3h25/207 km (D04 return) ·
-Skeiðflöt→Reykjavík ~3h/172 km · Reykjavík→Sky Lagoon ~15 min/6 km · Sky Lagoon→KEF ~1h/44 km (incl. fuel stop).
+Skeiðflöt→Reykjavík ~3h/172 km · Reykjavík→Sky Lagoon ~15 min/6 km · Sky Lagoon→KEF ~1h/44 km (incl. fuel stop) · Reynisfjara→Skeiðflöt ~20 min/15 km.
 
 D02 (~5h40 verified total, was estimated 5h50) and D04 (~7h incl. the Jökulsárlón return leg) are the two long
 days — both flagged in `Dienu_Planas.txt`. The KEF→Selfoss and Selfoss→Þingvellir/Þingvellir→Geysir legs were
