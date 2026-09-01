@@ -180,7 +180,7 @@
       📩 Check-in/checkout/rakto instrukcijos bus atsiųstos prieš atvykimą. Galimas ankstyvas self-checkout.
   [x] Zero Car – rezervacija 09.07 17:00–09.11 17:00 ✅
       🕒 Rezervacijos pradžia 17:00; faktinis paėmimas po bagažo.
-      📱 Prieš atvykstant užpildyti Zero Car online check-in.
+      📱 [x] Zero Car online check-in atliktas ✅
       🕒 Planuojamas faktinis grąžinimas 09.11 apie 14:00–14:15.
       💳 [x] Į kortelę grąžinta 22 297 ISK ✅
       📌 [x] Patikrinta: galutinis patvirtinimas ir grąžinimo vieta yra KEF ✅

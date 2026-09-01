@@ -12,12 +12,27 @@ Automobilis: **Zero Car – Dacia Duster 4WD, mechaninis; rezervacija perkelta �
 |--------|-----------|
 | [`Dienu_Planas.txt`](Dienu_Planas.txt) | Pagrindinis dienų planas su tikslais laikais (MASTER) |
 | [`Keliones_Asistentas.txt`](Keliones_Asistentas.txt) | Pasiruošimo sąrašas: skrydžiai, auto nuoma, degalai, orai, sauga |
+| [`Islandija_Priminimai.ics`](Islandija_Priminimai.ics) | Check-in/boarding priminimai kalendoriui (Zero Car, skrydžiai) |
 | [`Iceland.kml`](Iceland.kml) | Dienų žemėlapis (5 sluoksniai D01–D05) – auto-generuojamas |
 | [`tools/gen_day_maps.py`](tools/gen_day_maps.py) | Dienų žemėlapio generatorius (OSRM kelių geometrija) |
 
 ## Žemėlapių importas
 
 Importuok `Iceland.kml` į [Google My Maps](https://www.google.com/mymaps).
+
+## Priminimų importas į kalendorių
+
+`Islandija_Priminimai.ics` turi 6 priminimus (Zero Car online check-in atsidarymas ir paskutinė
+proga, skrydžių online check-in atsidarymas, ėjimas į išvykimo vartus – abiem skrydžiams).
+
+- **Google Calendar** (kompiuteryje): Settings → Import & export → Import → pasirink
+  `Islandija_Priminimai.ics` → Import. Telefone „+" mygtukas neimportuoja failų – naudok
+  kompiuterio naršyklę arba atidaryk failą telefone ir pasirink „Open with Google Calendar".
+- **Apple Calendar** (iPhone/iPad/Mac): atidaryk `.ics` failą (pvz., iš pašto priedo ar Files
+  app) – jis automatiškai pasiūlys pridėti įvykius į pasirinktą kalendorių.
+- Visi laikai faile yra UTC (`Z` žymė), todėl kiekvienas įrenginys automatiškai parodys
+  teisingą vietos laiką nepriklausomai nuo laiko juostos.
+
 
 ## Maršruto santrauka
 

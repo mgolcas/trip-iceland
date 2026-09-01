@@ -15,6 +15,10 @@
 
   [x] ✈️ Išvykimas : 09.07  15:25 Vilnius (VNO) → 16:45 KEF (Keflavík) ✅
         ⚠️ Atvykti į VNO ~13:15; tikslų laiką patikrinti biliete.
+        ✅ Bagažo registracija VNO uždaroma 40 min prieš skrydį = 14:45
+           (patikrinta 2026-09-01, vilnius-airport.lt).
+        🚗 Su 30 min kelione iki oro uosto + rezervu parkingui/ėjimui su
+           lagaminu – IŠVAŽIUOTI IŠ NAMŲ NE VĖLIAU KAIP 12:30.
   [x] ✈️ Grįžimas  : 09.11  17:45 KEF → 09.12 00:40 Vilnius (VNO) ✅
         ⚠️ KEF check-in ~14:30 (international ~3 val prieš)
         🎁 Bilietai nupirkti ir yra dovana – į kelionės biudžetą neįtraukti.
@@ -25,8 +29,12 @@
         likus 50 val. Oro uoste check-in galimas, bet už papildomą mokestį.
         • Išvykimas 09.07 15:25 → atsidaro 09.05 ~15:25 (auto: ~09.05 13:25)
         • Grįžimas  09.11 17:45 → atsidaro 09.09 ~17:45 (auto: ~09.09 15:45)
-  [ ] ⏱️ Prie išvykimo vartų būti ne vėliau kaip 30 min prieš skrydžio laiką –
-        vėluojant į vartus registracija anuliuojama.
+  [ ] ⏱️ IŠVYKIMO VARTAI (boarding gate, terminalo viduje, PO bagažo
+        registracijos ir saugumo kontrolės): būti ne vėliau kaip 30 min
+        prieš skrydžio laiką – vėluojant į vartus registracija anuliuojama.
+        ⚠️ Tikslus vartų uždarymo laikas priklauso nuo oro linijos –
+        patikrinti biliete/boarding pass (30 min. yra bendra norma,
+        oficialiai VNO/KEF nepatvirtinta).
 
 
 ╔═══════════════════════════════════════════════════════════════╗
@@ -66,11 +74,11 @@
            check-in proceso NĖRA; be jo keybox su raktais nepasieksi.
            Atsidaro likus 7 dienoms iki paėmimo → nuo 08.31 ~17:00
            (patikrinta 2026-08-19).
-        [ ] Atlikti Zero Car online check-in (nuo 08.31, likus 7 d. iki paėmimo).
+        [x] Atlikti Zero Car online check-in ✅ (nuo 08.31, likus 7 d. iki paėmimo).
         💡 Plane F-roads nėra. 4WD naudingas sukibimui ant žvyro ar šlapiu
            oru, tačiau nesuteikia leidimo važiuoti uždarytais keliais / bekele.
         ⚠️ Ties Fjaðrárgljúfur nevažiuoti toliau link Laki / F206.
-        [ ] Patikrinti galutinį pakeitimo patvirtinimą ir kad drop-off yra KEF.
+        [x] Patikrinti galutinį pakeitimo patvirtinimą ir kad drop-off yra KEF ✅
 
   [x] 🛡️ DRAUDIMAS – į Zero Car kainą įtraukta:
         ✓ CDW + SCDW, Gravel Protection, Sand & Ash Protection
@@ -84,9 +92,9 @@
          https://www.zerocar.is/info/extras; vairuoti gali tik sutartyje
          įregistruoti vairuotojai).
 
-  [ ] 📋 Pasiimti iš nuomos punkto: sutartį, draudimą, grąžinimo info
-  [ ] ⛽ Grąžinant – pilnas bakas (kitaip baudžia brangiai)
-  [ ] 💳 Kreditinė kortelė su PIN (užstatui ir degalams)
+  [x] 📋 Pasiimti iš nuomos punkto: sutartį, draudimą, grąžinimo info ✅
+  [x] ⛽ Grąžinant – pilnas bakas (kitaip baudžia brangiai) ✅
+  [x] 💳 Kreditinė kortelė su PIN (užstatui ir degalams) ✅
 
   ⛽ DEGALAI:
       • Tikslų kuro tipą patikrinti ant kuro dangtelio, rakto ir sutartyje;
@@ -113,12 +121,12 @@
 ║  📋  3. DOKUMENTAI IR DRAUDIMAS                                ║
 ╚═══════════════════════════════════════════════════════════════╝
 
-  [ ] 🪪 Pasas / ID – galioti bent 3 mėn. po kelionės
+  [x] 🪪 Pasas / ID – galioti bent 3 mėn. po kelionės ✅
         ℹ️ Islandija – Šengeno zona, bet NE ES (ID kortelės pakanka)
-  [ ] 📄 Rezervacijų patvirtinimai telefone ir PDF kopija offline:
+  [x] 📄 Rezervacijų patvirtinimai telefone ir PDF kopija offline ✅:
      skrydžiai, Zero Car, nakvynės, Katla Ice Cave, Jökulsárlón Zodiac,
      Sky Lagoon
-  [ ] 🏥 Europos sveikatos draudimo kortelė (ESSDK) – KIEKVIENAM
+  [x] 🏥 Europos sveikatos draudimo kortelė (ESSDK) – KIEKVIENAM ✅
   [ ] 🛡️ Kelionių draudimas (medicina min. €30,000, auto avarija):
         ✅ Mantas  – SEB kreditinės kortelės kelionių draudimas
         [ ] Mama   – ISIGYTI atskirą kelionių draudimą prieš kelionę
@@ -126,7 +134,7 @@
         💡 SEB kortelės draudimas NEAPIMA kitų šeimos narių (tėvų).
            Rekomenduojama: Gjensidige / If / PZU / Lietuvos draudimas
            (~€15–30/asm. 5 dienoms; medicinos limitas min. €30 000)
-  [ ] 🚗 Vairuotojo pažymėjimas – kiekvienam vairuotojui turėti originalą;
+  [x] 🚗 Vairuotojo pažymėjimas – kiekvienam vairuotojui turėti originalą ✅;
      lietuviško PAKANKA, IDP nereikia. Zero Car pažymėjimą tikrina
      sudarant nuomos sutartį; vairuoti gali tik sutartyje įregistruoti
      vairuotojai.
@@ -414,12 +422,16 @@
   [ ] 🧤 Sluoksniai: termo apatiniai, flisas, kepurė, pirštinės, šalikas
   [ ] 🥾 Žygio batai (vandeniui atsparūs) – Waterfall Way, kanjonai
   [ ] 👖 Greitai džiūstančios kelnės (Seljalandsfoss permerks)
-  [ ] 🩳 Sky Lagoon: maudymosi kostiumas + atskiras rankšluostis KIEKVIENAM
-  [ ] 🕶️ Akiniai nuo saulės, kremas (vėjas + ryški šviesa)
-  [ ] 🔌 EU/Šengeno tipas F kištukas (Islandija = tas pats kaip LT)
+  [ ] 🩳 Sky Lagoon (Saman): maudymosi kostiumas KIEKVIENAM.
+        ✅ Rankšluostis įskaičiuotas į Saman paketą – savo nešti nereikia
+        (patikrinta 2026-09-01, skylagoon.com paketų palyginimo lentelė).
+        ⚠️ Šlepetės/tapkytės nebūtinos – oficialiai nepatvirtinta, kad reikalingos
+        (bendra persirengimo patalpa Saman pakete, be privataus kambario).
+  [x] 🕶️ Akiniai nuo saulės, kremas (vėjas + ryški šviesa) ✅
+  [x] 🔌 EU/Šengeno tipas F kištukas (Islandija = tas pats kaip LT) ✅
   [ ] 💊 Vaistinėlė, asmeniniai vaistai
-  [ ] 🔋 Power bankas, automobilio USB įkroviklis, telefono laikiklis
-  [ ] 🌌 Šiaurės pašvaistės stebėjimui – šiltas pledas, statyvas (foto)
+  [x] 🔋 Power bankas, automobilio USB įkroviklis, telefono laikiklis ✅
+  [x] 🌌 Šiaurės pašvaistės stebėjimui – šiltas pledas, statyvas (foto) – NEREIKIA
 
 
 ╔═══════════════════════════════════════════════════════════════╗
