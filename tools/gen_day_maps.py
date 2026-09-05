@@ -62,6 +62,7 @@ SEARCH = {
     (-19.3584, 63.5346): "Solheimajokull",
     (-19.1284, 63.4015): "Dyrholaey",
     (-19.0716, 63.4057): "Reynisfjara Beach",
+    (-19.0104, 63.4143): "Vikurfjara Black Sand Beach Vik Iceland",
     (-18.1718, 63.7713): "Fjadrargljufur Canyon",
     (-16.9665, 64.0165): "Skaftafell Visitor Center",
     (-16.1958, 64.0489): "Jokulsarlon Glacier Lagoon",
@@ -81,6 +82,7 @@ SEARCH = {
     (-19.49, 63.5251): "Kvernufoss Parking",
     (-19.3704, 63.5304): "Solheimajokull Parking",
     (-19.1289, 63.4041): "Dyrholaey Parking",
+    (-19.0184, 63.4142): "Vik Parking Black Sand Beach",
     (-19.0447, 63.4042): "Reynisfjara Car Park",
     (-18.1717, 63.7703): "Fjadrárgljufur Canyon Parking",
     (-16.1797, 64.0480): "Jokulsarlon Glacier Lagoon Parking",
@@ -97,6 +99,8 @@ LINKS = {
     (-16.1797, 64.0480): "https://maps.google.com/?cid=18024857851449796574",  # Jökulsárlón Glacier Lagoon Parking
     (-16.1779, 64.0455): "https://maps.google.com/?cid=4059657798852550162",   # Diamond Beach Parking
     (-21.9270, 64.1419): "https://maps.google.com/?cid=8301664305105330080",    # Hallgrímskirkja parkingas
+    (-19.0184, 63.4142): "https://maps.google.com/?cid=6125401640639748105",  # Vík-Parking Black Sand Beach
+    (-19.0104, 63.4143): "https://maps.google.com/?cid=4116293821646712216",  # Víkurfjara Black Sand Beach
 }
 
 # kind -> icon colour (KML aabbggrr)
@@ -153,6 +157,10 @@ DAYS = {
         ("🅿️ Sólheimajökull parkingas", -19.3704, 63.5304, "parking", "drive"),
         ("Sólheimajökull ledynas", -19.3584, 63.5346, "sight", "walk"),
         ("🅿️ Sólheimajökull parkingas (grįžimas prie automobilio)", -19.3704, 63.5304, "parking", "walk", False),
+        # Víkurfjara: automobiliu tik iki parkingo, paplūdimys pasiekiamas pėsčiomis
+        ("🅿️ Víkurfjara parkingas", -19.0184, 63.4142, "parking", "drive"),
+        ("Víkurfjara (Vík juodas paplūdimys)", -19.0104, 63.4143, "beach", "walk"),
+        ("🅿️ Víkurfjara parkingas (grįžimas prie automobilio)", -19.0184, 63.4142, "parking", "walk", False),
         ("Vík-Inn hótel (Katla susitikimas) – 14:00", -19.0137, 63.4178, "sight", "drive"),
         ("🅿️ Reynisfjara parkingas", -19.0447, 63.4042, "parking", "drive"),
         ("Reynisfjara juodas paplūdimys", -19.0716, 63.4057, "beach", "walk"),
@@ -172,8 +180,8 @@ DAYS = {
         ("Diamond Beach", -16.1777, 64.0443, "beach", "walk"),
         ("🅿️ Diamond Beach parkingas (grįžimas prie automobilio)", -16.1779, 64.0455, "parking", "walk", False),
         ("🅿️ Jökulsárlón parkingas", -16.17974, 64.04804, "parking", "drive"),
-        ("Jökulsárlón ledynų lagūna (Zodiac) – 15:10", -16.1958, 64.0489, "sight", "walk"),
-        ("🅿️ Jökulsárlón parkingas (grįžimas prie automobilio)", -16.17974, 64.04804, "parking", "walk", False),
+        ("Jökulsárlón ledynų lagūna (Zodiac) – 15:10", -16.1958, 64.0489, "sight", "boat"),
+        ("🅿️ Jökulsárlón parkingas (grįžimas prie automobilio)", -16.17974, 64.04804, "parking", "boat", False),
         ("Farmhouse Lodge", SKEIDFLOT[0], SKEIDFLOT[1], "hotel", "drive"),
     ]),
     5: ("05 – Reykjavík + Sky Lagoon + išvykimas", [
@@ -193,6 +201,7 @@ DAYS = {
 LINE_STYLES = {
     "drive": ("ffff0000", 5),    # blue
     "walk": ("ff008000", 4),     # green
+    "boat": ("ffcc9900", 4),     # teal – Zodiac/cruise on water, not on foot
 }
 
 
@@ -261,8 +270,8 @@ def build_day_folder(day, title, stops):
         mode = stops[i][4]
         route_stops = [prev, stops[i]]
         i += 1
-        if mode == "walk":
-            while i < len(stops) and stops[i][4] == "walk":
+        if mode in ("walk", "boat"):
+            while i < len(stops) and stops[i][4] == mode:
                 route_stops.append(stops[i])
                 i += 1
         route_number += 1
@@ -282,7 +291,7 @@ def build_day_folder(day, title, stops):
             duration_text = None
         color, width = LINE_STYLES.get(mode, LINE_STYLES["walk"])
         coordstr = " ".join(f"{x},{y},0" for x, y in pts)
-        label = {"drive": "🚗 Vairavimas", "walk": "🚶 Ėjimas / hike"}.get(mode, mode)
+        label = {"drive": "🚗 Vairavimas", "walk": "🚶 Ėjimas / hike", "boat": "🚤 Plaukimas valtimi"}.get(mode, mode)
         name_text = f"{label} ({duration_text})" if duration_text else label
         endpoint_text = " → ".join(short_name(stop[0]) for stop in route_stops)
         out.append(
@@ -303,7 +312,10 @@ def build_day_folder(day, title, stops):
             continue
         color, icon = KINDS.get(kind, KINDS["sight"])
         link = maps_link(name, lon, lat)
-        desc = f"<![CDATA[🔗 <a href=\"{link}\">{link}</a>]]>"
+        # Plain URL text (no <a> tag): the mobile Google Maps app's saved-layer
+        # viewer does not render HTML in descriptions, but it does auto-linkify
+        # bare http(s) URLs, so this is what actually makes the link tappable.
+        desc = f"<![CDATA[🔗 {link}]]>"
         out.append(
             "      <Placemark>\n"
             f"        <name>{esc(name)}</name>\n"
@@ -332,7 +344,7 @@ def build_map(name, day_range):
         "  <Document>\n"
         f"    <name>{esc(name)}</name>\n"
         "    <description><![CDATA[🚗 mėlyna = vairavimas (keliai) · "
-        "🚶 žalia = ėjimas / hike. "
+        "🚶 žalia = ėjimas / hike · 🚤 žydra = plaukimas valtimi. "
         "1 diena = 1 sluoksnis. Kiekvienas taškas – paspaudžiamas su nuoroda.]]></description>\n"
         f"{body}\n"
         "  </Document>\n"

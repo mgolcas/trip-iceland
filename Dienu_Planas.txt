@@ -83,8 +83,15 @@
   11:10    🧊 Sólheimajökull lagūnos takas (~1 val) 🅿️💰
            📱 Komoot trasa: https://www.komoot.com/smarttour/34232799
            ⚠️ Uždari batai su geru sukibimu, geriausia neperšlampami; ant ledyno savarankiškai nelipti.
-  12:10    🚗 Važiavimas → Vík (~35 min)
-  12:45    📍 Susitikimo vieta: Vík-Inn hótel, Víkubraut 26
+  12:10    🚗 Važiavimas → Víkurfjara parkingas (~35 min, 31 km)
+  12:45    🅿️ Víkurfjara parkingas – paplūdimys nepasiekiamas automobiliu
+           🚶 ~5 min pėsčiomis iki paplūdimio
+  12:50    🏖️ Víkurfjara – greitas apsilankymas (~20 min)
+           📱 Trumpa apžvalga + nuotraukos.
+           ⚠️ Laikytis toli nuo vandens dėl sneaker waves.
+  13:10    🚶 Grįžimas į parkingą (~5 min)
+  13:15    🚗 Važiavimas → Vík-Inn hótel (~5 min)
+  13:20    📍 Susitikimo vieta: Vík-Inn hótel, Víkubraut 26
            👋 Gidas pasitiks vestibiulyje.
            🍽️ Greiti pietūs, WC ir kava vietoje.
            🅿️ Parkingas prie viešbučio nemokamas.
@@ -145,7 +152,8 @@
   09:00    🚗 Važiavimas → Reykjavík (~30 min, ~25 km; Kelias 42 šiauryn)
   09:30    🅿️ Reykjavík centras 💰
   09:40    ⛪ Hallgrímskirkja + trumpas pasivaikščiojimas po senamiesčio
-           gatveles prie bažnyčios (~50 min)
+           gatveles prie bažnyčios: Skólavörðustígur, Bankastræti, Austurstræti, Aðalstræti,
+           Þingholtsstræti, Bergstaðastræti (~50 min)
   10:30    🚗 Važiavimas → Sky Lagoon (~15 min)
   10:50    🧖 SKY LAGOON registracija
   11:00    🧖 Sky Lagoon Saman / Skjól ritualas (~1 val 40 min)
