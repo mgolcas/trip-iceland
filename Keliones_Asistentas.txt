@@ -22,14 +22,14 @@
   [x] ✈️ Grįžimas  : 09.11  17:45 KEF → 09.12 00:40 Vilnius (VNO) ✅
         ⚠️ KEF check-in ~14:30 (international ~3 val prieš)
         🎁 Bilietai nupirkti ir yra dovana – į kelionės biudžetą neįtraukti.
-  [ ] 📱 Boarding pass į telefoną + atsarginė kopija PDF
-  [ ] 🧳 Patikrinti bagažo normas (rankinis vs registruotas)
-  [ ] 🌐 Online check-in: jei vietos su bilietu nenupirktos, atsidaro tik likus
-        48 val. iki skrydžio; jei nupirktas auto check-in, įvyksta automatiškai
+  [x] 🧳 Patikrinti bagažo normas (rankinis vs registruotas)
+  [x] 🌐 Online check-in: jei vietos su bilietu nenupirktos, atsidaro likus
+     24 val. iki skrydžio; jei nupirktas auto check-in, įvyksta automatiškai
         likus 50 val. Oro uoste check-in galimas, bet už papildomą mokestį.
-        • Išvykimas 09.07 15:25 → atsidaro 09.05 ~15:25 (auto: ~09.05 13:25)
-        • Grįžimas  09.11 17:45 → atsidaro 09.09 ~17:45 (auto: ~09.09 15:45)
-  [ ] ⏱️ IŠVYKIMO VARTAI (boarding gate, terminalo viduje, PO bagažo
+      • Išvykimas 09.07 15:25 → atsidaro 09.06 ~15:25 (auto: ~09.05 13:25)
+      • Grįžimas  09.11 17:45 → atsidaro 09.10 ~17:45 (auto: ~09.09 15:45)
+  [x] 📱 Boarding pass į telefoną + atsarginė kopija PDF
+  [x] ⏱️ IŠVYKIMO VARTAI (boarding gate, terminalo viduje, PO bagažo
         registracijos ir saugumo kontrolės): būti ne vėliau kaip 30 min
         prieš skrydžio laiką – vėluojant į vartus registracija anuliuojama.
         ⚠️ Tikslus vartų uždarymo laikas priklauso nuo oro linijos –
@@ -418,18 +418,18 @@
 ║  🧳  8. KĄ PASIIMTI (rugsėjis – vėsu, vėjuota, lietinga)       ║
 ╚═══════════════════════════════════════════════════════════════╝
 
-  [ ] 🧥 Vandeniui/vėjui atsparus striukė (hardshell) – BŪTINA
-  [ ] 🧤 Sluoksniai: termo apatiniai, flisas, kepurė, pirštinės, šalikas
-  [ ] 🥾 Žygio batai (vandeniui atsparūs) – Waterfall Way, kanjonai
-  [ ] 👖 Greitai džiūstančios kelnės (Seljalandsfoss permerks)
-  [ ] 🩳 Sky Lagoon (Saman): maudymosi kostiumas KIEKVIENAM.
+  [x] 🧥 Vandeniui/vėjui atsparus striukė (hardshell) – BŪTINA
+  [x] 🧤 Sluoksniai: termo apatiniai, flisas, kepurė, pirštinės, šalikas
+  [x] 🥾 Žygio batai (vandeniui atsparūs) – Waterfall Way, kanjonai
+  [x] 👖 Greitai džiūstančios kelnės (Seljalandsfoss permerks)
+  [x] 🩳 Sky Lagoon (Saman): maudymosi kostiumas KIEKVIENAM.
         ✅ Rankšluostis įskaičiuotas į Saman paketą – savo nešti nereikia
         (patikrinta 2026-09-01, skylagoon.com paketų palyginimo lentelė).
         ⚠️ Šlepetės/tapkytės nebūtinos – oficialiai nepatvirtinta, kad reikalingos
         (bendra persirengimo patalpa Saman pakete, be privataus kambario).
   [x] 🕶️ Akiniai nuo saulės, kremas (vėjas + ryški šviesa) ✅
   [x] 🔌 EU/Šengeno tipas F kištukas (Islandija = tas pats kaip LT) ✅
-  [ ] 💊 Vaistinėlė, asmeniniai vaistai
+  [x] 💊 Vaistinėlė, asmeniniai vaistai
   [x] 🔋 Power bankas, automobilio USB įkroviklis, telefono laikiklis ✅
   [x] 🌌 Šiaurės pašvaistės stebėjimui – šiltas pledas, statyvas (foto) – NEREIKIA
 
@@ -443,9 +443,9 @@
   • 💨 Vėjas gali atplėšti automobilio dureles – laikyti tvirtai,
     statytis nosimi prieš vėją.
   • 🌦️ Orai keičiasi per minutes – tikrinti vedur.is kas rytą.
-  • 🚗 Negreitėti ant žvyro/vienos juostos tiltų; gyvuliai kelyje.
-  • 🅿️ Niekada nestovėti ant kelio fotografuojant – tik aikštelėse.
-  • 📵 Toliau nuo miestų – silpnas ryšys; turėti offline žemėlapį.
+• 🚗 Negreitėti ant žvyro/vienos juostos tiltų; gyvuliai kelyje.
+• 🅿️ Niekada nestovėti ant kelio fotografuojant – tik aikštelėse.
+• 📵 Toliau nuo miestų – silpnas ryšys; turėti offline žemėlapį.
 
   [ ] 📖 Prieš kelionę perskaityti: https://safe.bluecarrental.is (patikrinta 2026-08-19)
       Saugaus vairavimo Islandijoje gidas. Svarbiausi punktai šiai kelionei
