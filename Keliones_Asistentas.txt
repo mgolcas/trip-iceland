@@ -476,7 +476,7 @@
 ║  💶 10. KELIONĖS BIUDŽETAS – 3 ŽMONĖMS                      ║
 ╚══════════════════════════════════════════════════════════════╝
 
-  Skaičiavimo data: 2026-07-06
+   Galutinio skaičiavimo data: 2026-09-13
   Naudojamas kursas: 1 € = 144 ISK. Kronomis nurodytos galutinės sumos
   eurais yra orientacinės – kortelės nuskaitymo dieną kursas gali skirtis.
 
@@ -535,34 +535,42 @@
    Žinomų kainų suma                   ~€3 500,34      ~€1 166,78
 
 
-  PLANUOJAMOS KELIONĖS IŠLAIDOS:
+  FAKTINĖS IŠLAIDOS KELIONĖJE PAGAL BANKO IŠRAŠĄ:
 
   Pozicija                              3 žmonėms       1 žmogui
   -----------------------------------------------------------------
-  ⛽ Kuras (~1250 km maršrutui)             ~€200,00         ~€66,67
-     Rezervas skaičiuojant ~7,5 l/100 km ir ~€2,00/l.
-  🅿️ Parkingai (~10 000 ISK)             ~€69,44          ~€23,15
-     Bendras rezervas visoms mokamoms aikštelėms ir Reykjavík.
-  🌋 Kerið įėjimas (3 × 600 ISK)         ~€12,50           ~€4,17
-  🛒 Maistas iš parduotuvių (Islandijoje)      ~€300,00         ~€100,00
-     Didžioji dalis maisto vežama iš Lietuvos bagaže (~10,5 kg / grupei).
-     Islandijoje pirkti tik šviežius produktus (duona, pienas, daržovės ir kt.).
+  ⛽ Kuras (Olís ir ÓB)                    €154,20          €51,40
+  🅿️ Parkingai ir vietų mokesčiai           €83,91          €27,97
+  🛒 Maistas iš parduotuvės (Krónan)         €29,24           €9,75
+  🍽️ Rif Restaurant                        €132,80          €44,27
   -----------------------------------------------------------------
-   Planuojamų išlaidų suma                ~€581,94          ~€193,98
+   Faktinių išlaidų suma                  €400,15         €133,38
 
-   BAZINIS VISOS KELIONĖS BIUDŽETAS        ~€4 082,28       ~€1 360,76
-  Rekomenduojamas nenumatytų išlaidų rezervas  €300,00          €100,00
-   PRAKTINIS BIUDŽETAS SU REZERVU           ~€4 382,28       ~€1 460,76
-   💰 TĖVŲ ĮNAŠAS (pervedimas Mantui)       −€2 000,00              –
-  ──────────────────────────────────────────────────────────────────
-    LIKUSIOS IŠLAIDOS IŠ SAVO KIŠENĖS        ~€2 347,56         –
-   (papildomas vairuotojas jau apmokėtas; skaičiuoti galutinai,
-    kai žinomos visos išlaidos)
-  PASIRENKAMI PRIEDAI (neįtraukti į bazinę sumą):
+  Į sumas įtraukti €3,60 kortelės operacijų mokesčiai. Skaičiuotos
+  20 užbaigtų OUT operacijų 2026-09-07–2026-09-12; €500,00 sąskaitos
+  papildymas (IN) nėra kelionės išlaida. Kerið mokėjimo išraše nėra.
 
-  • Pusryčius kelionėje gamintis patiems iš savo maisto.
-    Jų produktai jau įtraukti į €300 islandiškų parduotuvių biudžetą.
-  • Kelionių draudimas, suvenyrai ir asmeninės išlaidos neįtraukti,
-    nes jų kainos dar nepateiktos.
+  GALUTINĖ KELIONĖS SUVESTINĖ:
+
+  Pozicija                              3 žmonėms       1 žmogui
+  -----------------------------------------------------------------
+  Žinomos / rezervacijų kainos            €3 500,34       €1 166,78
+  Faktinės išlaidos kelionėje               €400,15         €133,38
+  -----------------------------------------------------------------
+  GALUTINĖ VISOS KELIONĖS KAINA           €3 900,49       €1 300,16
+
+  💰 Tėvų dviejų žmonių dalis              €2 600,33
+     Pervesta Mantui                       −€2 000,00
+  -----------------------------------------------------------------
+     Likusi tėvų dalis                       €600,33
+
+  Manto vieno žmogaus dalis                €1 300,16
+  Iš Manto lėšų iš viso padengta            €1 900,49
+  (€3 900,49 − €2 000,00; iš jų €600,33 yra likusi tėvų dalis.)
+
+  NEĮTRAUKTA:
+
+  • Kelionių draudimas, suvenyrai, asmeninės išlaidos ir mokėjimai
+    kitomis kortelėmis ar grynaisiais, jei tokių buvo.
 
 =================================================================
